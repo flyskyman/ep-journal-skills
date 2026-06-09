@@ -1,0 +1,5 @@
+{"type":"object","additionalProperties":false,"required":["labels"],
+ "properties":{"labels":{"type":"array","items":{"type":"object","additionalProperties":false,
+  "required":["id","has_colon","is_question","is_versus","is_review_meta","is_case"],
+  "properties":{"id":{"type":"integer"},"has_colon":{"type":"boolean"},"is_question":{"type":"boolean"},
+   "is_versus":{"type":"boolean"},"is_review_meta":{"type":"boolean"},"is_case":{"type":"boolean"}}}}}}

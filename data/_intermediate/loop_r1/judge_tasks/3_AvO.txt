@@ -1,0 +1,21 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'HR'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+BACKGROUND: In high-risk patients, ventricular tachycardia (VT) frequently persists despite maximally tolerated antiarrhythmic drugs and extensive catheter ablation. Cardiac stereotactic body radiotherapy (SBRT) is an emerging noninvasive treatment for refractory VT, but safety and effectiveness data, particularly at 1 year, remain limited.
+
+OBJECTIVE: To evaluate the safety and effectiveness of cardiac SBRT through 12 months in patients with VT refractory to standard therapy.
+
+METHODS: In a prospective single-arm registry, patients were enrolled after failure of maximal medical therapy and catheter ablation. Each patient served as his or her own control, with outcomes compared to the 6 months preceding treatment. The planning target volume was defined by integrating available electrophysiologic mapping and imaging data, and a single 25-Gy fraction was delivered with respiratory motion mitigation. VT burden (implantable cardioverter-defibrillator [ICD] shocks plus antitachycardia pacing [ATP] sequences) and clinical and safety outcomes were assessed at 6 weeks, 6 months, and 12 months.
+
+RESULTS: Fifteen patients were enrolled and underwent planning; 14 (93%) received treatment. Twelve (80%) survived to 6 weeks and 10 (67%) to 12 months; 4 deaths occurred after treatment. Treated VT was reduced by 98% from 6 weeks to 6 months and by 99% at 12 months versus the 6 months before treatment. Recurrent VT (appropriate ATP or ICD shock) occurred in 33% (4 of 12) between 6 weeks and 12 months. A nonsignificant trend toward lower amiodarone dose was observed at 12 months, with no change in ventricular function.
+
+CONCLUSION: In selected high-risk patients with VT refractory to standard therapy, cardiac SBRT was associated with marked reduction in VT and appropriate ICD therapies over 1 year.
+
+=== Abstract Y ===
+BACKGROUND: Cardiac stereotactic body radiotherapy (SBRT) has emerged as a promising noninvasive treatment for refractory ventricular tachycardia (VT).
+OBJECTIVE: The purpose of this study was to describe the safety and effectiveness of SBRT for VT in refractory to extensive ablation.
+METHODS: After maximal medical and ablation therapy, patients were enrolled in a prospective registry. Available electrophysiological and imaging data were integrated to generate a plan target volume. All SBRTs were planned with a single 25 Gy fraction using respiratory motion mitigation strategies. Clinical outcomes at 6 weeks, 6 months, and 12 months were analyzed and compared with the 6 months prior to treatment. VT burden (implantable cardioverter-defibrillator [ICD] shocks and antitachycardia pacing sequences) as well as clinical and safety outcomes were the main outcomes.
+RESULTS: Fifteen patients were enrolled and underwent planning. Fourteen (93%) underwent treatment, with 12 (80%) surviving to the end of the 6-week period and 10 (67%) surviving to 12 months. From 6 week to 12 months, there was recurrence of VT, which resulted in either appropriate antitachycardia pacing or ICD shocks in 33% (4 of 12). There were significant reductions in treated VT at 6 weeks to 6 months (98%) and at 12 months (99%) compared to the 6 months before treatment. There was a nonsignificant trend toward lower amiodarone dose at 12 months. Four deaths occurred after treatment, with no changes in ventricular function.
+CONCLUSION: For a select group of high-risk patients with VT refractory to standard therapy, SBRT is associated with a reduction in VT and appropriate ICD therapies over 1 year.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

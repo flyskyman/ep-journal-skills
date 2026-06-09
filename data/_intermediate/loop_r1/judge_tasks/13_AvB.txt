@@ -1,0 +1,21 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'JICE'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+Background: Wider circumferential pulmonary vein isolation (PVI) that incorporates a large portion of the left atrial posterior wall (LAPW) is thought to be beneficial in atrial fibrillation (AF) ablation. However, it remains unknown how much additional isolation area can be achieved by inflating a visually guided laser balloon (VGLB) to its largest size compared with a conventional size. This study quantified the incremental isolation area gained using the largest-sized VGLB.
+
+Methods: In this prospective single-arm study, 78 patients with paroxysmal or persistent AF undergoing VGLB ablation served as their own controls. In Step 1, PVI was performed with a conventional-sized VGLB. In Step 2, the isolation area was extended using the largest-sized VGLB. Electroanatomic left atrial maps were obtained before and after each step, and isolation areas were computed using the CARTO-3 system. The clinical endpoint was freedom from atrial arrhythmia (Ata) at 1 year.
+
+Results: Compared with the conventional size, the largest-sized VGLB significantly enlarged the isolation area of both the left-sided pulmonary vein antrum (PVA; 11.5 ± 2.3 vs 15.9 ± 3.5 cm2, P < .001) and the right-sided PVA (14.2 ± 3.3 vs 20.6 ± 4.4 cm2, P < .001). The non-ablated LAPW area was correspondingly reduced (12.3 ± 4.4 vs 7.8 ± 3.9 cm2, P < .001). At 1 year, freedom from atrial arrhythmia was 83.7% in patients with paroxysmal AF and 96.4% in those with persistent AF.
+
+Conclusions: Ablation with the largest-sized VGLB created significantly wider PVA isolation and debulked substantially more of the LAPW than the conventional-sized VGLB. One-year freedom from atrial arrhythmia was similarly high in paroxysmal and persistent AF.
+
+=== Abstract Y ===
+BACKGROUND: Wider circumferential pulmonary vein isolation that incorporates a large portion of the left atrial posterior wall (LAPW) is thought to improve outcomes in atrial fibrillation (AF) ablation. However, the extent to which the isolation area can be enlarged by inflating a visually guided laser balloon (VGLB) to its largest size, rather than a conventional size, remains uncharacterized. We sought to quantify the additional isolation and LAPW debulking achievable with largest-sized versus conventional-sized VGLB ablation.
+
+METHODS: In this prospective single-arm study, 78 patients (paroxysmal and persistent AF) undergoing VGLB ablation served as their own controls. Pulmonary vein isolation was first performed with a conventional-sized VGLB, with electroanatomic left atrial maps acquired before and after (CARTO-3). The isolation area was then extended using the largest-sized VGLB and remapped identically. Paired isolation areas, residual non-ablated LAPW area, and 1-year freedom from atrial arrhythmia (Ata) were compared.
+
+RESULTS: Compared with conventional size, the largest-sized VGLB increased the left-sided pulmonary vein antrum isolation area (11.5 plus or minus 2.3 vs 15.9 plus or minus 3.5 cm2, P<.001) and the right-sided area (14.2 plus or minus 3.3 vs 20.6 plus or minus 4.4 cm2, P<.001), and reduced the non-ablated LAPW area (12.3 plus or minus 4.4 vs 7.8 plus or minus 3.9 cm2, P<.001). One-year Ata freedom was 83.7% in paroxysmal and 96.4% in persistent AF.
+
+CONCLUSION: Largest-sized VGLB ablation creates significantly wider antral isolation and debulks substantially more LAPW than conventional sizing, with similarly high 1-year arrhythmia freedom in paroxysmal and persistent AF.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

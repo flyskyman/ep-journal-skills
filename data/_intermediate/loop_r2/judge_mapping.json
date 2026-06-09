@@ -1,0 +1,212 @@
+{
+ "1_AvB": {
+  "hid": 1,
+  "journal": "HR",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "1_AvO": {
+  "hid": 1,
+  "journal": "HR",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "2_AvB": {
+  "hid": 2,
+  "journal": "HR",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "2_AvO": {
+  "hid": 2,
+  "journal": "HR",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "3_AvB": {
+  "hid": 3,
+  "journal": "HR",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "3_AvO": {
+  "hid": 3,
+  "journal": "HR",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "4_AvB": {
+  "hid": 4,
+  "journal": "Europace",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "4_AvO": {
+  "hid": 4,
+  "journal": "Europace",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "5_AvB": {
+  "hid": 5,
+  "journal": "Europace",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "5_AvO": {
+  "hid": 5,
+  "journal": "Europace",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "6_AvB": {
+  "hid": 6,
+  "journal": "Europace",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "6_AvO": {
+  "hid": 6,
+  "journal": "Europace",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "7_AvB": {
+  "hid": 7,
+  "journal": "JACC",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "7_AvO": {
+  "hid": 7,
+  "journal": "JACC",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "8_AvB": {
+  "hid": 8,
+  "journal": "JACC",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "8_AvO": {
+  "hid": 8,
+  "journal": "JACC",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "9_AvB": {
+  "hid": 9,
+  "journal": "JACC",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "9_AvO": {
+  "hid": 9,
+  "journal": "JACC",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "10_AvB": {
+  "hid": 10,
+  "journal": "PACE",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "10_AvO": {
+  "hid": 10,
+  "journal": "PACE",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "11_AvB": {
+  "hid": 11,
+  "journal": "PACE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "11_AvO": {
+  "hid": 11,
+  "journal": "PACE",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "12_AvB": {
+  "hid": 12,
+  "journal": "PACE",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "12_AvO": {
+  "hid": 12,
+  "journal": "PACE",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "13_AvB": {
+  "hid": 13,
+  "journal": "JICE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "13_AvO": {
+  "hid": 13,
+  "journal": "JICE",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "14_AvB": {
+  "hid": 14,
+  "journal": "JICE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "14_AvO": {
+  "hid": 14,
+  "journal": "JICE",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "15_AvB": {
+  "hid": 15,
+  "journal": "JICE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "15_AvO": {
+  "hid": 15,
+  "journal": "JICE",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ }
+}

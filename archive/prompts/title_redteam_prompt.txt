@@ -1,0 +1,229 @@
+You are an INDEPENDENT adversarial reviewer (different model from the author). Audit this EP-journal TITLE skill against its evidence. Find claims unsupported, overstated, cherry-picked, internally contradictory, or missing caveats. Compute a couple of cross-journal checks from the metrics JSON yourself. Return the structured object (verdict + findings with severity/location/issue/fix). Everything is inlined — do NOT read files.
+
+=== CENTRAL CLAIMS ===
+1. Title metrics were re-derived deterministically from ALL 7267 titles (exact counts).
+2. Unlike abstract CONTENT (which barely separates journals), title STYLE genuinely differs by journal (length, colon, question, case-rate).
+3. Step 2 guidance: a strong model already nails title style, so the skill's value is INFORMATION CONTENT (lead with specific finding/outcomes, both arms, named device/study, cohort size), with style as a container. This was validated: style-first lost to a no-skill baseline (15/15); info-density-first won (R3 18/12, ~60%, both Claude and Codex judges).
+4. case-report rate: PACE highest (6.6%), JACC ~0.7% (a prior 'JACC highest' claim was corrected).
+5. Caveat: regex undercounts semantic categories (case/versus/review) — Codex cross-check (90 titles) found unlabeled cases the regex missed; treat those % as lower bounds. Mechanical metrics (colon/length/question) verified (colon 90/90).
+
+=== FILE: SKILL.md ===
+---
+name: ep-title-advisor
+description: Generate and recommend manuscript titles tailored to specific EP (electrophysiology) journals. Use when user wants to craft a title for Heart Rhythm, Circulation Arrhythmia and Electrophysiology, Europace, JACC Clinical Electrophysiology, PACE, or JICE. Trigger when user mentions writing a paper title, choosing a journal, or asking for title suggestions for EP manuscripts.
+---
+
+# EP Journal Title Advisor
+
+Generate manuscript titles matched to a target EP journal's style, and recommend the best-fit journal. Per-journal title profiles (length, structure, patterns, examples) live in **`references/journal-profiles.md`** — read it for the target journal before generating.
+
+## When to use
+- The user wants a manuscript title for an EP journal, or to compare title styles
+- The user asks "what title would work for [journal]?" or which journal to target
+
+## Step 1 — Gather
+Target journal (or offer to recommend, see table below); research topic; study type (RCT / observational / meta-analysis / case report / editorial / basic science); key finding (one sentence); study acronym (if any); sample size / data source (if relevant).
+
+## Step 2 — Generate titles
+
+**The title's job is to convey the specific contribution. A strong model already nails journal style, so style is NOT where titles are won or lost — information content is. Lead with substance; treat style as the container.** (Validated: when this skill optimized style first, it tied a no-skill baseline because it dropped specifics for conventions. Titles that win pack in the concrete specifics.)
+
+### 2a. Lead with the high-value specifics (this is the decisive step)
+A title beats its rivals by naming the things readers scan for. Pick the **2–3 MOST decision-relevant** of these and lead with them — do NOT cram in all of them (an over-stuffed title loses clarity):
+- **The key finding or the exact outcomes measured** — not just the topic. "Acute success and AV-block risk" beats "a registry analysis"; "bleeding *and mortality*" beats "bleeding".
+- **The intervention and its comparator — name both arms** ("A versus B").
+- **The device / technique / study by name** ("LAmbre device", "pentaspline", "BEAT PAROX-AF").
+- **Population**, and where notable, **cohort size / design** (RCT, registry, n).
+- **Priority rule:** keep a concrete specific over a style convention — but choose the few specifics that most distinguish *this* study, and if the title gets crowded or hard to read, cut the least-decision-relevant one. **Informative AND clean beats stuffed.**
+
+### 2b. Then fit the journal (constraint, not goal) — see `references/journal-profiles.md`
+- Length (JACC ~12 words → Europace ~16), colon subtitle, sentence-case for Europace, named-study format, impersonal phrasing, journal vocabulary.
+- **Question-format titles are rare — only for genuine editorials/commentaries. Do NOT use a question for original research** (even at JACC; a declarative title that states the finding wins).
+- **Scope/fit**: signal the study *belongs* in this journal (Circ AE → mechanism/preclinical; JICE → technique head-to-head/procedural; Europace → comparison/synthesis/registry; JACC → quantitative clinical; PACE → feasibility/device/case/meta; HR → broad actionable finding).
+
+### 2c. Produce 5–8 candidates, then recommend
+Vary which specifics lead. **Recommend the most *informative* candidate that still fits the journal's length/style** — not the most stylish one. Self-check each: does it name the finding/outcomes, both arms, the named entity, and the design? If a rival no-skill title would be more specific, yours isn't done.
+
+## Step 3 — Output
+Group by journal; for each title add one line: structure type | why it fits. If no journal was specified, generate for all six and flag the best-fit (use the table below).
+
+## Step 4 — Refine
+Ask which the user likes; offer to combine elements; adjust length/tone/structure; if useful, search PubMed for recent example titles from the target journal.
+
+## Cross-journal recommendation (if unsure where to submit)
+| Study type | Best fit |
+|-----------|----------|
+| PFA clinical trial | Circ AE > HR |
+| AF ablation observational | HR > Europace |
+| Ablation technique comparison | JICE > Europace |
+| VT/VA study | JACC EP > HR |
+| Pacing/CIED | PACE > HR |
+| CSP/LBBP | HR > PACE > JICE |
+| CSP comparison study | JICE > Europace |
+| Meta-analysis | PACE > JICE > Europace |
+| Case report | PACE > JACC EP |
+| AI/ML in EP | Circ AE > Europace |
+| Mapping/catheter technology | JICE > HR |
+| European registry | Europace |
+| Channelopathy/genetics | HR > JACC EP |
+| Guidelines/consensus | HR |
+
+---
+Supporting material (not inlined here): `references/journal-profiles.md` (per-journal title detail). Title metrics derive from a 7,267-article title analysis (2023–2026); treat percentages as directional.
+
+=== FILE: references/journal-profiles.md ===
+# EP journal title profiles
+
+Per-journal title detail for Step 2 of the skill. **Metrics re-derived deterministically from all 7,267 article titles (2023–2026, six journals)** — exact counts, fully reproducible (`data/title_metrics.json`; word/char length + regex rates for colon/question/versus/novelty/review/case). Superlatives below are verified across all six journals.
+
+## Verified metrics (all 7,267 titles)
+
+| Journal | n | words (med) | chars | colon% | question% | versus% | novel% | review/meta% | case% |
+|---------|---|-------------|-------|--------|-----------|---------|--------|--------------|-------|
+| HR | 2166 | 14.3 (14) | 113 | 42.5 | 4.8 | 3.5 | 4.2 | 3.1 | 0.6 |
+| Circ AE | 396 | 14.9 (14) | 118 | 48.2 | 3.3 | 3.8 | 6.1 | 1.5 | 0.0 |
+| Europace | 1277 | 16.4 (16) | 130 | **57.2** | 4.9 | 6.4 | 3.1 | 3.6 | 0.5 |
+| JACC EP | 1443 | **12.5 (13)** | 99 | 47.3 | **9.5** | 3.9 | 3.1 | 0.6 | 0.7 |
+| PACE | 888 | 14.2 (14) | 110 | 41.9 | 6.4 | 5.5 | 2.4 | 6.5 | **6.6** |
+| JICE | 1097 | 15.7 (15) | 124 | 47.0 | 5.1 | **7.0** | 3.6 | 7.0 | 1.6 |
+
+**Cross-validation (Codex, independent classification of 90 titles, 15/journal):** mechanical metrics are reliable — `colon` 90/90 agreement, `question` 89/90. But the **regex undercounts the semantic categories**: `versus` (misses "compared with / A or B" phrasings), `review/meta` (misses variants like "meta-analytical"), and especially `case` — Codex found unlabeled case reports the regex scored as 0 (case titles often don't contain "case report"). So **treat case% / versus% / review% as lower bounds; true rates are higher.** Rankings still hold (PACE highest case, JICE highest versus, Europace longest + most colons, JACC shortest + most questions).
+
+**What genuinely differs across journals** (real title-style signals — unlike abstract *content*, which barely separates): title length (JACC shortest 12.5 → Europace longest 16.4), colon use (PACE 42% → Europace 57%), question titles (Circ AE 3.3% → JACC 9.5%, editorial culture), and case-report rate (lowest at Circ AE/JACC → highest at PACE). versus / novelty / review rates differ only mildly. (novel% = strict novelty phrases; named-study/acronym presence is method-dependent — directional only.)
+
+## Heart Rhythm (HR)
+- **Positioning**: HRS flagship; broadest scope; highest volume (~700/year)
+- **Style**: 14 words / 113 chars; colon ~43% (moderate); question ~5%; named studies common; rarely case reports (0.6%). Broad topics (AF, ablation, pacing, channelopathy, devices); favors "outcomes/predictors/association/risk"; for CSP/LBBP include "left bundle branch" explicitly.
+- **Patterns**: `{Topic}: {Subtitle with design/source}` · `{Finding} in {Population}: {Study Name}` (trials) · `{Descriptive key finding}` · `{Topic} — A {Study Name} Analysis`
+- **Examples**:
+  - "Impact of Linear Ablation in Persistent Atrial Fibrillation Using a Dual-Energy, Wide-Footprint Catheter: Analysis from the SPHERE Per-AF Randomized Trial."
+  - "Trends in Ventricular Arrhythmia-Related Mortality in the United States from 1979 to 2024: A CDC WONDER Analysis."
+
+## Circulation: Arrhythmia and Electrophysiology (Circ AE)
+- **Positioning**: high-impact, selective (~130/year); technology-forward
+- **Style**: 14–15 words / 118 chars; colon 48%; **fewest question titles (3.3%)**; **highest strict-novelty phrasing (6.1%)**; essentially no case reports (0%); precise, technical, mechanism-focused; favors "pulsed field/catheter/lesion/substrate".
+- **Patterns**: `{Technical innovation/finding}: {Evidence source}` · `{Precise mechanistic finding} in {Context}` · `{Outcome} of {Intervention}: {Study Name}` · Title-Case, formal
+- **Examples**:
+  - "Variability in Tissue Interface Temperature During Pulse Field Atrial Ablation: Implications for Real-Time Contact Assessment."
+  - "Epicardial-to-Endocardial Activation Gradients and Conduction Block During Atrial Fibrillation in the Human Left Atrial Posterior Wall."
+
+## Europace
+- **Positioning**: European EP flagship; long, descriptive, design-forward titles
+- **Style**: **longest (16.4 words / 130 chars)** and **highest colon use (57%, near-mandatory)**; design usually in the title; European multicenter registries featured; meta-analysis/SR welcomed; comparison studies common (include both arms); favors "a systematic review/a nationwide study/a European multicenter"; sentence-case common (lowercase after colon).
+- **Patterns**: `{Detailed description}: {Subtitle — method/registry/design}` · `{A} versus {B} for {Condition}: {Source}` · `{Outcome} after {Intervention} in {Population}: a {design} study` · `{Topic}: a systematic review and meta-analysis`
+- **Examples**:
+  - "Pulsed Field Ablation versus Thermal Ablation for Pulmonary Vein Isolation: A Network Meta-Analysis of Randomized Controlled Trials."
+  - "Incidence and predictors of major arrhythmic events after myocarditis: a systematic review and meta-analysis."
+
+## JACC: Clinical Electrophysiology (JACC EP)
+- **Positioning**: JACC sub-journal; broad article types; strong editorial voice
+- **Style**: **shortest (12.5 words / 99 chars)** and **highest question rate (9.5%, editorial/commentary culture)**; very few case-report titles (0.7%); short and punchy; colon subtitles use qualitative descriptors ("A Dangerous Scenario", "Lessons Learned"); Title-Case; action verbs / clinical-relevance framing.
+- **Patterns**: `{Concise finding}: {Punchy subtitle}` · `{Provocative question}?` (editorials) · `{Descriptive case/image}: {Brief characterization}` · `{Short clinical message}`
+- **Examples**:
+  - "How Many CPVT Patients Need an ICD?: The Impact of Left Cardiac Sympathetic Denervation."
+  - "J-Wave Syndromes: Reconciling the Complexity."
+  - "AF Ablation and Autonomic Provocation: A New Type of Holiday Heart?"
+
+## PACE (Pacing and Clinical Electrophysiology)
+- **Positioning**: CIED/pacing specialist; practical; **the case-report and review venue**
+- **Style**: 14 words / 110 chars; lowest colon use (42%, more direct titles); **highest case-report rate (6.6%) and high review/meta rate (6.5%)**; straightforward clinical titles; least strict-novelty language (2.4%); favors "pacemaker/implantable/lead/cardiac resynchronization".
+- **Patterns**: `{Clinical question/technique}: {Study type}` · `{Direct descriptive statement}` (no colon) · `{Device/pacing topic}: A Systematic Review and Meta-Analysis` · `{Unusual case}: A Case Report/Series`
+- **Examples**:
+  - "Conduction System Pacing Versus Right Ventricular Pacing in Atrioventricular Block: A Systematic Review and Meta-Analysis of Randomized Controlled Trials."
+  - "Dual-Chamber Leadless Pacemaker Implants in the Young."
+
+## JICE (Journal of Interventional Cardiac Electrophysiology)
+- **Positioning**: interventional EP specialist; comparison-study hub (~250/year)
+- **Style**: 15.7 words / 124 chars (second longest); **highest versus rate (7.0%)** and high review/meta rate (7.0%); comparison studies dominate (include both arms); technical/descriptive with full design; less editorial voice than JACC, more technical detail than PACE; favors "versus/compared/feasibility/safety/multicenter".
+- **Patterns**: `{A} versus {B} for/in {Condition}: {Study design}` · `{Technical finding}: a {multicenter/prospective/retrospective} study` · `{Detailed intervention + outcome}` · `{Topic}: a systematic review and meta-analysis`
+- **Examples**:
+  - "A prospective multicenter study of left bundle branch area pacing using stylet-driven lead: insights into capture types, delivery curve selection, and procedural failure."
+  - "Improved outcomes of left bundle branch pacing compared to left ventricular septal pacing in patients with heart failure: a systematic review and meta-analysis."
+
+=== DATA: title_metrics.json ===
+{
+ "HR": {
+  "n": 2166,
+  "words_mean": 14.3,
+  "words_median": 14,
+  "chars_mean": 113,
+  "colon_pct": 42.5,
+  "question_pct": 4.8,
+  "versus_pct": 3.5,
+  "novel_pct": 4.2,
+  "meta_review_pct": 3.1,
+  "case_pct": 0.6,
+  "emdash_pct": 1.0,
+  "acronym_pct": 14.9
+ },
+ "CircAE": {
+  "n": 396,
+  "words_mean": 14.9,
+  "words_median": 14,
+  "chars_mean": 118,
+  "colon_pct": 48.2,
+  "question_pct": 3.3,
+  "versus_pct": 3.8,
+  "novel_pct": 6.1,
+  "meta_review_pct": 1.5,
+  "case_pct": 0.0,
+  "emdash_pct": 0.0,
+  "acronym_pct": 19.4
+ },
+ "Europace": {
+  "n": 1277,
+  "words_mean": 16.4,
+  "words_median": 16,
+  "chars_mean": 130,
+  "colon_pct": 57.2,
+  "question_pct": 4.9,
+  "versus_pct": 6.4,
+  "novel_pct": 3.1,
+  "meta_review_pct": 3.6,
+  "case_pct": 0.5,
+  "emdash_pct": 0.2,
+  "acronym_pct": 20.5
+ },
+ "JACC": {
+  "n": 1443,
+  "words_mean": 12.5,
+  "words_median": 13,
+  "chars_mean": 99,
+  "colon_pct": 47.3,
+  "question_pct": 9.5,
+  "versus_pct": 3.9,
+  "novel_pct": 3.1,
+  "meta_review_pct": 0.6,
+  "case_pct": 0.7,
+  "emdash_pct": 0.0,
+  "acronym_pct": 17.7
+ },
+ "PACE": {
+  "n": 888,
+  "words_mean": 14.2,
+  "words_median": 14,
+  "chars_mean": 110,
+  "colon_pct": 41.9,
+  "question_pct": 6.4,
+  "versus_pct": 5.5,
+  "novel_pct": 2.4,
+  "meta_review_pct": 6.5,
+  "case_pct": 6.6,
+  "emdash_pct": 1.2,
+  "acronym_pct": 16.7
+ },
+ "JICE": {
+  "n": 1097,
+  "words_mean": 15.7,
+  "words_median": 15,
+  "chars_mean": 124,
+  "colon_pct": 47.0,
+  "question_pct": 5.1,
+  "versus_pct": 7.0,
+  "novel_pct": 3.6,
+  "meta_review_pct": 7.0,
+  "case_pct": 1.5,
+  "emdash_pct": 1.6,
+  "acronym_pct": 14.3
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "x_scores": {
+    "journal_fit": 4,
+    "informativeness": 5,
+    "clarity": 5,
+    "appeal": 4
+  },
+  "y_scores": {
+    "journal_fit": 3,
+    "informativeness": 4,
+    "clarity": 3,
+    "appeal": 3
+  },
+  "winner": "X",
+  "rationale": "Title X uses active verbs and standard hyphenation to deliver the same information more crisply, matching Heart Rhythm's preferred direct, study-design-tagged format.",
+  "loser_weakness": "Title Y's nominalized infinitive chain and non-hyphenated 'Nearfield/Farfield' reduce readability and deviate from Heart Rhythm's stylistic norms."
+}

@@ -1,0 +1,9 @@
+You are an expert PACE editor blindly comparing two candidate manuscript titles for the SAME study, both intended for PACE. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Warfarin Alone Versus Warfarin Plus Aspirin for Bleeding in HeartMate 3 LVAD Patients: A Systematic Review and Meta-Analysis
+
+=== Title Y ===
+Warfarin Alone Versus Warfarin Plus Aspirin in HeartMate 3 LVAD Patients: A Systematic Review and Meta-Analysis of Bleeding and Mortality Outcomes
+
+Return the structured object.

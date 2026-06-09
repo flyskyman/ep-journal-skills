@@ -1,0 +1,21 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'JICE'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+Background: The radiofrequency balloon (RFB; HELIOSTAR, Biosense Webster) is a multi-electrode catheter developed to improve the efficiency of pulmonary vein (PV) isolation compared with point-by-point radiofrequency ablation. However, it remains unclear which RFB ablation parameters predict durable, chronic scar formation.
+
+Methods: In a chronic canine model (8 dogs), circumferential RFB ablation was performed with simultaneous delivery of radiofrequency energy to all electrodes at four sites: the superior vena cava (SVC), right superior PV (RSPV), left inferior PV (LIPV), and left atrial appendage (LAA), using an ablation duration of either 20 s or 60 s. Three months after ablation, late gadolinium enhancement cardiac MRI (LGE-CMR) was performed, and electroanatomic mapping ablation tags were projected onto the LGE-CMR images. Tags were classified as ScarTags (correlated with CMR scar) or Non-ScarTags (corresponding to non-scar tissue). Parameters associated with chronic scar were identified by multivariate logistic regression.
+
+Results: A total of 210 ablation tags were analyzed (80 SVC, 80 RSPV, 20 LIPV, 30 LAA), comprising 168 ScarTags and 42 Non-ScarTags. On multivariate analysis, lower electrode temperature before energy application was associated with chronic scar formation (odds ratio [OR] 0.805, p=0.0075), as was longer radiofrequency duration (OR 2.360, p=0.0218). Impedance drop was not associated with chronic scar (OR 0.986, p=0.373).
+
+Conclusions: Lower electrode temperature before ablation and longer ablation duration are critical parameters for durable atrial scar formation with RFB ablation, whereas impedance drop is not predictive. These findings may help optimize RFB ablation strategies to achieve durable lesions.
+
+=== Abstract Y ===
+BACKGROUND: The radiofrequency balloon (RFB; HELIOSTAR, Biosense Webster) delivers energy to multiple electrodes simultaneously to improve the efficiency of pulmonary vein isolation relative to point-by-point radiofrequency ablation. However, which RFB ablation parameters predict durable, chronic scar remains undefined, leaving operators without validated targets for titrating energy delivery. We sought to identify the procedural parameters that determine chronic atrial scar formation with RFB ablation, using late gadolinium enhancement cardiac MRI (LGE-CMR) as the reference standard.
+
+METHODS: In a chronic canine model (8 dogs), we performed circumferential RFB ablation with RF energy delivered to all electrodes simultaneously at four sites—superior vena cava, right superior pulmonary vein, left inferior pulmonary vein, and left atrial appendage—using ablation durations of 20 s or 60 s. Electroanatomic map ablation tags were projected onto LGE-CMR obtained 3 months after ablation and classified as ScarTags (correlated with CMR scar) or Non-ScarTags. Parameters associated with chronic scar were assessed by multivariate logistic regression.
+
+RESULTS: Among 210 tags (80 superior vena cava, 80 right superior pulmonary vein, 20 left inferior pulmonary vein, 30 left atrial appendage), 168 were ScarTags and 42 Non-ScarTags. Lower electrode temperature before energy application was independently associated with chronic scar (OR 0.805, p=0.0075), as was longer RF duration (OR 2.360, p=0.0218). Impedance drop was not predictive (OR 0.986, p=0.373).
+
+CONCLUSION: Lower pre-ablation electrode temperature and longer RF duration are the critical determinants of durable atrial scar with RFB ablation, whereas impedance drop is not. These exploratory findings suggest titrating these parameters may improve lesion durability and warrant clinical validation.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

@@ -1,0 +1,9 @@
+You are an expert HR editor blindly comparing two candidate manuscript titles for the SAME study, both for HR. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Electrogram Peak Frequency Distinguishes Nearfield from Farfield Signals and Confirms Pulmonary Vein Isolation: A Prospective Mapping Study with a 300-Hz Cutoff
+
+=== Title Y ===
+Electrogram Peak Frequency as a Quantitative Marker to Distinguish Nearfield From Farfield Signals and Confirm Pulmonary Vein Isolation
+
+Return the structured object.

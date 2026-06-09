@@ -1,0 +1,107 @@
+{
+ "1_AvB": {
+  "hid": 1,
+  "journal": "HR",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "2_AvB": {
+  "hid": 2,
+  "journal": "HR",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "3_AvB": {
+  "hid": 3,
+  "journal": "HR",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "4_AvB": {
+  "hid": 4,
+  "journal": "Europace",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "5_AvB": {
+  "hid": 5,
+  "journal": "Europace",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "6_AvB": {
+  "hid": 6,
+  "journal": "Europace",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "7_AvB": {
+  "hid": 7,
+  "journal": "JACC",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "8_AvB": {
+  "hid": 8,
+  "journal": "JACC",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "9_AvB": {
+  "hid": 9,
+  "journal": "JACC",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "10_AvB": {
+  "hid": 10,
+  "journal": "PACE",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "11_AvB": {
+  "hid": 11,
+  "journal": "PACE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "12_AvB": {
+  "hid": 12,
+  "journal": "PACE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "13_AvB": {
+  "hid": 13,
+  "journal": "JICE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "14_AvB": {
+  "hid": 14,
+  "journal": "JICE",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "15_AvB": {
+  "hid": 15,
+  "journal": "JICE",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ }
+}

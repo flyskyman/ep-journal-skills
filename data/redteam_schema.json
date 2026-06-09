@@ -1,0 +1,16 @@
+{
+  "type":"object","additionalProperties":false,
+  "required":["central_claim_verdict","central_claim_reasoning","findings","overall"],
+  "properties":{
+    "central_claim_verdict":{"type":"string","enum":["supported","overstated","unsupported","mixed"]},
+    "central_claim_reasoning":{"type":"string"},
+    "findings":{"type":"array","items":{"type":"object","additionalProperties":false,
+      "required":["severity","location","issue","suggested_fix"],
+      "properties":{
+        "severity":{"type":"string","enum":["critical","major","minor"]},
+        "location":{"type":"string"},
+        "issue":{"type":"string"},
+        "suggested_fix":{"type":"string"}}}},
+    "overall":{"type":"string"}
+  }
+}

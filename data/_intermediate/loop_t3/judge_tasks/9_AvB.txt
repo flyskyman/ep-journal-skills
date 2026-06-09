@@ -1,0 +1,9 @@
+You are an expert JACC editor blindly comparing two candidate manuscript titles for the SAME study, both for JACC. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Cognitive Dysfunction After Atrial Fibrillation Ablation Versus Medical Therapy: A Randomized Trial Showing Full Recovery by 12 Months
+
+=== Title Y ===
+Transient and Reversible Cognitive Dysfunction After Catheter Ablation of Atrial Fibrillation: A Randomized Controlled Trial of Cognitive Outcomes Through 12 Months
+
+Return the structured object.

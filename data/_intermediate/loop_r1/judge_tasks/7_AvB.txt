@@ -1,0 +1,25 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'JACC'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+Background: Catheter ablation is curative for paroxysmal supraventricular tachycardia (SVT), but diagnosing atrial tachycardia (AT) during electrophysiology study can be challenging, particularly when the tachycardia terminates in response to pacing. A reliable maneuver to distinguish AT from other SVT mechanisms is needed.
+
+Objectives: This study sought to develop and validate a novel pacing maneuver to diagnose AT during ongoing tachycardia.
+
+Methods: In a prospective electrophysiology study, 147 SVTs were evaluated, comprising 28 ATs, 87 atrioventricular nodal reentrant tachycardias (AVNRT), and 32 orthodromic reciprocating tachycardias (ORT); AVNRT and ORT were combined as the non-AT group (n = 119). A single atrial extrastimulus was delivered from the proximal coronary sinus during tachycardia, with the coupling interval beginning 20 ms shorter than the tachycardia cycle length and progressively shortened until the His bundle (HB) was first reset, then further until the SVT terminated. We assessed the response of the tachycardia at first HB resetting and the pattern of tachycardia termination.
+
+Results: At first HB resetting, the tachycardia was unaffected in 27 of 28 ATs, whereas in all non-AT cases the tachycardia was simultaneously reset at HB resetting or terminated with atrio-Hisian (A-H) block. Among SVTs that persisted and were further shortened, all 33 that terminated with A-H block were non-AT, whereas termination with Hisian-atrial (H-A) block occurred in 5 ATs and 7 non-ATs. For AT diagnosis, the pattern of the tachycardia remaining unaffected at HB resetting yielded a sensitivity of 96%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 99%. For non-AT diagnosis, termination with A-H block yielded a sensitivity of 92%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 42%.
+
+Conclusions: A single atrial extrastimulus delivered from the proximal coronary sinus during tachycardia is a useful and effective maneuver for diagnosing AT. AT is characterized by the tachycardia remaining unaffected during His bundle resetting.
+
+=== Abstract Y ===
+BACKGROUND: Catheter ablation is curative for paroxysmal supraventricular tachycardia (SVT), but distinguishing atrial tachycardia (AT) from other mechanisms during the electrophysiology study is often difficult, particularly when the tachycardia terminates in response to pacing. A reliable maneuver to identify AT in this setting is lacking.
+
+OBJECTIVES: This study sought to develop and validate a novel pacing maneuver for the diagnosis of AT during SVT.
+
+METHODS: In a prospective electrophysiology study, 147 SVTs were evaluated (28 ATs, 87 atrioventricular nodal reentrant tachycardias [AVNRTs], and 32 orthodromic reciprocating tachycardias [ORTs]; non-AT group = 119). During tachycardia, a single atrial extrastimulus was delivered from the proximal coronary sinus, with the coupling interval started 20 ms below the tachycardia cycle length and progressively shortened until the His bundle (HB) first reset and, if tachycardia persisted, until termination. The response at first HB resetting and the termination pattern were assessed.
+
+RESULTS: At first HB resetting, the tachycardia was unaffected in 27 of 28 ATs, whereas all non-ATs either reset simultaneously at HB resetting or terminated with atrio-Hisian (A-H) block. All 33 SVTs terminating with A-H block were non-AT; among those terminating with His-atrial (H-A) block, 5 were ATs and 7 non-ATs. An unaffected tachycardia at HB resetting identified AT with a sensitivity of 96%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 99%. Termination with A-H block identified non-AT with a sensitivity of 92%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 42%.
+
+CONCLUSIONS: A single atrial extrastimulus from the proximal coronary sinus during tachycardia is an effective maneuver for diagnosing AT, which is characterized by a tachycardia that remains unaffected during His bundle resetting.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

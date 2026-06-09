@@ -1,0 +1,9 @@
+Background: Hemolysis has recently emerged as a side effect of pulsed field ablation (PFA), raising concerns about renal safety. However, the broader systemic and thromboinflammatory consequences of PFA-induced hemolysis remain unknown.
+
+Objective: To assess the thromboinflammatory potential of PFA and the systemic biological effects of its associated hemolysis, compared with radiofrequency ablation (RFA).
+
+Methods: In this prospective comparative study, 60 patients with paroxysmal atrial fibrillation undergoing pulmonary vein isolation were treated with a pentaspline PFA system (n=30) or RFA (n=30). Biomarkers of inflammation, platelet activation, endothelial cell damage, hemolysis, and renal function were measured at 3 timepoints. Pericarditis, early recurrences, and 6-month rhythm outcomes were also assessed.
+
+Results: Intravascular hemolysis occurred in 100% of PFA patients after a mean of 42.8 ± 3.7 deliveries. Leukocyte release was similar between PFA and RFA (Δ 3.0 ± 2.3 vs 3.6 ± 2.3 ×10^9/L; P=.254), as were acute changes in platelet activation and endothelial cell damage biomarkers. Nitric oxide decreased significantly only in the PFA group (−26.5% ± 17.8%; P<.001). No acute kidney injury occurred, but hemolysis burden was significantly associated with creatinine increase, inflammation, and platelet activation. Female sex was the only independent predictor of significant hemolysis after PFA (odds ratio 7.8; 95% CI 1.2–50.2; P=.031). In-hospital pericarditis was lower with PFA (10.0% vs 33.3%; P=.028). Early recurrence (20.0% vs 26.7%) and late recurrence (6.7% vs 10.0%) were similar between groups (all P>.05).
+
+Conclusion: PFA produces a thromboinflammatory reaction similar to that of RFA. PFA-induced hemolysis occurs in all patients even with a limited number of deliveries and is significantly associated with renal function decline, inflammation, and platelet activation. Women are at higher risk of significant hemolysis after PFA.

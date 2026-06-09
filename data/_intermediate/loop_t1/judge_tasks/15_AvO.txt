@@ -1,0 +1,9 @@
+You are an expert JICE editor blindly comparing two candidate manuscript titles for the SAME study, both intended for JICE. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Pentaspline Pulsed Field Ablation versus Radiofrequency for Redo Atrial Fibrillation Ablation: A Prospective Multicenter Study of Feasibility, Safety, and 1-Year Outcomes
+
+=== Title Y ===
+Redo ablation procedures to treat recurrent atrial arrhythmias via a pentaspline pulsed field ablation catheter: a prospective, multicenter experience.
+
+Return the structured object.

@@ -1,0 +1,58 @@
+{
+ "1_AvB": {
+  "hid": 1,
+  "journal": "CircAE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "1_AvO": {
+  "hid": 1,
+  "journal": "CircAE",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "2_AvB": {
+  "hid": 2,
+  "journal": "CircAE",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "2_AvO": {
+  "hid": 2,
+  "journal": "CircAE",
+  "comp": "AvO",
+  "X": "O",
+  "Y": "A"
+ },
+ "3_AvB": {
+  "hid": 3,
+  "journal": "CircAE",
+  "comp": "AvB",
+  "X": "A",
+  "Y": "B"
+ },
+ "3_AvO": {
+  "hid": 3,
+  "journal": "CircAE",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ },
+ "4_AvB": {
+  "hid": 4,
+  "journal": "CircAE",
+  "comp": "AvB",
+  "X": "B",
+  "Y": "A"
+ },
+ "4_AvO": {
+  "hid": 4,
+  "journal": "CircAE",
+  "comp": "AvO",
+  "X": "A",
+  "Y": "O"
+ }
+}

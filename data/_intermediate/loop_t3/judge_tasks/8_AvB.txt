@@ -1,0 +1,9 @@
+You are an expert JACC editor blindly comparing two candidate manuscript titles for the SAME study, both for JACC. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Radiofrequency Versus Cryoablation for Pediatric AVNRT: Comparable Acute Success and No Pacemaker-Requiring AV Block in 2,448 Children From the IMPACT Registry
+
+=== Title Y ===
+Radiofrequency Versus Cryoablation for Pediatric AVNRT: Acute Success and AV Block Risk in 2,448 Patients From the NCDR IMPACT Registry
+
+Return the structured object.

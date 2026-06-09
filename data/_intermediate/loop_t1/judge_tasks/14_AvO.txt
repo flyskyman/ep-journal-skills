@@ -1,0 +1,9 @@
+You are an expert JICE editor blindly comparing two candidate manuscript titles for the SAME study, both intended for JICE. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Impact of pulmonary vein anatomy and ostial dimensions on long-term outcome after single-shot device-guided cryoablation for paroxysmal atrial fibrillation.
+
+=== Title Y ===
+Pulmonary vein anatomy and ostial cross-sectional area predict long-term arrhythmia-free survival after cryoballoon pulmonary vein isolation for paroxysmal atrial fibrillation: a single-center observational cohort study
+
+Return the structured object.

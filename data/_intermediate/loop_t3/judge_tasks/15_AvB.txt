@@ -1,0 +1,9 @@
+You are an expert JICE editor blindly comparing two candidate manuscript titles for the SAME study, both for JICE. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Pentaspline Pulsed Field Ablation versus Radiofrequency for Repeat Atrial Fibrillation Ablation: Comparable 12-Month Arrhythmia Freedom with Shorter Procedures in a Propensity-Matched Multicenter Study of 117 Patients
+
+=== Title Y ===
+Feasibility, Safety, and 12-Month Efficacy of Redo Atrial Fibrillation Ablation Using a Pentaspline Pulsed Field Ablation System: A Multicenter Experience with Propensity-Matched Comparison to Radiofrequency
+
+Return the structured object.

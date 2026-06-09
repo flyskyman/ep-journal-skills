@@ -1,0 +1,9 @@
+You are an expert Europace editor blindly comparing two candidate manuscript titles for the SAME study, both for Europace. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Pulsed field ablation versus radiofrequency ablation for drug-resistant paroxysmal atrial fibrillation: rationale and design of the BEAT PAROX-AF European multicentre randomized controlled trial
+
+=== Title Y ===
+Pulsed field versus radiofrequency ablation for drug-resistant paroxysmal atrial fibrillation: rationale and design of the BEAT PAROX-AF multicentre randomized controlled trial
+
+Return the structured object.

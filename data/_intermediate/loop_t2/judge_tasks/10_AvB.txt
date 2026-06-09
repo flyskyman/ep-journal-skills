@@ -1,0 +1,9 @@
+You are an expert PACE editor blindly comparing two candidate manuscript titles for the SAME study, both for PACE. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Sequential Spinal Epidural Hematoma and Device-Related Thrombosis After Left Atrial Appendage Closure in an Elderly Patient: A Case Report
+
+=== Title Y ===
+Sequential Spinal Epidural Hematoma and Device-Related Thrombosis After Left Atrial Appendage Closure: A Case of Dynamically Individualized Antithrombotic Management in an 86-Year-Old Woman
+
+Return the structured object.

@@ -1,0 +1,11 @@
+{
+  "type":"object","additionalProperties":false,"required":["predictions"],
+  "properties":{"predictions":{"type":"array","items":{
+    "type":"object","additionalProperties":false,
+    "required":["id","predicted_journal","confidence","primary_cue"],
+    "properties":{
+      "id":{"type":"integer"},
+      "predicted_journal":{"type":"string","enum":["HR","CircAE","Europace","JACC","PACE","JICE"]},
+      "confidence":{"type":"number"},
+      "primary_cue":{"type":"string"}}}}}
+}

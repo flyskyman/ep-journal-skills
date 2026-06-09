@@ -1,0 +1,97 @@
+Classify each journal title on 5 boolean attributes. Definitions (judge by meaning, be precise):
+- has_colon: the title uses a colon to separate a main title from a subtitle (do NOT count a ratio like '2:1' or a time like '10:00').
+- is_question: the title is phrased as a question (typically ends with '?').
+- is_versus: the title presents a HEAD-TO-HEAD comparison of two named interventions/things (e.g. 'A versus B', 'A vs B', 'A compared with B').
+- is_review_meta: the work is a systematic review and/or meta-analysis / pooled analysis.
+- is_case: the title is a case report or case series (a single/few-patient clinical case), EVEN IF it does not literally say 'case report'.
+Return labels for every id. Titles:
+1. Upper common pathway analysis using late atrial premature depolarization in atrioventricular nodal reentry tachycardia.
+2. In silico pace mapping identifies pacing sites more accurately than inverse body surface potential mapping.
+3. Response to the letter to the editor entitled "Lumenless defibrillation lead for LBBAP: promise for the future?".
+4. Early mortality after inpatient versus outpatient catheter ablation in patients with atrial fibrillation.
+5. Atrial fibrillation ablation in patients with pulmonary hypertension: Multicenter experience.
+6. Class IC Antiarrhythmic Therapy in Myocarditis With Non-Severe LV Dysfunction.
+7. Epicardial substrate ablation in patients with symptomatic Brugada syndrome: An updated systematic review and single-arm meta-analysis.
+8. Potential impact of long-term ambulatory electrocardiographic monitoring on estimated sudden cardiac death risk in childhood hypertrophic cardiomyopathy.
+9. Combined catheter ablation of atrial fibrillation and premature ventricular complexes.
+10. Underlying mechanism of atrial fibrillation-associated Nppa-I137T mutation and cardiac effect of potential drug therapy.
+11. Long-term clinical outcomes and cost-effectiveness of catheter vs thoracoscopic surgical ablation in long-standing persistent atrial fibrillation using continuous cardiac monitoring: CASA-AF randomized controlled trial.
+12. To the Editor - High stakes and high voltage: The real costs of pulsed field ablation.
+13. Right atrial reverse remodeling after pulmonary vein isolation: Analyzing changes in volume and function using cardiac magnetic resonance imaging.
+14. Quantifying pulmonary vein antrum contact area with novel dual-sized cryoballoon to optimize pulmonary vein isolation.
+15. Translational peak frequency mapping of human sinoatrial node-Bachmann bundle axis: Integrating human in vivo electroanatomic mapping with preclinical microstructural validation.
+16. Ablation of Ventricular Preexcitation to Cure Preexcitation-Induced Dilated Cardiomyopathy in Infants: Diagnosis and Outcome.
+17. Ebstein Anomaly and Atrial Conduction: Big Does Not Mean Bad.
+18. Performance of Atrial Fibrillation Burden Trends for Stroke Risk Stratification.
+19. Unraveling the Rhythm: Sex-Based Molecular Signatures of Sinus Node Function and Arrhythmia Susceptibility.
+20. Prediction of Atrial Fibrillation From the ECG in the Community Using Deep Learning: A Multinational Study.
+21. Inappropriate Shock Rates and Long-Term Complications due to Subcutaneous Implantable Cardioverter Defibrillators in Patients With and Without Heart Failure: Results From a Multicenter, International Registry.
+22. His-Ventricular Interval and Incident Pacemaker Implant in Over 3000 Ambulatory Patients Undergoing Invasive Electrophysiologic Procedures.
+23. Incidence and Predictors of Acute Urinary Retention After Atrial Fibrillation Pulsed Field Ablation: A Word of Caution on Routine Atropine Administration.
+24. Electrophysiology, Pathology, and Imaging of Pulsed Field Ablation of Scarred and Healthy Ventricles in Swine.
+25. Postprocedural Anticoagulation After LAAO: Comparing DOACs, Warfarin, and Individual DOAC Agents.
+26. Fetal Bradycardia Prompting the Diagnosis and Management of Parental Long QT Syndrome.
+27. Implantable Cardioverter-defibrillator Deactivation at Distance for the Dignity of Dying (the 4D Project).
+28. Coronary Vasospasm During Isthmus Pulsed Field Ablation With Wide Area Focal Catheter.
+29. Predictors of Response to Cardiac Resynchronization Therapy in Pediatric Patients and Patients With Congenital Heart Disease.
+30. Metformin Protects Against Persistent Atrial Fibrillation in an Equine Model.
+31. Nationwide trends in pediatric pacemaker implantation in France, 2014-2024.
+32. Incidence and Type of Recurrent Ventricular Arrhythmia in Patients with Arrhythmic Mitral Valve Prolapse and Implantable Cardioverter Defibrillator for Secondary Prevention.
+33. Pulmonary vein reconnection rates after pulse field ablation: time for a reality check?
+34. Use of single-chamber atrial pacemakers post-DANPACE: an analysis using national data.
+35. Conduction system pacing after atrioventricular junction ablation.
+36. Correction to: Drug therapy and catheter ablation for management of arrhythmias in continuous flow left ventricular assist device's patients: a Clinical Consensus Statement of the European Heart Rhythm Association and the Heart Failure Association of the ESC.
+37. Periprocedural acute haemodynamic decompensation during substrate-based ablation of scar-related ventricular tachycardia: a rare and unpredictable event.
+38. Arrhythmias and the extracardiac conduit Fontan: promise unfulfilled?
+39. Left atrial intramyocardial fat at pulmonary vein reconnection sites during atrial fibrillation redo ablation.
+40. Ambulatory pulmonary vein isolation workflow using the Perclose ProglideTM suture-mediated vascular closure device: the PRO-PVI study.
+41. Correction to: Acute and mid-term outcomes of ablation for atrial fibrillation with VISITAG SURPOINT: the Japan MIYABI registry.
+42. HIgh Power short duration radiofrequency ablation or cryoballoon ablation for paroxysmal Atrial Fibrillation (HIPAF trial).
+43. The evolving epidemiological landscape of atrial fibrillation: trends, challenges, and opportunities for improved patient care.
+44. Comparison of strategies for catheter ablation of left posterior fascicular ventricular tachycardia.
+45. Cardioneuroablation for vasovagal syncope: insights on patients' selection, centre settings, procedural workflow and endpoints-results from an European Heart Rhythm Association survey.
+46. Trigger- vs Substrate-Based Purkinje De-Networking for Ventricular Fibrillation: Insights From a Multicenter Study.
+47. Smoking Cessation and Incident Atrial Fibrillation in a Longitudinal Cohort.
+48. Is Investigator Sex Associated With Female Underenrollment in Arrhythmia Trials?: A Retrospective Observational Study.
+49. Mechanism of Stroke Related to a Small Peridevice Leak Coupled with "Reverse" Device-Related Thrombus.
+50. Sizing Up Success: Intentional Over-Compression in Left Atrial Appendage Closure.
+51. Subcutaneous Implantable Defibrillator Therapy in Patients With Brugada Syndrome: Data From a Large Multicenter Registry.
+52. Trans-Right Pulmonary Artery Approach for Radiofrequency Ablation of Focal Atrial Tachycardia Arising From a Left Atrial Diverticulum.
+53. Coronary Sinus Isolation for High-Burden Atrial Fibrillation: A Randomized Clinical Trial.
+54. Whole-Heart Histological and CMR Validation of Electroanatomic Mapping by Multielectrode Catheters in an Ovine Model.
+55. Paradigm Shift for Catheter Ablation of Atypical Atrioventricular Nodal Re-Entrant Tachycardia: 3-Dimensional Mapping-Based Ablation.
+56. Long-Term Outcomes of Permanent Pacemaker Implantation in Bicaval Heart Transplant Recipients.
+57. The Liraglutide Effects in Atrial Fibrillation (LEAF) Study.
+58. Hyperventilation Before Apneic Oxygenation During Pulmonary Vein Isolation May Be Unnecessary and Potentially Harmful.
+59. Multipolar Ablation Using Mapping Electrodes: A Novel Approach to Intramural Arrhythmia Substrates.
+60. Emergence of SCAI in Patients With Tetralogy of Fallot: Early Ablation Target or Moving Target.
+61. Hemodynamics During Pulsed-Field Ablation: A Deep Dive Into Its Temporal Aspect in Various Sedation Strategies.
+62. Outcomes of Patients With Arrhythmia During Single-Ventricle Palliation.
+63. Techniques for Transvenous Lead Extraction of Cardiac Implantable Electronic Devices: A Network Meta-Analysis.
+64. The individual relationship between atrial fibrillation sources from CARTOFINDER mapping and atrial cardiomyopathy: The catch me if you can trial.
+65. Horizontal Axis Affects Paced QRS Duration More Than Vertical Axis at Leadless Pacemaker Implantation Site.
+66. Atrioventricular Block in the Setting of Immune Myocarditis: A Pragmatic Approach to Diagnosis and Treatment.
+67. Efficiency and safety of high-power ablation guided by Lesion size index: An ex vivo porcine heart study.
+68. Pulse-Field Ablation of Atrial Fibrillation Using the Pentaspline Catheter in Adults With Congenital Heart Disease.
+69. Impact of High-Density Mapping on Pulmonary Vein Isolation Durability: A Randomized, Single-Center Study.
+70. Computed tomography predictors of increased transvenous lead extraction difficulty.
+71. Upper turnaround point in a reentry circuit of the idiopathic left posterior fascicular ventricular tachycardia.
+72. Functional Substrate Mapping Using Atrial Decrement Evoked Potentials to Predict Critical Isthmus of Atrial Tachycardia.
+73. Impact of Pulmonary Vein Anatomy on Outcomes in Patients Undergoing Cryoballoon Ablation for Atrial Fibrillation.
+74. Electrocardiographic Imaging: A New Tool to Ensure Cardiac Resynchronization During Left Bundle Branch Pacing Implant.
+75. When Substrate Meets Device: ICD Implantation and Therapy across the Spectrum of Cardiomyopathies.
+76. Success and complication rates of conduction system pacing: a meta-analytical observational comparison of left bundle branch area pacing and His bundle pacing.
+77. Left atrial volume affects the correlation of voltage map with magnetic resonance imaging.
+78. Outcomes after ventricular tachycardia ablation in patients with left ventricular assist device: a retrospective multicenter cohort study.
+79. A novel artificial intelligence based algorithm to reduce wearable cardioverter-defibrillator alarms.
+80. Correction: Electrophysiological findings during re-do procedures after single-shot pulmonary vein isolation for atrial fibrillation with pulsed field ablation.
+81. Optimal anesthesia approach during catheter ablation of premature ventricular complexes: you snooze, you lose!
+82. Epicardial muscle bundles in persistent atrial fibrillation: from overlooked bystanders to arrhythmogenic modulators.
+83. Inter-American Society of Cardiology (CIFACAH-ELECTROSIAC) and Latin-American Heart Rhythm Society (LAHRS): multidisciplinary review on the appropriate use of implantable cardiodefibrillator in heart failure with reduced ejection fraction.
+84. Association of mechanical circulatory support use with inpatient outcomes in patients undergoing ventricular tachycardia ablation.
+85. The role of cardiac sympathetic denervation for ventricular arrhythmias: an updated systematic review and meta-analysis.
+86. Image quality assessment and automation in late gadolinium-enhanced MRI of the left atrium in atrial fibrillation patients.
+87. Clockwise "Mitral Isthmus Block" complicating ablation of left free wall accessory pathways - two cases and review of the literature.
+88. Successful left bundle branch area pacing in a patient with three TriClip devices.
+89. Risk factors for the development of premature ventricular complex-induced cardiomyopathy: a systematic review and meta-analysis.
+90. Atrial fibrillation cycle-length (AF-CL) inside the pulmonary veins predicts paroxysmal AF ablation success- the INDUCE-AF study.

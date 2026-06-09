@@ -1,0 +1,9 @@
+You are an expert Europace editor blindly comparing two candidate manuscript titles for the SAME study, both intended for Europace. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Suture-mediated femoral venous closure for same-day discharge after pulmonary vein isolation: the prospective PRO-PVI study with a propensity-matched comparison
+
+=== Title Y ===
+Ambulatory pulmonary vein isolation workflow using the Perclose ProglideTM suture-mediated vascular closure device: the PRO-PVI study.
+
+Return the structured object.

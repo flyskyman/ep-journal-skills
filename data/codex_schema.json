@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["codings"],
+  "properties": {
+    "codings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id","study_type","gap_type","contribution_frame","results_logic","benchmarking","conclusion_stance","certainty_calibration","voice","external_validation"],
+        "properties": {
+          "id": {"type": "integer"},
+          "study_type": {"type": "string", "enum": ["original_clinical","original_preclinical_basic","ai_ml","meta_analysis_review","case_report_series","other"]},
+          "gap_type": {"type": "string", "enum": ["mechanistic_deficit","comparative_unknown","capability_gap","guideline_inadequacy","feasibility_in_niche","optimization_unknown","prevalence_or_characterization","literature_void_weak","no_clear_gap"]},
+          "contribution_frame": {"type": "string", "enum": ["mechanism_insight","realworld_scale_evidence","validated_ai_capability","clinical_decision_change","comparative_effectiveness","procedural_refinement","evidence_synthesis_meta","feasibility_safety_demo","prognostic_predictor"]},
+          "results_logic": {"type": "string", "enum": ["effectsize_comparator_ci","p_value_only","discriminator_threshold_roc","noninferiority","meta_pooled_effect","descriptive_only"]},
+          "benchmarking": {"type": "string", "enum": ["vs_guideline_standard","vs_alternative_technique","vs_baseline_prepost","vs_existing_model","none"]},
+          "conclusion_stance": {"type": "string", "enum": ["decisive_clinical","mechanistic_elevation","translational_honest","practical_modest","exploratory_hypothesis_generating","null_finding_neutral"]},
+          "certainty_calibration": {"type": "string", "enum": ["matches_design","overclaims","underclaims"]},
+          "voice": {"type": "string", "enum": ["first_person_we","impersonal"]},
+          "external_validation": {"type": "string", "enum": ["external","internal_only","not_applicable"]}
+        }
+      }
+    }
+  }
+}

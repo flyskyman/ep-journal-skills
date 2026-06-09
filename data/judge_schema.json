@@ -1,0 +1,13 @@
+{
+ "type":"object","additionalProperties":false,
+ "required":["x_scores","y_scores","winner","rationale","loser_weakness"],
+ "properties":{
+  "x_scores":{"type":"object","additionalProperties":false,"required":["gap_specificity","results_rigor","certainty_calibration","journal_fit","clarity"],
+    "properties":{"gap_specificity":{"type":"integer"},"results_rigor":{"type":"integer"},"certainty_calibration":{"type":"integer"},"journal_fit":{"type":"integer"},"clarity":{"type":"integer"}}},
+  "y_scores":{"type":"object","additionalProperties":false,"required":["gap_specificity","results_rigor","certainty_calibration","journal_fit","clarity"],
+    "properties":{"gap_specificity":{"type":"integer"},"results_rigor":{"type":"integer"},"certainty_calibration":{"type":"integer"},"journal_fit":{"type":"integer"},"clarity":{"type":"integer"}}},
+  "winner":{"type":"string","enum":["X","Y","tie"]},
+  "rationale":{"type":"string"},
+  "loser_weakness":{"type":"string"}
+ }
+}

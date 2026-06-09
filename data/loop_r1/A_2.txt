@@ -1,0 +1,9 @@
+BACKGROUND: Hydroquinidine reduces arrhythmic events in patients with Brugada syndrome (BrS). However, its antiarrhythmic mechanism and the specific electrophysiological effect it exerts on the BrS substrate remain poorly understood, leaving the basis for its clinical benefit incompletely characterized.
+
+OBJECTIVE: To determine the in vivo effect of hydroquinidine on ventricular depolarization and repolarization in patients with BrS.
+
+METHODS: In this prospective in vivo human study (QUIET BrS), 12 patients with Brugada syndrome were assessed at baseline and on-treatment with hydroquinidine 300 mg twice daily. Each patient underwent standard ECG, high-lead ECG, signal-averaged ECG, and electrocardiographic imaging (ECGI). ST-segment elevation, activation time, repolarization time, and activation-recovery interval (ARI) were computed for the ventricles and the right ventricular outflow tract (RVOT) in a paired baseline-versus-on-treatment comparison. Serum hydroquinidine levels were measured and adverse drug events were captured by medication survey.
+
+RESULTS: Hydroquinidine prolonged repolarization in the RVOT (repolarization time 301.1 +/- 24.1 vs 348.8 +/- 28.3 ms, P<.001; ARI 241.3 +/- 18.1 vs 284.8 +/- 21.5 ms, P<.001) and increased repolarization gradients (1.1 +/- 0.4 vs 1.6 +/- 0.4 ms/mm, P<.001). These changes were greater in the RVOT than in the rest of the ventricles. Activation parameters did not change significantly. ST-segment elevation over the RVOT increased subtly (1.5 +/- 0.7 vs 1.8 +/- 0.8 mV, P<.001). Serum levels did not correlate with electrophysiological changes or adverse reactions. One patient developed frequent nonsustained ventricular tachycardia on-treatment.
+
+CONCLUSION: In BrS, hydroquinidine acts primarily by prolonging ventricular repolarization and action potential duration, with regionally pronounced effects in the RVOT and minimal effect on depolarization.

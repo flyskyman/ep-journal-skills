@@ -1,0 +1,21 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'JACC'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+BACKGROUND: Catheter ablation is an established treatment for symptomatic atrial fibrillation (AF) that has failed antiarrhythmic drug therapy. Early postoperative cognitive dysfunction (POCD) has been reported after the procedure; however, whether this cognitive decline persists over the long term has not been defined, leaving the question of lasting cognitive harm unresolved.
+
+OBJECTIVES: This study sought to determine whether AF catheter ablation is associated with persistent cognitive dysfunction at 12-month follow-up.
+
+METHODS: In a prospective randomized controlled trial, 100 patients with symptomatic AF who had failed at least 1 antiarrhythmic drug were randomized to AF catheter ablation or ongoing medical therapy and followed for 12 months; 96 patients completed the protocol (mean age 59 +/- 12 years; 32% women; 46% persistent AF). Cognitive performance was assessed with a battery of 6 cognitive tests at baseline and at 3, 6, and 12 months. New cognitive dysfunction was compared between arms at each time point, and predictors of POCD were evaluated.
+
+RESULTS: New cognitive dysfunction was more frequent in the ablation arm than in the medical arm at 3 months (14% vs 2%; P = 0.03), but this difference resolved by 6 months (4% vs 2%; P = NS) and was absent at 12 months (0% vs 2%; P = NS). Ablation time was an independent predictor of POCD (P = 0.03). At 12 months, significant improvement in cognitive scores was observed in 14% of ablation-arm patients versus 0% of medical-arm patients (P = 0.007).
+
+CONCLUSIONS: POCD occurs after AF catheter ablation but is transient, with complete recovery by 12 months and no evidence of persistent long-term cognitive dysfunction; a subset of ablated patients even demonstrated cognitive improvement. These findings indicate that concern over lasting cognitive harm should not deter AF ablation in appropriately selected patients.
+
+=== Abstract Y ===
+BACKGROUND: Early postoperative cognitive dysfunction (POCD) has been reported following atrial fibrillation (AF) ablation. However, whether POCD is persistent long-term is unknown.
+OBJECTIVES: The purpose of this study was to determine if AF catheter ablation is associated with persistent cognitive dysfunction at 12-month follow-up.
+METHODS: This is a prospective study of 100 patients with symptomatic AF who failed at least 1 antiarrhythmic drug randomized to either ongoing medical therapy or AF catheter ablation and followed up for 12 months. Changes in cognitive performance were assessed using 6 cognitive tests administered at baseline and during follow-up (3, 6, and 12 months).
+RESULTS: A total of 96 participants completed the study protocol. Mean age was 59 ± 12 years (32% women, 46% with persistent AF). The prevalence of new cognitive dysfunction in the ablation arm compared with the medical arm was as follows: at 3 months: 14% vs 2%; P = 0.03; at 6 months: 4% vs 2%; P = NS; and at 12 months: 0% vs 2%; P = NS. Ablation time was an independent predictor of POCD (P = 0.03). A significant improvement in cognitive scores was seen in 14% of the ablation arm patients at 12 months compared with no patients in the medical arm (P = 0.007).
+CONCLUSIONS: POCD was observed following AF ablation. However, this was transient with complete recovery at 12-month follow-up.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

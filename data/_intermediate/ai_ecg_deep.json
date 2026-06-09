@@ -1,0 +1,2514 @@
+[
+  {
+    "pmid": "41655667",
+    "journal": "Heart Rhythm",
+    "year": "2026",
+    "title": "A novel predictive model for left atrial low-voltage areas in paroxysmal atrial fibrillation.",
+    "author": "Zhang Baowei",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-消融靶点/引导",
+      "Method-传统ML(RF/SVM/XGB)",
+      "Validation-外部验证",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.826
+    },
+    "sample_size": 383,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41933633",
+    "journal": "Heart Rhythm",
+    "year": "2026",
+    "title": "Improving transthyretin cardiac amyloidosis detection from electrocardiograms through the Willem artificial intelligence platform.",
+    "author": "Gonz&#xe1;lez-L&#xf3;pez Esther",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Target-心肌病筛查",
+      "Target-生物年龄/整体风险",
+      "Method-CNN/卷积网络",
+      "Translation-临床决策支持"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.92,
+      "Sensitivity": 80.7,
+      "Specificity": 78.5
+    },
+    "sample_size": 20754,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41956270",
+    "journal": "Heart Rhythm",
+    "year": "2026",
+    "title": "Multicenter validation of an artificial intelligence-enabled ECG model to predict 1-year risk of atrial fibrillation or flutter.",
+    "author": "Pfeifer John M",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Target-生物年龄/整体风险",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 31.0,
+      "Specificity": 92.0
+    },
+    "sample_size": 4017,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41525968",
+    "journal": "Heart Rhythm",
+    "year": "2026",
+    "title": "External validation of an explainable electrocardiogram-only deep learning algorithm for the prediction of response after cardiac resynchronization therapy.",
+    "author": "van de Leur Rutger R",
+    "fine_cats": [
+      "Target-CRT反应预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": 1306,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "42103288",
+    "journal": "Heart Rhythm",
+    "year": "2026",
+    "title": "Digital health tools for patient-centered lifestyle and risk factor modification in atrial fibrillation management.",
+    "author": "Isakadze Nino",
+    "fine_cats": [
+      "Translation-FDA/CE认证相关"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "42091101",
+    "journal": "Heart Rhythm",
+    "year": "2026",
+    "title": "HRS scientific statement on artificial intelligence integration framework into clinical electrophysiology workflows.",
+    "author": "Armoundas Antonis A",
+    "fine_cats": [
+      "Translation-FDA/CE认证相关"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "42119915",
+    "journal": "Heart Rhythm",
+    "year": "2026",
+    "title": "Artificial Intelligence Versus Electrophysiologist Adjudication of Atrial Arrhythmias.",
+    "author": "Andrade Jason G",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39814192",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Application of artificial intelligence to analyze data from randomized controlled trials: An example from DECAAF II.",
+    "author": "Mekhael Mario",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF复发预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39826638",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Peak frequency analysis and functional substrate mapping to predict critical isthmus of atypical atrial tachycardia: Findings from a novel automated annotation algorithm to detect near-field signals.",
+    "author": "Yorgun Hikmet",
+    "fine_cats": [
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 80.0,
+      "Specificity": 78.3
+    },
+    "sample_size": 25,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41265768",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Predicting decline in left ventricular function after new-onset left bundle branch block.",
+    "author": "Goings Dylan",
+    "fine_cats": [
+      "Target-传导异常/缓慢心律失常",
+      "Target-心衰/心功能预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": 769,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40107403",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Comparison of the characteristics between machine learning and deep learning algorithms for ablation site classification in a novel cloud-based system.",
+    "author": "Narita Masataka",
+    "fine_cats": [
+      "Target-消融靶点/引导",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 71.2
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39800092",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Enhanced detection of atrial fibrillation in single-lead electrocardiograms using a Cloud-based artificial intelligence platform.",
+    "author": "De Guio Fran&#xe7;ois",
+    "fine_cats": [
+      "Input-单导联/可穿戴ECG",
+      "Target-AF检测/预测"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 83.3,
+      "Specificity": 97.3,
+      "Accuracy": 96.1,
+      "NPV": 98.4,
+      "PPV": 75.2
+    },
+    "sample_size": 8528,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41207649",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Accounting for inconclusive results and repeated testing: A framework for evaluating wearable electrocardiogram diagnostic performance with application to Apple Watch and artificial intelligence-enhanced interpretation.",
+    "author": "Doggart Peter",
+    "fine_cats": [
+      "Input-单导联/可穿戴ECG",
+      "Input-PPG/光电",
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 96.1,
+      "Specificity": 96.1
+    },
+    "sample_size": 296,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40850589",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Prediction of incident atrial fibrillation: A comprehensive evaluation of conventional and artificial intelligence-enhanced approaches.",
+    "author": "Sau Arunashis",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {},
+    "sample_size": 189539,
+    "cohort_names": [
+      "UK Biobank"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41354230",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Development and validation of a novel machine learning-based algorithm to predict incident atrial fibrillation: A multicohort analysis.",
+    "author": "Segar Matthew W",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {},
+    "sample_size": 16719,
+    "cohort_names": [
+      "Framingham"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41352445",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Artificial intelligence-enabled electrocardiographic sex discordance and the risk of incident atrial fibrillation: A multinational cohort study.",
+    "author": "Park Hanjin",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {},
+    "sample_size": 205769,
+    "cohort_names": [
+      "UK Biobank"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41265769",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "The artificial intelligence-derived electrocardiographic age gap is associated with adverse clinical outcomes in LMNA-related cardiomyopathy.",
+    "author": "Castrichini Matteo",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41139036",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Machine learning-enabled assessment of risk of drug-induced QT prolongation at the time of prescribing.",
+    "author": "Jing Linyuan",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Method-传统ML(RF/SVM/XGB)"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.874,
+      "PPV": 61.5
+    },
+    "sample_size": 345371,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40368290",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Artificial intelligence electrocardiogram-predicted biological age gap and mortality: Capturing dynamic risk with multiple electrocardiograms.",
+    "author": "Evans Shaun",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": 337415,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41242590",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Targetable atrial tachycardias after artificial intelligence-guided ablation of persistent atrial fibrillation.",
+    "author": "Deisenhofer Isabel",
+    "fine_cats": [
+      "Target-AF复发预测",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {},
+    "sample_size": 96,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41203188",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Single lattice-tip catheter workflow for artificial intelligence-guided spatiotemporal dispersion ablation.",
+    "author": "Nair Devi G",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41101371",
+    "journal": "Heart Rhythm",
+    "year": "2025",
+    "title": "Image based artificial intelligence-enhanced electrocardiogram prediction of incident atrial fibrillation.",
+    "author": "Zeidaabadi Boroumand",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险",
+      "Method-集成/多模型比较",
+      "Method-可解释性/SHAP"
+    ],
+    "perf_metrics": {},
+    "sample_size": 1163401,
+    "cohort_names": [
+      "UK Biobank"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39207348",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Avoiding burnout from AI in busy clinical practice.",
+    "author": "Ayyaswami Varun",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39207355",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Optimizing clinical operations with AI.",
+    "author": "Han Janet K",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39207349",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Implementing AI in clinical practice: Practical insights on integrating AI through digital dashboards and beyond.",
+    "author": "Baykaner Tina",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39207350",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "What is AI and why should I care?",
+    "author": "Stultz Collin M",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39207351",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Managing data overload: AI, wearables, and apps.",
+    "author": "Cheung Christopher C",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38752904",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "The potential of artificial intelligence to revolutionize health care delivery, research, and education in cardiac electrophysiology.",
+    "author": "Al-Khatib Sana M",
+    "fine_cats": [
+      "Translation-FDA/CE认证相关"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38382686",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Conduction system pacing versus biventricular pacing in heart failure with reduced ejection fraction: A systematic review and meta-analysis of randomized controlled trials.",
+    "author": "Ferreira Felix Iuri",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": 408,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38772431",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Cardiac resynchronization therapy for patients with mild to moderately reduced ejection fraction and left bundle branch block.",
+    "author": "Cha Yong-Mei",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": 76,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38403235",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "ECG-only explainable deep learning algorithm predicts the risk for malignant ventricular arrhythmia in phospholamban cardiomyopathy.",
+    "author": "van de Leur Rutger R",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Input-多模态",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39341434",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Artificial intelligence age prediction using electrocardiogram data: Exploring biological age differences.",
+    "author": "Evans Shaun",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-生物年龄/整体风险",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {},
+    "sample_size": 63246,
+    "cohort_names": [
+      "UK Biobank"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38493991",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Artificial intelligence predicts undiagnosed atrial fibrillation in patients with embolic stroke of undetermined source using sinus rhythm electrocardiograms.",
+    "author": "Choi Jina",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Method-Transformer/Attention"
+    ],
+    "perf_metrics": {},
+    "sample_size": 58,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39236992",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Development and validation of a predictive model for atrial fibrillation recurrence post-catheter ablation in patients with nonvalvular atrial fibrillation on the basis of hemodynamic parameters.",
+    "author": "Zeng Decai",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-AF复发预测",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {},
+    "sample_size": 132,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39168295",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Improved diagnosis of arrhythmogenic right ventricular cardiomyopathy using electrocardiographic deep learning.",
+    "author": "Carrick Richard T",
+    "fine_cats": [
+      "Target-心肌病筛查"
+    ],
+    "perf_metrics": {},
+    "sample_size": 688,
+    "cohort_names": [
+      "MIMIC"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39427689",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Use of artificial intelligence algorithms to reduce transmissions in implantable loop recorders.",
+    "author": "Middeldorp Melissa E",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38692342",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Automated interpretations of single-lead electrocardiograms predict incident atrial fibrillation: The VITAL-AF trial.",
+    "author": "Pipilas Daniel C",
+    "fine_cats": [
+      "Input-单导联/可穿戴ECG",
+      "Target-AF检测/预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": 16306,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39127231",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Detection of cardiac sarcoidosis with the artificial intelligence-enhanced electrocardiogram.",
+    "author": "de Melo Jose F",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38365126",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Electrocardiography deep learning models to predict high-risk imaging features in patients with hypertrophic cardiomyopathy: Can it change clinical practice?",
+    "author": "Bidaoui Ghassan",
+    "fine_cats": [
+      "Input-CMR/CT影像"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39245250",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Prediction of sudden cardiac death using artificial intelligence: Current status and future directions.",
+    "author": "Kolk Maarten Z H",
+    "fine_cats": [
+      "Target-VT/VF/SCA检测",
+      "Target-心衰/心功能预测",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38354872",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Enhancing transvenous lead extraction risk prediction: Integrating imaging biomarkers into machine learning models.",
+    "author": "Mehta Vishal S",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.767,
+      "Sensitivity": 75.0,
+      "Specificity": 72.0,
+      "Accuracy": 98.0
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38215808",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Artificial intelligence-adjudicated spatiotemporal dispersion: A patient-unique fingerprint of persistent atrial fibrillation.",
+    "author": "Seitz Julien",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": 78,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39515502",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Machine learning identifies arrhythmogenic features of QRS fragmentation in human cardiomyopathy: Implications for improving risk stratification.",
+    "author": "Ly Cathy Ong",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Method-传统ML(RF/SVM/XGB)"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.88
+    },
+    "sample_size": 95,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38692340",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Diagnostic accuracy for detecting atrial fibrillation using a novel machine learning algorithm in a blood pressure monitor.",
+    "author": "Janik Matthew",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Target-AF检测/预测",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 95.1,
+      "Specificity": 98.6,
+      "Accuracy": 97.0
+    },
+    "sample_size": 559,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39482040",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Top stories on using computational modeling and artificial intelligence to uncover arrhythmogenic mechanisms and advance arrhythmia management.",
+    "author": "Trayanova Natalia A",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38971419",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Bearing witness: Early detection of cardiac arrhythmias using a modified wearable ECG monitor.",
+    "author": "Santi-Turchi Aura Daniella",
+    "fine_cats": [
+      "Input-单导联/可穿戴ECG"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39389520",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Utility of conversational artificial intelligence with large language models for patient information on cardiac electrophysiology procedures.",
+    "author": "Sritharan Hari P",
+    "fine_cats": [
+      "Method-NLP/LLM"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39207356",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Understanding AI bias in clinical practice.",
+    "author": "Adedinsewo Demilade",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39207352",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Evolving role of artificial intelligence in health care.",
+    "author": "Deering Thomas F",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39207353",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Learning AI for busy clinicians: Staying ahead.",
+    "author": "Narayan Sanjiv M",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38797305",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Machine learning for prediction of ventricular arrhythmia episodes from&#xa0;intracardiac electrograms of automatic implantable cardioverter-defibrillators.",
+    "author": "Cha Yong-Mei",
+    "fine_cats": [
+      "Input-心内电图(EGM/ICE)",
+      "Target-VT/VF/SCA检测",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {},
+    "sample_size": 13516,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38588991",
+    "journal": "Heart Rhythm",
+    "year": "2024",
+    "title": "Balancing innovation and professionalism: The emerging role of AI-powered chatbots in medical consultation.",
+    "author": "Itelman Edward",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "36621589",
+    "journal": "Heart Rhythm",
+    "year": "2023",
+    "title": "Detection and identification of cardiac implanted electronic devices in a large data set of chest radiographs using semi-supervised artificial intelligence methods.",
+    "author": "Theriault Lauzier Pascal",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "37247684",
+    "journal": "Heart Rhythm",
+    "year": "2023",
+    "title": "Machine learning-powered, device-embedded heart sound measurement can optimize AV delay in patients with CRT.",
+    "author": "Westphal Philip",
+    "fine_cats": [
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37495037",
+    "journal": "Heart Rhythm",
+    "year": "2023",
+    "title": "Early left bundle branch pacing in heart failure with mildly reduced ejection fraction and left bundle branch block.",
+    "author": "Zeng Jiaxin",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37328130",
+    "journal": "Heart Rhythm",
+    "year": "2023",
+    "title": "Machine learning and the automated optimization of cardiac device parameters.",
+    "author": "Mendenhall G Stuart",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "37406873",
+    "journal": "Heart Rhythm",
+    "year": "2023",
+    "title": "Artificial intelligence for detection of ventricular oversensing: Machine learning approaches for noise detection within nonsustained ventricular tachycardia episodes remotely transmitted by pacemakers and implantable cardioverter-defibrillators.",
+    "author": "Strik Marc",
+    "fine_cats": [
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 95.0,
+      "Specificity": 99.0
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37442407",
+    "journal": "Heart Rhythm",
+    "year": "2023",
+    "title": "Toward advanced diagnosis and management of inherited arrhythmia syndromes: Harnessing the capabilities of artificial intelligence and machine learning.",
+    "author": "Asatryan Babken",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Translation-临床决策支持"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41979465",
+    "journal": "Circ AE",
+    "year": "2026",
+    "title": "Automated Cardiac Arrest Detection Using Wrist-Worn Photoplethysmography: External Validation in Patients With Induced Shockable Cardiac Arrest (DETECT-1b).",
+    "author": "Edgar Roos",
+    "fine_cats": [
+      "Target-VT/VF/SCA检测"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41431897",
+    "journal": "Circ AE",
+    "year": "2025",
+    "title": "Convolutional Neural Network Models Leverage Morphological Rather Than Temporal Features to Detect Myocardial Diseases From 12-Lead Electrocardiograms.",
+    "author": "Nakayama Masamitsu",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41078115",
+    "journal": "Circ AE",
+    "year": "2025",
+    "title": "Relations of AI-Vascular Age Estimated From a Peripheral Pressure Waveform With Incident Atrial Fibrillation: The Framingham Heart Study.",
+    "author": "Korzinski Timothy J",
+    "fine_cats": [
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41025252",
+    "journal": "Circ AE",
+    "year": "2025",
+    "title": "Prediction of Atrial Fibrillation From the ECG in the Community Using Deep Learning: A Multinational Study.",
+    "author": "Brant Luisa C C",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Input-多模态",
+      "Target-AF检测/预测",
+      "Target-心衰/心功能预测",
+      "Target-生物年龄/整体风险",
+      "Method-集成/多模型比较",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {},
+    "sample_size": 284,
+    "cohort_names": [
+      "Framingham",
+      "UK Biobank",
+      "ELSA-Brasil"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40856041",
+    "journal": "Circ AE",
+    "year": "2025",
+    "title": "Deep Learning Can Unmask Conduction Tissue Disease From an Ambulatory ECG.",
+    "author": "Fiorina Laurent",
+    "fine_cats": [
+      "Input-单导联/可穿戴ECG",
+      "Input-CMR/CT影像",
+      "Target-传导异常/缓慢心律失常",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.88,
+      "Accuracy": 60.0,
+      "NPV": 99.9
+    },
+    "sample_size": 189,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40709465",
+    "journal": "Circ AE",
+    "year": "2025",
+    "title": "Machine Learning Identification of Athlete Sport Type Through ECG Analysis.",
+    "author": "Cofer Lucas B",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39925268",
+    "journal": "Circ AE",
+    "year": "2025",
+    "title": "Comparing Phenotypes for Acute and Long-Term Response to Atrial Fibrillation Ablation Using Machine Learning.",
+    "author": "Ganesan Prasanth",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Input-多模态",
+      "Target-AF检测/预测",
+      "Target-AF复发预测",
+      "Target-消融靶点/引导",
+      "Method-传统ML(RF/SVM/XGB)",
+      "Method-集成/多模型比较",
+      "Validation-外部验证"
+    ],
+    "perf_metrics": {},
+    "sample_size": 77,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39676642",
+    "journal": "Circ AE",
+    "year": "2024",
+    "title": "Engineering of Generative Artificial Intelligence and Natural Language Processing Models to Accurately Identify Arrhythmia Recurrence.",
+    "author": "Feng Ruibin",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Method-RNN/LSTM/时序",
+      "Method-Transformer/Attention",
+      "Method-NLP/LLM"
+    ],
+    "perf_metrics": {
+      "Accuracy": 91.4
+    },
+    "sample_size": 125,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39624901",
+    "journal": "Circ AE",
+    "year": "2024",
+    "title": "Artificial Intelligence-Based Feature Analysis of Pulmonary Vein Morphology on Computed Tomography Scans and Risk of Atrial Fibrillation Recurrence After Catheter Ablation: A Multi-Site Study.",
+    "author": "Asaeikheybari Golnoush",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Target-AF复发预测",
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {},
+    "sample_size": 809,
+    "cohort_names": [
+      "Cleveland Clinic"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39445440",
+    "journal": "Circ AE",
+    "year": "2024",
+    "title": "Using Atrial Fibrillation Burden Trends and Machine Learning to Predict Near-Term Risk of Cardiovascular Hospitalization.",
+    "author": "Peacock James",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": 2616,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39193715",
+    "journal": "Circ AE",
+    "year": "2024",
+    "title": "Electrocardiogram-Based Artificial Intelligence to Discriminate Cardioembolic Stroke and Stratify Risk of Atrial Fibrillation After Stroke.",
+    "author": "Khurshid Shaan",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38284289",
+    "journal": "Circ AE",
+    "year": "2024",
+    "title": "Artificial Intelligence Model Predicts Sudden Cardiac Arrest Manifesting With Pulseless Electric Activity Versus Ventricular Fibrillation.",
+    "author": "Holmstrom Lauri",
+    "fine_cats": [
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37565338",
+    "journal": "Circ AE",
+    "year": "2023",
+    "title": "Artificial Intelligence-Enabled Electrocardiogram in the Detection of Patients at Risk of Atrial Secondary Mitral Regurgitation.",
+    "author": "Naser Jwan A",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "37334705",
+    "journal": "Circ AE",
+    "year": "2023",
+    "title": "Evaluating Recommendations About Atrial Fibrillation for Patients and Clinicians Obtained From Chat-Based Artificial Intelligence Algorithms.",
+    "author": "Azizi Zahra",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "36716179",
+    "journal": "Circ AE",
+    "year": "2023",
+    "title": "Deep Learning of ECG for the Prediction of Postoperative Atrial Fibrillation.",
+    "author": "Tohyama Takeshi",
+    "fine_cats": [
+      "Target-AF检测/预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41873929",
+    "journal": "Europace",
+    "year": "2026",
+    "title": "Promising advances and remaining challenges in AI-driven QTc estimation.",
+    "author": "Yu Zekai",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41873928",
+    "journal": "Europace",
+    "year": "2026",
+    "title": "Response to 'promising advances and remaining challenges in AI-driven QTc estimation' by Zekai Yu.",
+    "author": "Plagwitz Lucas",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41669820",
+    "journal": "Europace",
+    "year": "2026",
+    "title": "Artificial intelligence ECG localization facilitates focused activation mapping and improves outcomes in hemodynamically unstable ventricular tachycardia.",
+    "author": "Ho Gordon",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41589068",
+    "journal": "Europace",
+    "year": "2026",
+    "title": "Deep learning to predict left ventricular hypertrophy from the electrocardiogram.",
+    "author": "Naderi Hafiz",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Method-CNN/卷积网络",
+      "Method-传统ML(RF/SVM/XGB)",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.97
+    },
+    "sample_size": 1423,
+    "cohort_names": [
+      "UK Biobank"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41512109",
+    "journal": "Europace",
+    "year": "2026",
+    "title": "Computer-aided characterization of the arrhythmogenic substrate after myocardial infarction.",
+    "author": "Kloosterman Manon",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-VT/VF/SCA检测",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41140122",
+    "journal": "Europace",
+    "year": "2025",
+    "title": "QTcNet: a deep learning model for direct heart rate corrected QT interval estimation.",
+    "author": "Plagwitz Lucas",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Method-CNN/卷积网络",
+      "Validation-外部验证"
+    ],
+    "perf_metrics": {},
+    "sample_size": 5219,
+    "cohort_names": [
+      "MIMIC"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40972594",
+    "journal": "Europace",
+    "year": "2025",
+    "title": "Dynamic changes of artificial intelligence estimated electrocardiographic age and sex predicts recurrence after atrial fibrillation catheter ablation.",
+    "author": "Park Hanjin",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-AF复发预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "40848259",
+    "journal": "Europace",
+    "year": "2025",
+    "title": "Conduction system pacing vs. biventricular pacing for cardiac resynchronization: the CSP-SYNC randomized single centre study.",
+    "author": "Žižek David",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40795818",
+    "journal": "Europace",
+    "year": "2025",
+    "title": "Reliability of large language models for reviewing research with artificial intelligence in cardiac electrophysiology using the European Heart Rhythm Association artificial intelligence checklist.",
+    "author": "Sluha Amalia",
+    "fine_cats": [
+      "Method-NLP/LLM"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "40163651",
+    "journal": "Europace",
+    "year": "2025",
+    "title": "State of the Art of Artificial Intelligence in Clinical Electrophysiology in 2025: A Scientific Statement of the European Heart Rhythm Association (EHRA) of the ESC, the Heart Rhythm Society (HRS), and the ESC Working Group on E-Cardiology.",
+    "author": "Svennberg Emma",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39960451",
+    "journal": "Europace",
+    "year": "2025",
+    "title": "External validation of a machine learning-based classification algorithm for ambulatory heart rhythm diagnostics in pericardioversion atrial fibrillation patients using smartphone photoplethysmography: the SMARTBEATS-ALGO study.",
+    "author": "Fernstad Jonatan",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-单导联/可穿戴ECG",
+      "Input-PPG/光电",
+      "Target-AF检测/预测",
+      "Method-传统ML(RF/SVM/XGB)"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 99.7,
+      "Specificity": 99.7,
+      "Accuracy": 99.7
+    },
+    "sample_size": 460,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39271126",
+    "journal": "Europace",
+    "year": "2024",
+    "title": "Enhancing origin prediction: deep learning model for diagnosing premature ventricular contractions with dual-rhythm analysis focused on cardiac rotation.",
+    "author": "Nakasone Kazutaka",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-PVC/室早定位",
+      "Method-CNN/卷积网络",
+      "Method-Transformer/Attention",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {
+      "Specificity": 77.3,
+      "Accuracy": 77.3
+    },
+    "sample_size": 593,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39073570",
+    "journal": "Europace",
+    "year": "2024",
+    "title": "Innovative approaches to atrial fibrillation prediction: should polygenic scores and machine learning be implemented in clinical practice?",
+    "author": "Petzl Adrian M",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Translation-筛查项目/人群健康"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38682165",
+    "journal": "Europace",
+    "year": "2024",
+    "title": "Validation of a machine learning algorithm to identify pulmonary vein isolation during ablation procedures for the treatment of atrial fibrillation: results of the PVISION study.",
+    "author": "De Pooter Jan",
+    "fine_cats": [
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 92.0,
+      "Sensitivity": 87.0,
+      "Specificity": 87.0,
+      "Accuracy": 87.0
+    },
+    "sample_size": 89,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38417839",
+    "journal": "Europace",
+    "year": "2024",
+    "title": "Incorporating machine learning into the decision-making process regarding implantable cardioverter-defibrillator treatment.",
+    "author": "Çamlı Babayiğit Ezgi",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38079535",
+    "journal": "Europace",
+    "year": "2024",
+    "title": "Single-lead electrocardiogram Artificial Intelligence model with risk factors detects atrial fibrillation during sinus rhythm.",
+    "author": "Dupulthys Stijn",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-单导联/可穿戴ECG",
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Target-生物年龄/整体风险",
+      "Method-传统ML(RF/SVM/XGB)",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {},
+    "sample_size": 479,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38288616",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Virtual pacing of a patient's digital twin to predict left ventricular reverse remodelling after cardiac resynchronization therapy.",
+    "author": "Koopsen Tijmen",
+    "fine_cats": [
+      "Target-心衰/心功能预测",
+      "Target-CRT反应预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38227817",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Using artificial intelligence-enabled electrocardiogram to predict cardiac resynchronization therapy outcomes of left bundle branch area pacing.",
+    "author": "Chen Jingjing",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38170474",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Improved diagnostic performance of insertable cardiac monitors by an artificial intelligence-based algorithm.",
+    "author": "Crespin Eliot",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-VT/VF/SCA检测"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 98.6,
+      "Specificity": 76.0
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38155600",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Chat-based artificial intelligence for patient information on atrial fibrillation and cardiac implantable electronic devices: comment.",
+    "author": "Daungsupawong Hinpetch",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38127304",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Accuracy and comprehensibility of chat-based artificial intelligence for patient information on atrial fibrillation and cardiac implantable electronic devices.",
+    "author": "Hillmann Henrike A K",
+    "fine_cats": [
+      "Method-NLP/LLM"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37944131",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Identification of Brugada syndrome based on P-wave features: an artificial intelligence-based approach.",
+    "author": "Zanchi Beatrice",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Target-Brugada综合征",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 86.0,
+      "Specificity": 73.0,
+      "Accuracy": 81.0
+    },
+    "sample_size": 123,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37712675",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Optimizing patient selection for primary prevention implantable cardioverter-defibrillator implantation: utilizing multimodal machine learning to assess risk of implantable cardioverter-defibrillator non-benefit.",
+    "author": "Kolk Maarten Z H",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Input-多模态",
+      "Target-VT/VF/SCA检测",
+      "Target-心衰/心功能预测",
+      "Validation-外部验证"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.9
+    },
+    "sample_size": 1010,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37477946",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Feasibility of three-dimensional artificial intelligence algorithm integration with intracardiac echocardiography for left atrial imaging during atrial fibrillation catheter ablation.",
+    "author": "Di Biase Luigi",
+    "fine_cats": [
+      "Input-心内电图(EGM/ICE)",
+      "Input-CMR/CT影像",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {},
+    "sample_size": 28,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36881791",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Acute oesophageal safety and long-term follow-up of AI-guided high-power short-duration with 50 W for atrial fibrillation ablation.",
+    "author": "Müller Julian",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-AF复发预测",
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": 795,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36881777",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "An artificial intelligence-based model for prediction of atrial fibrillation from single-lead sinus rhythm electrocardiograms facilitating screening.",
+    "author": "Hygrell Tove",
+    "fine_cats": [
+      "Input-单导联/可穿戴ECG",
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Target-生物年龄/整体风险",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.8
+    },
+    "sample_size": 831,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36610061",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Exploring the incremental utility of circulating biomarkers for robust risk prediction of incident atrial fibrillation in European cohorts using regressions and modern machine learning methods.",
+    "author": "Toprak Betül",
+    "fine_cats": [
+      "Target-AF检测/预测"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 51.7
+    },
+    "sample_size": 42,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36369980",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Non-invasive localization of post-infarct ventricular tachycardia exit sites to guide ablation planning: a computational deep learning platform utilizing the 12-lead electrocardiogram and intracardiac electrograms from implanted devices.",
+    "author": "Monaci Sofia",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-心内电图(EGM/ICE)",
+      "Input-CMR/CT影像",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36352513",
+    "journal": "Europace",
+    "year": "2023",
+    "title": "Upgrading right ventricular pacemakers to biventricular pacing or conduction system pacing: a systematic review and meta-analysis.",
+    "author": "Kaza Nandita",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": 2644,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "42047422",
+    "journal": "JACC EP",
+    "year": "2026",
+    "title": "Artificial Intelligence and Biological Age: How Many Years Young Are You?",
+    "author": "Kadiyala",
+    "fine_cats": [
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41790087",
+    "journal": "JACC EP",
+    "year": "2026",
+    "title": "Electrocardiogram-Based Artificial Intelligence to Predict Recurrence After Cardioversion for Newly Diagnosed Atrial Fibrillation.",
+    "author": "Usuda",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-AF复发预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41498721",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "From Algorithm to Bedside: Making AI Models Clinically Meaningful.",
+    "author": "Holmström",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "41441802",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Preimplantation AI-ECG Age as a Predictor of Survival Following Cardiac Resynchronization Therapy.",
+    "author": "Gupta",
+    "fine_cats": [
+      "Target-心衰/心功能预测",
+      "Target-CRT反应预测",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": 464,
+    "cohort_names": [
+      "Mayo Clinic"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41348081",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Predicting Sudden Cardiac Death in Patients With Sarcoidosis Using a Multimodal Artificial Intelligence Model.",
+    "author": "Lai",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Input-多模态",
+      "Target-VT/VF/SCA检测",
+      "Target-心衰/心功能预测",
+      "Method-CNN/卷积网络",
+      "Method-集成/多模型比较",
+      "Translation-临床决策支持"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.86,
+      "Accuracy": 95.0
+    },
+    "sample_size": 317,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41288540",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Detection of Titin-Associated Electrocardiography Features in Dilated Cardiomyopathy Using Conventional and Deep Neural Network Analysis.",
+    "author": "Heymans",
+    "fine_cats": [
+      "Target-生物年龄/整体风险",
+      "Method-传统ML(RF/SVM/XGB)",
+      "Method-集成/多模型比较",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40938228",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Infant Electrocardiogram-Based Deep Learning Predicts Critical Congenital Heart Disease.",
+    "author": "Mayourian",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "40838921",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Rethinking Risk in Mitral Valve Prolapse: The Promise of Machine Learning and Multimodal Phenotyping.",
+    "author": "Deharo",
+    "fine_cats": [
+      "Input-多模态"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "40767798",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Fully Automated Anatomy Labeling for Intracardiac Echocardiography Using Deep Learning.",
+    "author": "Gol Gungor",
+    "fine_cats": [
+      "Input-心内电图(EGM/ICE)",
+      "Input-CMR/CT影像"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40471767",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Detecting Arrhythmogenic Right Ventricular Cardiomyopathy From the Electrocardiogram Using Deep Learning.",
+    "author": "Sigfstead",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "40100197",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Real-World Artificial Intelligence-Based Electrocardiographic Analysis to Diagnose Hypertrophic Cardiomyopathy.",
+    "author": "Desai",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-心肌病筛查",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 95.0,
+      "Specificity": 98.0,
+      "Accuracy": 98.0,
+      "PPV": 66.0
+    },
+    "sample_size": 45873,
+    "cohort_names": [
+      "Cleveland Clinic"
+    ],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40100196",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Expert-Level Automated Diagnosis of the Pediatric ECG Using a Deep Neural Network.",
+    "author": "Mayourian",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-生物年龄/整体风险",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.99
+    },
+    "sample_size": 583134,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40099772",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Automated Diagnosis of Pediatric ECG Through AI-ECG: As Good (And Bad) as The Experts.",
+    "author": "Nash",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39945715",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Causal Machine Learning for Left Atrial Appendage Occlusion in Patients With Atrial Fibrillation.",
+    "author": "Ngufor",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Translation-临床决策支持"
+    ],
+    "perf_metrics": {},
+    "sample_size": 28930,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39808087",
+    "journal": "JACC EP",
+    "year": "2025",
+    "title": "Artificial Intelligence-Enabled Electrocardiogram Predicts Sudden Cardiac Death in Repaired Tetralogy of Fallot.",
+    "author": "Mayourian",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39520430",
+    "journal": "JACC EP",
+    "year": "2024",
+    "title": "AI and Personal Digital Health Tools: Pioneering the Future of Precision Health Care.",
+    "author": "Gay",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "39387744",
+    "journal": "JACC EP",
+    "year": "2024",
+    "title": "Serum Potassium Monitoring Using AI-Enabled Smartwatch Electrocardiograms.",
+    "author": "Chiu",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-单导联/可穿戴ECG",
+      "Input-CMR/CT影像",
+      "Target-VT/VF/SCA检测",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.876
+    },
+    "sample_size": 293557,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39297841",
+    "journal": "JACC EP",
+    "year": "2024",
+    "title": "Electrocardiogram-Based Deep Learning to Predict Mortality in Repaired Tetralogy of Fallot.",
+    "author": "Mayourian",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险",
+      "Method-CNN/卷积网络",
+      "Method-可解释性/SHAP",
+      "Validation-多中心/多国"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 1.0
+    },
+    "sample_size": 13077,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39243255",
+    "journal": "JACC EP",
+    "year": "2024",
+    "title": "Optimizing the Distribution of Ablation Lesions to Prevent Postablation Atrial Tachycardia: A Personalized Digital-Twin Study.",
+    "author": "Sakata",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38842977",
+    "journal": "JACC EP",
+    "year": "2024",
+    "title": "Machine Learning of Cardiac Anatomy and the Risk of New-Onset Atrial Fibrillation After TAVR.",
+    "author": "Brahier",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Method-传统ML(RF/SVM/XGB)",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {},
+    "sample_size": 1385,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38597855",
+    "journal": "JACC EP",
+    "year": "2024",
+    "title": "Assessing Biological Age: The Potential of ECG Evaluation Using Artificial Intelligence: JACC Family Series.",
+    "author": "Lopez-Jimenez",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38340117",
+    "journal": "JACC EP",
+    "year": "2024",
+    "title": "Continuous Atrial Fibrillation Monitoring From Photoplethysmography: Comparison Between Supervised Deep Learning and Heuristic Signal Processing.",
+    "author": "Antiperovitch",
+    "fine_cats": [
+      "Input-PPG/光电",
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Method-CNN/卷积网络",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.994,
+      "Sensitivity": 99.6,
+      "Specificity": 95.5
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38069976",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "Toward Digital Twin Technology for Precision Pharmacology.",
+    "author": "Yang",
+    "fine_cats": [
+      "Input-CMR/CT影像"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37611994",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "Deep Learning for Premature Ventricular Contraction-Cardiomyopathy: Are We Digging Deep Enough?",
+    "author": "Kowlgi",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "37498242",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "AI-Enabled ECG for Paroxysmal Atrial Fibrillation Detection: One Step to Closer to the Finish Line.",
+    "author": "Kalscheur",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "37480862",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "A Novel ECG-Based Deep Learning Algorithm to Predict Cardiomyopathy in Patients With Premature Ventricular Complexes.",
+    "author": "Lampert",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-心肌病筛查",
+      "Target-心衰/心功能预测",
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险",
+      "Validation-外部验证"
+    ],
+    "perf_metrics": {},
+    "sample_size": 383514,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37354171",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "Detecting Paroxysmal Atrial Fibrillation From an Electrocardiogram in Sinus Rhythm: External Validation of the AI Approach.",
+    "author": "Gruwez",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Target-AF检测/预测",
+      "Validation-外部验证"
+    ],
+    "perf_metrics": {
+      "Accuracy": 78.1
+    },
+    "sample_size": 494042,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36939662",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "JACC Journals' Pathway Forward With AI Tools: The Future Is Now.",
+    "author": "Fuster",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "36858691",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "Smart Devices in Detecting AF: Excellent Signal Quality, But AI Can Still Learn From Clinicians.",
+    "author": "Teh",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "36858690",
+    "journal": "JACC EP",
+    "year": "2023",
+    "title": "Clinical Validation of 5 Direct-to-Consumer Wearable Smart Devices to Detect Atrial Fibrillation: BASEL Wearable Study.",
+    "author": "Mannhart",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-单导联/可穿戴ECG",
+      "Input-PPG/光电",
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 85.0,
+      "Specificity": 85.0,
+      "Accuracy": 31.0
+    },
+    "sample_size": 201,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36858692",
+    "journal": "JACC EP",
+    "year": "2022",
+    "title": "Development of an AI-Driven QT Correction Algorithm for Patients in Atrial Fibrillation.",
+    "author": "Tarabanis",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Target-生物年龄/整体风险",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {},
+    "sample_size": 6432,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41969104",
+    "journal": "PACE",
+    "year": "2026",
+    "title": "Left Bundle Branch Area Pacing Reverts Electromechanical Window Negativity to a Similar Extent as Biventricular Pacing.",
+    "author": "Klein Florien",
+    "fine_cats": [
+      "Target-CRT反应预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": 86,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40838527",
+    "journal": "PACE",
+    "year": "2025",
+    "title": "From Clinic to Cloud: Efficacy of AI-Assisted Remote Monitoring of Patients With Implantable Cardiac Devices.",
+    "author": "Chiu Cheyenne S L",
+    "fine_cats": [
+      "Target-心衰/心功能预测",
+      "Translation-FDA/CE认证相关",
+      "Translation-临床决策支持"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40625105",
+    "journal": "PACE",
+    "year": "2025",
+    "title": "Machine Learning-Based Prognostic Models for Mortality in Patients Receiving Implantable Cardioverter Defibrillators.",
+    "author": "Pan Lei",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-CRT反应预测",
+      "Method-可解释性/SHAP",
+      "Translation-临床决策支持"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.7
+    },
+    "sample_size": 3175,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "39428720",
+    "journal": "PACE",
+    "year": "2024",
+    "title": "Machine Learning for Localization of Premature Ventricular Contraction Origins: A Review.",
+    "author": "Yang Rui",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-PVC/室早定位"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38712484",
+    "journal": "PACE",
+    "year": "2024",
+    "title": "Application of artificial intelligence in the diagnosis and treatment of cardiac arrhythmia.",
+    "author": "Guo Rong-Xin",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Method-NLP/LLM"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38583090",
+    "journal": "PACE",
+    "year": "2024",
+    "title": "Successful prediction of left bundle branch block-induced cardiomyopathy and treatment effect by artificial intelligence-enabled electrocardiogram.",
+    "author": "Dhawan Rahul",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-传导异常/缓慢心律失常",
+      "Target-心衰/心功能预测"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38029363",
+    "journal": "PACE",
+    "year": "2023",
+    "title": "Deep learning-based regional ECG diagnosis platform.",
+    "author": "Li Fang",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Target-生物年龄/整体风险",
+      "Method-集成/多模型比较",
+      "Validation-前瞻性验证"
+    ],
+    "perf_metrics": {
+      "Sensitivity": 98.01,
+      "Specificity": 98.01,
+      "NPV": 98.01,
+      "PPV": 98.01
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37846741",
+    "journal": "PACE",
+    "year": "2023",
+    "title": "Integrated machine learning a predictor of pacemaker implantation after transcatheter aortic valve replacement.",
+    "author": "Condello Ignazio",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "36915235",
+    "journal": "PACE",
+    "year": "2023",
+    "title": "Permanent His bundle pacing in patients with right atriomegaly: The value of different dedicated delivery sheaths.",
+    "author": "Marinaccio Leonardo",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": 24,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36633357",
+    "journal": "PACE",
+    "year": "2023",
+    "title": "Reverse of left ventricular remodeling in heart failure patients with left bundle branch area pacing: Systematic review and meta-analysis.",
+    "author": "Siranart Noppachai",
+    "fine_cats": [
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "42189456",
+    "journal": "JICE",
+    "year": "2026",
+    "title": "Cardiac resynchronization in heart failure with mildly reduced ejection fraction and electrical dyssynchrony without primary indication for pacing: A systematic review and meta-analysis.",
+    "author": "Krishan Satyam",
+    "fine_cats": [
+      "Target-心衰/心功能预测",
+      "Target-CRT反应预测",
+      "Method-CNN/卷积网络"
+    ],
+    "perf_metrics": {},
+    "sample_size": 311,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41903033",
+    "journal": "JICE",
+    "year": "2026",
+    "title": "Convolutional neural network for real‑time localization of ganglionated plexi from bipolar intracardiac electrograms.",
+    "author": "Guler Tumer Erdem",
+    "fine_cats": [
+      "Input-心内电图(EGM/ICE)",
+      "Target-AF检测/预测",
+      "Target-消融靶点/引导",
+      "Method-CNN/卷积网络",
+      "Method-可解释性/SHAP"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.87,
+      "Accuracy": 51.0
+    },
+    "sample_size": 18,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41872573",
+    "journal": "JICE",
+    "year": "2026",
+    "title": "Left Bundle Branch Area Pacing versus Right Ventricular Pacing in Cardiac Amyloidosis: the Left-Right CA study, a single center, retrospective comparative non-randomized analysis.",
+    "author": "Müssigbrodt Andreas",
+    "fine_cats": [
+      "Translation-远程监测/CIED"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41579251",
+    "journal": "JICE",
+    "year": "2026",
+    "title": "Biatrial cardioneuroablation guided by robotic magnetic navigation and artificial intelligence-based mapping in vagal bradyarrhythmias: A controlled observational study.",
+    "author": "Cacciapuoti Fulvio",
+    "fine_cats": [
+      "Target-传导异常/缓慢心律失常",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {},
+    "sample_size": 10,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "41191315",
+    "journal": "JICE",
+    "year": "2025",
+    "title": "A predictive model for esophageal thermal injury following atrial fibrillation ablation : Risk tool for esophageal thermal injury.",
+    "author": "Borges Anibal Pires",
+    "fine_cats": [
+      "Target-AF检测/预测",
+      "Target-消融靶点/引导"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.749
+    },
+    "sample_size": 391,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40920302",
+    "journal": "JICE",
+    "year": "2025",
+    "title": "Comparison of artificial intelligence-adjudicated spatiotemporal dispersion in spontaneous vs. induced atrial fibrillation among patients with persistent AF.",
+    "author": "Alfred Jonathan",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "40478367",
+    "journal": "JICE",
+    "year": "2025",
+    "title": "AI-guided spatiotemporal dispersion mapping for individualized ablation in an all-comer cohort with atrial fibrillation.",
+    "author": "Heil Emanuel",
+    "fine_cats": [
+      "Target-消融靶点/引导",
+      "Target-生物年龄/整体风险"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "40461897",
+    "journal": "JICE",
+    "year": "2025",
+    "title": "A systematic review and meta-analysis of artificial intelligence ECGs performance in the diagnosis of Brugada Syndrome.",
+    "author": "Barbosa Lucas M",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-Brugada综合征"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.898,
+      "Sensitivity": 95.0,
+      "Specificity": 95.0
+    },
+    "sample_size": 2179,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38969963",
+    "journal": "JICE",
+    "year": "2024",
+    "title": "Clinical impact and predictors of periprocedural myocardial injury among patients undergoing left bundle branch area pacing.",
+    "author": "Bressi Edoardo",
+    "fine_cats": [],
+    "perf_metrics": {
+      "AUC/AUROC": 0.692,
+      "Sensitivity": 73.0,
+      "Specificity": 71.0
+    },
+    "sample_size": 130,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38896192",
+    "journal": "JICE",
+    "year": "2024",
+    "title": "A predictive model of super response to cardiac resynchronization therapy in short-term period.",
+    "author": "Atabekov Tariel A",
+    "fine_cats": [
+      "Target-心衰/心功能预测",
+      "Target-CRT反应预测"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.812,
+      "Sensitivity": 90.62,
+      "Specificity": 70.59
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "38602602",
+    "journal": "JICE",
+    "year": "2024",
+    "title": "Time to capitalise on artificial intelligence in cardiac electrophysiology.",
+    "author": "Bodagh Neil",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "38246906",
+    "journal": "JICE",
+    "year": "2024",
+    "title": "A machine learning approach to differentiate wide QRS tachycardia: distinguishing ventricular tachycardia from supraventricular tachycardia.",
+    "author": "Li Zhen-Zhen",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-Brugada综合征",
+      "Method-集成/多模型比较"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.97
+    },
+    "sample_size": 278,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "37335527",
+    "journal": "JICE",
+    "year": "2023",
+    "title": "Patient-reported outcomes following ablation for atrial fibrillation in the era of digital health.",
+    "author": "Wu Lingling",
+    "fine_cats": [],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": false
+  },
+  {
+    "pmid": "37097585",
+    "journal": "JICE",
+    "year": "2023",
+    "title": "A \"two-step classification\" machine learning method for non-invasive localization of premature ventricular contraction origins based on 12-lead ECG.",
+    "author": "Wang Yiwen",
+    "fine_cats": [
+      "Input-12导联标准ECG",
+      "Input-CMR/CT影像",
+      "Target-PVC/室早定位"
+    ],
+    "perf_metrics": {
+      "Accuracy": 93.49
+    },
+    "sample_size": 249,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36790576",
+    "journal": "JICE",
+    "year": "2023",
+    "title": "A novel artificial intelligence based algorithm to reduce wearable cardioverter-defibrillator alarms.",
+    "author": "Arkles Jeffrey",
+    "fine_cats": [
+      "Input-12导联标准ECG"
+    ],
+    "perf_metrics": {},
+    "sample_size": 96000,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "36754907",
+    "journal": "JICE",
+    "year": "2023",
+    "title": "Validation of the SCALE-CryoAF risk model to predict very late return of atrial fibrillation after cryoballoon ablation.",
+    "author": "Nayak Tanvi",
+    "fine_cats": [
+      "Input-CMR/CT影像",
+      "Target-AF检测/预测",
+      "Target-AF复发预测",
+      "Target-消融靶点/引导",
+      "Method-RNN/LSTM/时序"
+    ],
+    "perf_metrics": {
+      "AUC/AUROC": 0.74
+    },
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  },
+  {
+    "pmid": "35551558",
+    "journal": "JICE",
+    "year": "2022",
+    "title": "Deep learning-based insights on T:R ratio behaviour during prolonged screening for S-ICD eligibility.",
+    "author": "ElRefai Mohamed",
+    "fine_cats": [
+      "Target-心肌病筛查"
+    ],
+    "perf_metrics": {},
+    "sample_size": null,
+    "cohort_names": [],
+    "has_abstract": true
+  }
+]

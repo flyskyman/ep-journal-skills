@@ -1,0 +1,9 @@
+BACKGROUND: Catheter ablation is curative for paroxysmal supraventricular tachycardia (SVT), but distinguishing atrial tachycardia (AT) from other mechanisms during the electrophysiology study is often difficult, particularly when the tachycardia terminates in response to pacing. A reliable maneuver to identify AT in this setting is lacking.
+
+OBJECTIVES: This study sought to develop and validate a novel pacing maneuver for the diagnosis of AT during SVT.
+
+METHODS: In a prospective electrophysiology study, 147 SVTs were evaluated (28 ATs, 87 atrioventricular nodal reentrant tachycardias [AVNRTs], and 32 orthodromic reciprocating tachycardias [ORTs]; non-AT group = 119). During tachycardia, a single atrial extrastimulus was delivered from the proximal coronary sinus, with the coupling interval started 20 ms below the tachycardia cycle length and progressively shortened until the His bundle (HB) first reset and, if tachycardia persisted, until termination. The response at first HB resetting and the termination pattern were assessed.
+
+RESULTS: At first HB resetting, the tachycardia was unaffected in 27 of 28 ATs, whereas all non-ATs either reset simultaneously at HB resetting or terminated with atrio-Hisian (A-H) block. All 33 SVTs terminating with A-H block were non-AT; among those terminating with His-atrial (H-A) block, 5 were ATs and 7 non-ATs. An unaffected tachycardia at HB resetting identified AT with a sensitivity of 96%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 99%. Termination with A-H block identified non-AT with a sensitivity of 92%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 42%.
+
+CONCLUSIONS: A single atrial extrastimulus from the proximal coronary sinus during tachycardia is an effective maneuver for diagnosing AT, which is characterized by a tachycardia that remains unaffected during His bundle resetting.

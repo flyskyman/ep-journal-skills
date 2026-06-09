@@ -1,0 +1,23 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'JICE'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+Background: Patients undergoing atrial fibrillation (AF) catheter ablation frequently require repeat procedures targeting pulmonary vein (PV) re-isolation and/or extra-PV substrate. Pulsed field ablation (PFA) is tissue-selective and may limit collateral damage, but the feasibility and efficacy of redo ablation using a pentaspline PFA system have not been established.
+
+Methods: We conducted a prospective, multicenter study across 3 international centers enrolling 117 patients undergoing redo ablation with a pentaspline PFA system. Patients were stratified by presenting rhythm into 3 workflow groups: Group 1 (sinus rhythm, n=64), Group 2 (atrial flutter/atrial tachycardia, n=18), and Group 3 (AF, n=35). Propensity score matching was used to compare PFA-based with radiofrequency (RF)-based redo ablations.
+
+Results: PV re-isolation was required in 71.9% of Group 1 and 72.2% of Group 2 patients. PFA terminated 100% of non-cavotricuspid isthmus (CTI)-dependent flutter cases and 45.7% of AF cases. One major complication occurred (0.9%; frontal cerebral hematoma). Freedom from atrial tachyarrhythmias at 12 months was 78.3% (95% CI 69.6-84.8%), with no statistically significant difference among groups (Group 1, 85.7%; Group 2, 77.0%; Group 3, 65.5%; p=0.053). Compared with matched RF-based redo procedures, PFA achieved similar arrhythmia freedom but with significantly shorter procedural and dwelling times.
+
+Conclusions: Repeat ablation with a pentaspline PFA system was feasible, safe, and effective at 1-year follow-up. PFA provided clinical efficacy comparable to RF for redo procedures while significantly reducing procedural duration.
+
+=== Abstract Y ===
+BACKGROUND: Patients undergoing atrial fibrillation (AF) catheter ablation frequently require redo procedures involving pulmonary vein (PV) re-isolation and/or extra-PV ablation. Pulsed field ablation (PFA) is tissue-selective and may reduce collateral damage, but the feasibility and efficacy of redo ablation using the pentaspline PFA system have not been established.
+
+OBJECTIVE: To evaluate the feasibility, safety, and efficacy of redo AF ablation with the pentaspline PFA system, and to compare PFA- versus radiofrequency (RF)-based redo procedures.
+
+METHODS: In a prospective multicenter experience across 3 international centers, 117 patients undergoing redo ablation with the pentaspline PFA system were stratified by presenting rhythm into 3 workflow groups: Group 1 (sinus rhythm, n=64), Group 2 (atrial flutter/atrial tachycardia, n=18), and Group 3 (AF, n=35). PFA- versus RF-based redo ablations were compared using propensity score matching. The primary endpoint was freedom from atrial tachyarrhythmias at 12 months.
+
+RESULTS: PV re-isolation was required in 71.9% of Group 1 and 72.2% of Group 2 patients. PFA terminated 100% of non-cavotricuspid isthmus (CTI)-dependent flutter cases and 45.7% of AF cases. One major complication occurred (0.9%; frontal cerebral hematoma). Freedom from atrial tachyarrhythmias at 12 months was 78.3% (95% CI 69.6-84.8%), with no statistically significant difference among groups (Group 1: 85.7%; Group 2: 77%; Group 3: 65.5%; p=0.053). Compared with propensity-matched RF-based redo procedures, PFA achieved similar arrhythmia-free survival but with significantly shorter procedural and dwelling times.
+
+CONCLUSION: Redo AF ablation with the pentaspline PFA system was feasible, safe, and effective at 1-year follow-up. PFA provided arrhythmia freedom comparable to RF while significantly reducing procedure duration, supporting its use as an efficient option for repeat ablation.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

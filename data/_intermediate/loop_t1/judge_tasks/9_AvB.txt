@@ -1,0 +1,9 @@
+You are an expert JACC editor blindly comparing two candidate manuscript titles for the SAME study, both intended for JACC. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Does AF Ablation Harm Cognition?: A Randomized Trial Showing Transient and Reversible Decline
+
+=== Title Y ===
+Transient and Reversible Cognitive Dysfunction After Catheter Ablation of Atrial Fibrillation: A Randomized Controlled Trial of Cognitive Outcomes Through 12 Months
+
+Return the structured object.

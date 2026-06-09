@@ -1,0 +1,17 @@
+{
+  "x_scores": {
+    "journal_fit": 3,
+    "informativeness": 4,
+    "clarity": 3,
+    "appeal": 3
+  },
+  "y_scores": {
+    "journal_fit": 4,
+    "informativeness": 4,
+    "clarity": 4,
+    "appeal": 4
+  },
+  "winner": "Y",
+  "rationale": "Title Y is more concise, avoids the repetitive phrasing of Title X, and uses stronger clinical outcomes language ('arrhythmia-free survival') that reads more naturally for JICE.",
+  "loser_weakness": "Title X repeats 'pulmonary vein' three times and 'atrial fibrillation' twice, making it unnecessarily verbose and harder to read despite conveying slightly more specific predictor detail."
+}

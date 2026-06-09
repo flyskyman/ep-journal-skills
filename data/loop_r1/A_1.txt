@@ -1,0 +1,9 @@
+BACKGROUND: Catheter ablation is an effective treatment for atrial fibrillation (AF), but it is resource-intensive and not uniformly available across the United States. How AF ablation utilization varies by geography, race, ethnicity, and socioeconomic status remains poorly characterized, and inequitable access among marginalized groups could generate and perpetuate health inequities.
+
+OBJECTIVE: To quantify the association between ZIP-code-level racial, ethnic, and socioeconomic composition and ZIP-code-level rates of AF catheter ablation.
+
+METHODS: We conducted an observational utilization study using US Medicare Inpatient and Outpatient claims data files from 2016 to 2019. Medicare fee-for-service beneficiaries with a diagnosis of AF were identified, and analyses were performed at the ZIP code level. Generalized estimating equations modeled the association between the racial, ethnic, and socioeconomic composition of each ZIP code and its AF ablation rate (patients per 10,000). Exposures were expressed per each 10% increase in a given demographic group within a ZIP code.
+
+RESULTS: Each 10% increase in patients dually eligible for Medicaid (a poverty marker) per ZIP code was associated with 275 fewer patients per 10,000 undergoing AF ablation (P=.0003). After adjustment for dual-eligible status, each 10% increase in Black patients per ZIP code was associated with 618 fewer ablations per 10,000 (P<.0001), and each 10% increase in Hispanic patients was associated with 430 fewer ablations per 10,000 (P=.002).
+
+CONCLUSION: Significant inequities in AF ablation utilization are tied to racial, ethnic, and socioeconomic differences, with lower utilization concentrated in marginalized populations. These disparities have the potential to generate and perpetuate health inequities and warrant targeted strategies to improve equitable access.

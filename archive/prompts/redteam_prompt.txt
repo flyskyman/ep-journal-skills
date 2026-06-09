@@ -1,0 +1,664 @@
+You are an INDEPENDENT adversarial reviewer (a different model from the author). Audit the EP-abstract skill below against its evidence JSON. Find claims that are unsupported, overstated, cherry-picked, internally contradictory, or missing caveats. Compute 2-3 cross-journal spreads from content_distributions_pct yourself to test the central claim. Then return the structured object (verdict + findings with severity/location/issue/fix). Everything you need is inlined below — do NOT read any files.
+
+=== CENTRAL CLAIM ===
+no journal-specific way to WRITE an EP abstract; content overlaps ~86%+ on average per dimension; differences are scope + thin format + JACC impersonal voice.
+
+=== FILE: SKILL.md ===
+---
+name: ep-abstract-advisor
+description: Write, polish, or place a manuscript abstract for an EP journal (Heart Rhythm, Circ AE, Europace, JACC EP, PACE, JICE). Use when the user wants help drafting, improving, or choosing the right journal for an abstract. Trigger on "abstract", "write/polish abstract", "摘要" with EP journal names.
+---
+
+# EP Journal Abstract Advisor
+
+**Core principle:** the way a strong EP abstract is *written* is the same for all six journals. What differs is **scope** — which journal your study belongs in — plus a thin layer of format. So: write one strong abstract (Step 2), then fit it to the right journal (Step 3) and format it (Step 4). Do not invent six "writing styles." (Evidence for this principle: `reference/evidence.md`.)
+
+## When to use
+- The user wants to draft or polish an abstract for an EP journal
+- The user wants to choose / change the target journal for an abstract
+- The user asks how to frame an abstract for a specific EP journal
+
+## Step 1 — Gather
+Target journal (or offer to recommend via Step 3); study type (original clinical / preclinical-basic / AI-ML / meta-analysis-review / case); the gap being closed; objective; design + population/source; key results **with numbers**; the takeaway. Optional: word limit, registry/acronym.
+
+## Step 2 — Build the abstract (the real work; identical for every journal)
+A strong abstract is a verifiable argument chain. Build it in six moves:
+
+1. **Premise** (1 sentence) — the accepted fact / current standard.
+2. **Gap** (1 sentence, highest-leverage) — pivot with *However/but/remains* to a **specific, falsifiable** unknown. Avoid "few studies exist" (weakest, highest-rejection move). Pick a gap type:
+   `mechanistic_deficit` · `comparative_unknown` · `capability_gap` · `guideline_inadequacy` · `feasibility_in_niche` · `optimization_unknown` · `prevalence_or_characterization`.
+3. **Aim** (1 sentence) — scoped exactly to close that gap; never broader than the methods deliver.
+4. **Methods** (3–5 sentences) — design → population/source → key definitions/criteria → analysis. Credibility = specificity (name the cohort/registry, exact criteria, validation).
+5. **Results** (the body, 4–6 sentences) — primary outcome first with **effect size + comparator + CI/p**, then secondary; report nulls honestly; feature a usable discriminator (ROC cutoff, non-inferiority margin, predictor) if you have one.
+6. **Conclusion** (1–2 sentences) — answer the gap; **calibrate certainty to the design** (no causal/universal claim from a retrospective single-center cohort).
+
+**Content failure modes (these sink abstracts more than format):** gap stated as "few studies"; aim over-promises beyond methods; results give p-values with no effect size/comparator; conclusion over- or under-claims; the gap promised ≠ the result delivered.
+
+## Step 3 — Fit to the journal (scope, not style)
+Match your study **type** to the journal whose scope it fits; then dial emphasis. Quick cues:
+- **HR** broadest, any topic — the default. **PACE** case reports + feasibility/safety + light stats. **Circ AE** mechanism / preclinical-basic, hypothesis-driven. **JICE** technique head-to-head comparison + procedural detail. **Europace** evidence synthesis / registry / comparison. **JACC EP** clinical, quantitative (effect sizes), **impersonal voice**.
+
+These are weak tendencies, not rules (the content signal between journals is small). The two robust levers: study-type **fit** (scope) and JACC's impersonal voice. Full per-journal scope + emphasis detail: **`reference/journal-fit.md`**.
+
+## Step 4 — Format (apply last)
+Match the journal's word count and section labels. Original research is **structured** in all six journals; only case reports, images, narrative reviews, and editorials are unstructured. Word-count medians and the exact per-journal section-label templates (e.g., Europace's combined `AIMS / METHODS AND RESULTS / CONCLUSION`): **`reference/journal-fit.md`**.
+
+## Step 5 — Self-check
+- Gap is a specific deficit of a real type — not "few studies".
+- Results lead with effect size + comparator (+ discriminator if available).
+- Conclusion certainty matches the design.
+- Study type fits the target journal's scope (the most common real misfit).
+- Voice / word count / section labels meet the journal's format (impersonal for JACC; combined Methods+Results for Europace).
+
+## Polishing & repositioning
+**Polish:** diagnose Step 2 first (gap specific? aim matches methods? results carry effect sizes? certainty fits design?), then fit (Step 3) and format (Step 4). Show edits with one-line rationales.
+**Reposition for another journal:** usually NOT a rewrite — a fit check + emphasis dial + reformat (for JACC switch to impersonal voice; for Europace merge Methods+Results and add registration). Rewrite only when the study type genuinely doesn't fit the new journal's scope.
+
+---
+Supporting material (do not inline into this file): `reference/journal-fit.md` (per-journal scope + format), `reference/evidence.md` (data, validation, reliability, caveats), full analysis in `摘要深度分析_内容层.md`.
+
+=== FILE: reference/journal-fit.md ===
+# Journal fit — scope & format detail
+
+Operational detail for Step 3 (fit) and Step 4 (format) of the skill. Numbers are full-corpus values (n=1,677, dual-model coded). They are **tendencies, not rules** — the content signal between journals is weak (see `evidence.md`). The two robust levers are study-type fit and JACC's impersonal voice.
+
+## Per-journal scope (Step 3)
+
+| Journal | What it publishes / rewards (scope) | Dial up | Style knob |
+|---------|-------------------------------------|---------|-----------|
+| **HR** | Broadest scope; any topic. Slightly more decisive conclusions. Default home if fit is unclear. | A clear, confident takeaway | — |
+| **Circ AE** | Mechanism & basic/preclinical science (highest preclinical share, 29%); highest mechanistic-deficit gaps (24%). Bench/translational work other EP journals won't take. | A hypothesis; mechanism; external validation if AI | first-person "we" common (~38%) |
+| **Europace** | Evidence synthesis & meta-analysis, registry/real-world, comparison studies (highest comparative-unknown gap, 23%). | A comparison/non-inferiority or synthesis; registry; reproducibility (NCT/PROSPERO/PRISMA) | — |
+| **JACC EP** | Clinical studies argued quantitatively (highest effect-size+CI reporting, 38%). Smallest sample (n=200) → widest uncertainty. | Effect sizes + CI; P to 3 decimals | **Impersonal voice — 90%; avoid "we," use "this study sought to…"** (the one strong style rule) |
+| **PACE** | Widest gate: case reports/series (30% — only journal taking them at volume), feasibility/safety studies, meta-analyses. Lightest statistics (53% descriptive). | Practical feasibility/safety; success rate; keep stats simple | — |
+| **JICE** | Interventional: technique head-to-head comparison & procedural refinement (highest "vs alternative technique", 42%). | The comparison (name both arms); procedural detail (sheath, capture type, distances); exploratory framing OK | first-person "we" common (~31%) |
+
+How to use: match study **type** to a journal's scope first (case report → PACE not HR; bench mechanism → Circ AE; technique A-vs-B → JICE), then dial the listed emphasis. The six-move engine (skill Step 2) stays identical.
+
+## Per-journal format (Step 4)
+
+| Journal | Words (median [IQR]) | Original-research structure (real PubMed section labels) |
+|---------|----------------------|----------------------------------------------------------|
+| HR | 256 [246–270] | BACKGROUND / OBJECTIVE / METHODS / RESULTS / CONCLUSION |
+| Circ AE | 281 [258–303] | BACKGROUND / METHODS / RESULTS / CONCLUSIONS (+REGISTRATION for trials) |
+| Europace | 252 [241–267] | **AIMS / METHODS AND RESULTS / CONCLUSION** — Methods and Results are **one combined section** (ESC/Oxford house style; +CLINICAL TRIAL REGISTRATION) |
+| JACC EP | 266 [251–280] | BACKGROUND / **OBJECTIVES** / METHODS / RESULTS / CONCLUSIONS; impersonal voice; P to 3 decimals |
+| PACE | 230 [110–252] | BACKGROUND or INTRODUCTION / METHODS / RESULTS / CONCLUSION; case reports run short & unstructured |
+| JICE | 252 [239–272] | BACKGROUND or PURPOSE / METHODS / RESULTS / CONCLUSION |
+
+Structure (measured from PubMed XML, n=1,677): original research is structured in 86–96% of the original-research-heavy journals; PACE is 70% only because it carries the most case reports. Unstructured = article-type exception (case reports, images, narrative reviews, editorials, research letters), not a journal style. Match the exact label set; Europace's combined `METHODS AND RESULTS` is the one most authors get wrong.
+
+## Worked examples
+Three skill-generated abstracts (one each for PACE / Circ AE / JICE, from novel briefs) demonstrating the universal engine + scope fit + format: see `../../../../data/p4_claude_generations.md` (project data), or regenerate via the skill.
+
+=== FILE: reference/evidence.md ===
+# Evidence base, validation & caveats
+
+Why the skill says "writing is universal; journals differ by scope." Full analysis: `摘要深度分析_内容层.md`; distributions: `data/codings_v2_agg.json`.
+
+## Corpus & method
+- **1,677 EP-journal abstracts** (2023–2026), topic-representative sample across the six journals (HR 253, CircAE 237, Europace 308, JACC 200, PACE 405, JICE 274).
+- Every abstract **blind-coded** (coder unaware of journal) on a 13-dimension content codebook by **two independent frontier models — Claude (Sonnet) and Codex (GPT-5.4)**.
+
+## Evidence that journals overlap on content
+- **Average distributional overlap ≥86% per dimension** (avg TVD vs pooled ≤0.14 for both models on every content dimension; certainty_calibration ~0.01, voice ~0.08, study_type ~0.137 — the most journal-specific).
+- **Content classifier**: predicting journal from the content codes alone scores **30% vs a 24% majority-class baseline** (chance 17%); removing study_type drops it to ~29% — i.e., rhetoric adds almost nothing. The weak signal that exists is **scope** (study type), concentrated in PACE (case reports) / Circ AE (preclinical).
+- Individual *categories* can diverge up to ~30 points (PACE 30% case reports vs ~0–5% elsewhere) — these are scope, not writing style.
+
+## Reliability (cross-model κ, Claude vs Codex)
+Reliable (lean on these): study_type 0.91 · results_logic 0.76 · contribution_frame 0.72 · gap_type 0.69 ("substantial").
+Lower-reliability (weak tendencies only): benchmarking 0.63 · voice 0.54 · conclusion_stance 0.49 · external_validation 0.43 · certainty_calibration 0.16 (near-constant 96–99% "matches design", a kappa-paradox).
+Inter-coder (single model, 2 passes, v1 87-abstract sample): gap_type 0.78, contribution_frame 0.77, conclusion_stance 0.48.
+
+## What the rigorous analysis corrected (vs earlier impressions)
+- "Circ AE = AI venue" was a topic-filter artifact (a narrow CSP/LBBAP+AI subset showed AI 58%); in the representative corpus Circ AE AI is ~5% — its real signature is **mechanism/preclinical**.
+- "Unstructured" was wrong (the early CSV had section labels stripped); original research is **structured** in all six (86–96%).
+- Conclusion stance is not a strong differentiator and is low-reliability; certainty calibration is near-universal.
+
+## Caveats (carry these when advising)
+- The journal signal in content is **weak** — per-journal "dials" are tendencies, not rules.
+- **JACC EP n=200** (smallest sample) → its figures (incl. the 90% impersonal-voice claim) carry the widest uncertainty.
+- Conclusion_stance / voice / certainty are **low cross-model reliability** — don't over-rely.
+- Corpus is **topic-representative, not exhaustive**; scope percentages are conditional on the sampled topic mix and the 2023–2026 window, not true journal output rates.
+- Title-level metrics in `ep-title-advisor` come from a separate 7,267-article title analysis, not this abstract corpus.
+
+## Provenance / reproducibility
+Coding workflows: `.claude/workflows/abstract-coding-v2.js` (Claude), `run_codex_chunk.sh` + `data/codex_schema.json` (Codex). Aggregation/validation: `aggregate_codings.py`, `cross_model.py`, `p2_content_classifier.py`, `reliability.py`. Per-abstract codings: `data/codings_v2/`, `data/codings_codex/`.
+
+=== DATA: skill_evidence.json ===
+{
+ "corpus": "1677 EP abstracts 2023-2026, topic-representative, dual-model blind-coded",
+ "per_journal": {
+  "HR": {
+   "n": 253,
+   "word_median": 256,
+   "word_iqr": [
+    246,
+    270
+   ],
+   "structured_pct": 91,
+   "content_distributions_pct": {
+    "n": 253,
+    "study_type": {
+     "original_clinical": 71,
+     "original_preclinical_basic": 13,
+     "meta_analysis_review": 13,
+     "ai_ml": 2,
+     "other": 1,
+     "case_report_series": 0
+    },
+    "gap_type": {
+     "mechanistic_deficit": 19,
+     "comparative_unknown": 19,
+     "prevalence_or_characterization": 17,
+     "capability_gap": 16,
+     "feasibility_in_niche": 10,
+     "optimization_unknown": 9,
+     "literature_void_weak": 4,
+     "guideline_inadequacy": 4,
+     "no_clear_gap": 0
+    },
+    "contribution_frame": {
+     "feasibility_safety_demo": 18,
+     "mechanism_insight": 16,
+     "procedural_refinement": 15,
+     "realworld_scale_evidence": 13,
+     "prognostic_predictor": 13,
+     "evidence_synthesis_meta": 10,
+     "comparative_effectiveness": 10,
+     "clinical_decision_change": 3,
+     "validated_ai_capability": 2
+    },
+    "results_logic": {
+     "descriptive_only": 33,
+     "effectsize_comparator_ci": 31,
+     "p_value_only": 19,
+     "discriminator_threshold_roc": 11,
+     "meta_pooled_effect": 6,
+     "noninferiority": 1
+    },
+    "benchmarking": {
+     "none": 41,
+     "vs_alternative_technique": 30,
+     "vs_baseline_prepost": 16,
+     "vs_guideline_standard": 8,
+     "vs_existing_model": 4,
+     "external": 0
+    },
+    "conclusion_stance": {
+     "decisive_clinical": 35,
+     "practical_modest": 30,
+     "translational_honest": 16,
+     "exploratory_hypothesis_generating": 9,
+     "mechanistic_elevation": 8,
+     "null_finding_neutral": 2
+    },
+    "certainty_calibration": {
+     "matches_design": 97,
+     "overclaims": 3
+    },
+    "voice": {
+     "impersonal": 80,
+     "first_person_we": 20
+    },
+    "external_validation": {
+     "not_applicable": 67,
+     "internal_only": 30,
+     "external": 3
+    }
+   }
+  },
+  "CircAE": {
+   "n": 237,
+   "word_median": 281,
+   "word_iqr": [
+    258,
+    303
+   ],
+   "structured_pct": 96,
+   "content_distributions_pct": {
+    "n": 237,
+    "study_type": {
+     "original_clinical": 59,
+     "original_preclinical_basic": 29,
+     "meta_analysis_review": 5,
+     "ai_ml": 5,
+     "case_report_series": 2,
+     "other": 0
+    },
+    "gap_type": {
+     "mechanistic_deficit": 24,
+     "capability_gap": 19,
+     "comparative_unknown": 16,
+     "feasibility_in_niche": 14,
+     "prevalence_or_characterization": 12,
+     "optimization_unknown": 8,
+     "guideline_inadequacy": 3,
+     "literature_void_weak": 2
+    },
+    "contribution_frame": {
+     "mechanism_insight": 21,
+     "feasibility_safety_demo": 20,
+     "procedural_refinement": 18,
+     "comparative_effectiveness": 11,
+     "prognostic_predictor": 11,
+     "realworld_scale_evidence": 7,
+     "validated_ai_capability": 5,
+     "evidence_synthesis_meta": 4,
+     "clinical_decision_change": 3
+    },
+    "results_logic": {
+     "descriptive_only": 35,
+     "effectsize_comparator_ci": 33,
+     "p_value_only": 18,
+     "discriminator_threshold_roc": 11,
+     "meta_pooled_effect": 2,
+     "noninferiority": 1
+    },
+    "benchmarking": {
+     "none": 37,
+     "vs_alternative_technique": 29,
+     "vs_baseline_prepost": 16,
+     "vs_existing_model": 10,
+     "vs_guideline_standard": 8
+    },
+    "conclusion_stance": {
+     "practical_modest": 32,
+     "decisive_clinical": 25,
+     "translational_honest": 19,
+     "mechanistic_elevation": 13,
+     "exploratory_hypothesis_generating": 8,
+     "null_finding_neutral": 3
+    },
+    "certainty_calibration": {
+     "matches_design": 97,
+     "overclaims": 2,
+     "underclaims": 0
+    },
+    "voice": {
+     "impersonal": 62,
+     "first_person_we": 38
+    },
+    "external_validation": {
+     "not_applicable": 76,
+     "internal_only": 19,
+     "external": 6
+    }
+   }
+  },
+  "Europace": {
+   "n": 308,
+   "word_median": 252,
+   "word_iqr": [
+    241,
+    267
+   ],
+   "structured_pct": 86,
+   "content_distributions_pct": {
+    "n": 308,
+    "study_type": {
+     "original_clinical": 66,
+     "meta_analysis_review": 16,
+     "original_preclinical_basic": 10,
+     "other": 6,
+     "ai_ml": 2,
+     "case_report_series": 1
+    },
+    "gap_type": {
+     "comparative_unknown": 23,
+     "prevalence_or_characterization": 20,
+     "feasibility_in_niche": 12,
+     "mechanistic_deficit": 11,
+     "capability_gap": 11,
+     "optimization_unknown": 9,
+     "guideline_inadequacy": 8,
+     "literature_void_weak": 4,
+     "no_clear_gap": 1,
+     "prognostic_predictor": 0
+    },
+    "contribution_frame": {
+     "feasibility_safety_demo": 15,
+     "realworld_scale_evidence": 15,
+     "comparative_effectiveness": 15,
+     "evidence_synthesis_meta": 14,
+     "procedural_refinement": 14,
+     "mechanism_insight": 10,
+     "prognostic_predictor": 10,
+     "clinical_decision_change": 5,
+     "validated_ai_capability": 2
+    },
+    "results_logic": {
+     "descriptive_only": 42,
+     "effectsize_comparator_ci": 28,
+     "p_value_only": 15,
+     "discriminator_threshold_roc": 9,
+     "meta_pooled_effect": 6,
+     "noninferiority": 1
+    },
+    "benchmarking": {
+     "none": 42,
+     "vs_alternative_technique": 33,
+     "vs_guideline_standard": 11,
+     "vs_baseline_prepost": 9,
+     "vs_existing_model": 4
+    },
+    "conclusion_stance": {
+     "practical_modest": 36,
+     "decisive_clinical": 31,
+     "translational_honest": 12,
+     "mechanistic_elevation": 9,
+     "exploratory_hypothesis_generating": 8,
+     "null_finding_neutral": 5
+    },
+    "certainty_calibration": {
+     "matches_design": 99,
+     "overclaims": 1,
+     "underclaims": 0
+    },
+    "voice": {
+     "impersonal": 76,
+     "first_person_we": 24
+    },
+    "external_validation": {
+     "not_applicable": 85,
+     "internal_only": 12,
+     "external": 3
+    }
+   }
+  },
+  "JACC": {
+   "n": 200,
+   "word_median": 266,
+   "word_iqr": [
+    251,
+    280
+   ],
+   "structured_pct": 91,
+   "content_distributions_pct": {
+    "n": 200,
+    "study_type": {
+     "original_clinical": 75,
+     "original_preclinical_basic": 12,
+     "meta_analysis_review": 10,
+     "ai_ml": 2,
+     "case_report_series": 1,
+     "other": 0
+    },
+    "gap_type": {
+     "prevalence_or_characterization": 22,
+     "comparative_unknown": 21,
+     "mechanistic_deficit": 21,
+     "feasibility_in_niche": 10,
+     "capability_gap": 9,
+     "optimization_unknown": 8,
+     "guideline_inadequacy": 4,
+     "literature_void_weak": 4
+    },
+    "contribution_frame": {
+     "mechanism_insight": 18,
+     "comparative_effectiveness": 16,
+     "feasibility_safety_demo": 15,
+     "procedural_refinement": 14,
+     "prognostic_predictor": 14,
+     "realworld_scale_evidence": 10,
+     "evidence_synthesis_meta": 7,
+     "clinical_decision_change": 3,
+     "validated_ai_capability": 2
+    },
+    "results_logic": {
+     "effectsize_comparator_ci": 38,
+     "descriptive_only": 32,
+     "p_value_only": 20,
+     "discriminator_threshold_roc": 9,
+     "meta_pooled_effect": 1,
+     "noninferiority": 0
+    },
+    "benchmarking": {
+     "none": 41,
+     "vs_alternative_technique": 34,
+     "vs_baseline_prepost": 14,
+     "vs_guideline_standard": 6,
+     "vs_existing_model": 4
+    },
+    "conclusion_stance": {
+     "decisive_clinical": 33,
+     "practical_modest": 28,
+     "translational_honest": 14,
+     "mechanistic_elevation": 14,
+     "exploratory_hypothesis_generating": 8,
+     "null_finding_neutral": 4
+    },
+    "certainty_calibration": {
+     "matches_design": 99,
+     "overclaims": 1
+    },
+    "voice": {
+     "impersonal": 90,
+     "first_person_we": 10
+    },
+    "external_validation": {
+     "not_applicable": 54,
+     "internal_only": 44,
+     "external": 2
+    }
+   }
+  },
+  "PACE": {
+   "n": 405,
+   "word_median": 230,
+   "word_iqr": [
+    110,
+    252
+   ],
+   "structured_pct": 70,
+   "content_distributions_pct": {
+    "n": 405,
+    "study_type": {
+     "original_clinical": 53,
+     "case_report_series": 30,
+     "meta_analysis_review": 13,
+     "original_preclinical_basic": 3,
+     "other": 0,
+     "ai_ml": 0
+    },
+    "gap_type": {
+     "feasibility_in_niche": 26,
+     "comparative_unknown": 18,
+     "prevalence_or_characterization": 15,
+     "capability_gap": 13,
+     "mechanistic_deficit": 12,
+     "optimization_unknown": 7,
+     "literature_void_weak": 5,
+     "guideline_inadequacy": 5,
+     "no_clear_gap": 0
+    },
+    "contribution_frame": {
+     "feasibility_safety_demo": 32,
+     "procedural_refinement": 19,
+     "prognostic_predictor": 11,
+     "evidence_synthesis_meta": 10,
+     "comparative_effectiveness": 10,
+     "mechanism_insight": 10,
+     "realworld_scale_evidence": 7,
+     "clinical_decision_change": 2,
+     "validated_ai_capability": 1,
+     "prevalence_or_characterization": 0
+    },
+    "results_logic": {
+     "descriptive_only": 53,
+     "effectsize_comparator_ci": 19,
+     "p_value_only": 16,
+     "discriminator_threshold_roc": 6,
+     "meta_pooled_effect": 6,
+     "noninferiority": 0
+    },
+    "benchmarking": {
+     "none": 57,
+     "vs_alternative_technique": 27,
+     "vs_baseline_prepost": 6,
+     "vs_guideline_standard": 6,
+     "vs_existing_model": 3
+    },
+    "conclusion_stance": {
+     "practical_modest": 43,
+     "decisive_clinical": 27,
+     "exploratory_hypothesis_generating": 13,
+     "translational_honest": 11,
+     "mechanistic_elevation": 5,
+     "null_finding_neutral": 2,
+     "clinical_decision_change": 0
+    },
+    "certainty_calibration": {
+     "matches_design": 96,
+     "overclaims": 3,
+     "underclaims": 0
+    },
+    "voice": {
+     "impersonal": 71,
+     "first_person_we": 29
+    },
+    "external_validation": {
+     "not_applicable": 67,
+     "internal_only": 31,
+     "external": 2
+    }
+   }
+  },
+  "JICE": {
+   "n": 274,
+   "word_median": 252,
+   "word_iqr": [
+    239,
+    272
+   ],
+   "structured_pct": 93,
+   "content_distributions_pct": {
+    "n": 274,
+    "study_type": {
+     "original_clinical": 74,
+     "meta_analysis_review": 12,
+     "original_preclinical_basic": 5,
+     "case_report_series": 5,
+     "ai_ml": 2,
+     "other": 1
+    },
+    "gap_type": {
+     "comparative_unknown": 26,
+     "feasibility_in_niche": 17,
+     "prevalence_or_characterization": 17,
+     "capability_gap": 15,
+     "mechanistic_deficit": 9,
+     "optimization_unknown": 9,
+     "literature_void_weak": 4,
+     "guideline_inadequacy": 3
+    },
+    "contribution_frame": {
+     "feasibility_safety_demo": 26,
+     "procedural_refinement": 21,
+     "comparative_effectiveness": 12,
+     "evidence_synthesis_meta": 11,
+     "realworld_scale_evidence": 10,
+     "prognostic_predictor": 10,
+     "mechanism_insight": 5,
+     "validated_ai_capability": 3,
+     "clinical_decision_change": 1
+    },
+    "results_logic": {
+     "descriptive_only": 39,
+     "p_value_only": 26,
+     "effectsize_comparator_ci": 22,
+     "discriminator_threshold_roc": 8,
+     "meta_pooled_effect": 6,
+     "noninferiority": 0
+    },
+    "benchmarking": {
+     "vs_alternative_technique": 42,
+     "none": 38,
+     "vs_baseline_prepost": 11,
+     "vs_guideline_standard": 5,
+     "vs_existing_model": 4
+    },
+    "conclusion_stance": {
+     "practical_modest": 39,
+     "decisive_clinical": 28,
+     "translational_honest": 15,
+     "exploratory_hypothesis_generating": 9,
+     "null_finding_neutral": 5,
+     "mechanistic_elevation": 4
+    },
+    "certainty_calibration": {
+     "matches_design": 98,
+     "overclaims": 2
+    },
+    "voice": {
+     "impersonal": 69,
+     "first_person_we": 31
+    },
+    "external_validation": {
+     "not_applicable": 53,
+     "internal_only": 45,
+     "external": 2
+    }
+   }
+  }
+ },
+ "validation": {
+  "cross_model_kappa_Claude_vs_Codex": {
+   "study_type": 0.91,
+   "results_logic": 0.76,
+   "contribution_frame": 0.72,
+   "gap_type": 0.69,
+   "benchmarking": 0.63,
+   "voice": 0.54,
+   "conclusion_stance": 0.49,
+   "external_validation": 0.43,
+   "certainty_calibration": "0.16 (89% raw agree; skewed marginals/kappa-paradox)"
+  },
+  "journal_specificity_avg_TVD_vs_pooled": {
+   "note": "0=journals identical,1=disjoint; computed both models",
+   "study_type": {
+    "Claude": 0.137,
+    "Codex": 0.134
+   },
+   "contribution_frame": {
+    "Claude": 0.114,
+    "Codex": 0.112
+   },
+   "gap_type": {
+    "Claude": 0.109,
+    "Codex": 0.116
+   },
+   "results_logic": {
+    "Claude": 0.094,
+    "Codex": 0.103
+   },
+   "conclusion_stance": {
+    "Claude": 0.077,
+    "Codex": 0.089
+   },
+   "voice": {
+    "Claude": 0.072,
+    "Codex": 0.092
+   },
+   "certainty_calibration": {
+    "Claude": 0.009,
+    "Codex": 0.015
+   }
+  },
+  "content_classifier_journal_prediction": {
+   "baseline_majority_pct": 24,
+   "chance_pct": 17,
+   "all_9_content_dims_pct": 30,
+   "without_study_type_pct": 29,
+   "study_type_alone_pct": 28,
+   "interpretation": "content barely beats baseline; rhetoric (minus study_type) adds ~0"
+  },
+  "inter_coder_reliability_v1_sample_kappa": {
+   "gap_type": 0.78,
+   "contribution_frame": 0.77,
+   "conclusion_stance": 0.48,
+   "note": "single-model 2-pass on 87-abstract v1 sample"
+  },
+  "overlap_claim_basis": "TVD<=0.14 on every content dim (both models) => >=86% distributional overlap"
+ }
+}

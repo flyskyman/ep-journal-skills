@@ -1,0 +1,9 @@
+You are an expert JICE editor blindly comparing two candidate manuscript titles for the SAME study, both intended for JICE. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+The effects of pneumopericardium during epicardial catheter ablation after dry pericardiocentesis on patients with ventricular arrhythmia.
+
+=== Title Y ===
+Clinical Impact of Intraprocedural Pneumopericardium During Epicardial Catheter Ablation in Patients with Ventricular Arrhythmias: A Single-Center Observational Cohort Study
+
+Return the structured object.

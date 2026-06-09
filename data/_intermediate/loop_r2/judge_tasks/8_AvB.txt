@@ -1,0 +1,25 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'JACC'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+BACKGROUND: Slow pathway modification is the standard treatment for atrioventricular nodal reentrant tachycardia (AVNRT), and both radiofrequency (RF) and cryoablation (Cryo) energy are used. However, the choice between energy sources in children remains unsettled, as no contemporary head-to-head comparison exists in the pediatric population.
+
+OBJECTIVES: This study compared acute ablation failure and atrioventricular (AV) block requiring pacing between RF and Cryo for first-time slow pathway modification in children.
+
+METHODS: A retrospective cohort analysis was performed using the National Cardiovascular Data Registry IMPACT (Improving Pediatric and Adult Congenital Treatment) Registry from April 2016 to March 2019. Patients 1 to 21 years of age undergoing elective first-time slow pathway modification for AVNRT were included; those younger than 1 year, with congenital heart disease, or with more than 1 ablation target were excluded. Cases were grouped by energy strategy: RF only, Cryo only, RF switching to Cryo (RF->Cryo), and Cryo switching to RF (Cryo->RF). The primary outcome was acute ablation failure; secondary outcomes were in-hospital adverse events.
+
+RESULTS: Among 2,448 patients (mean age 13.6 +/- 3.4 years; 60% female)—the largest pediatric AVNRT ablation cohort reported to date—43% (n = 1,046) underwent RF only, 49% (n = 1,201) Cryo only, 6% (n = 135) RF->Cryo, and 3% (n = 66) Cryo->RF. Acute ablation failure occurred in 1.3% (n = 33) overall and did not differ by energy source (RF only 1%, Cryo only 1.5%, RF->Cryo 1.5%, Cryo->RF 3%; P = 0.5). No patient in any group developed AV block requiring permanent pacing (0%). Transient AV block occurred in 0.4% of the cohort, with no difference between groups.
+
+CONCLUSIONS: In this large registry-based pediatric cohort, RF and Cryo achieved comparable, high acute success for AVNRT slow pathway modification, and AV block was rare and did not result in temporary or permanent pacing. Energy source did not influence acute outcomes, supporting either modality for initial pediatric AVNRT ablation; longitudinal follow-up is needed to compare recurrence and late complications between modalities.
+
+=== Abstract Y ===
+BACKGROUND: The optimal energy source for catheter ablation of atrioventricular nodal reentrant tachycardia (AVNRT) in children remains unsettled, and contemporary head-to-head comparisons of radiofrequency (RF) and cryoablation (Cryo) in the pediatric population are lacking. Whether the choice of energy source affects acute success or the risk of atrioventricular (AV) block and pacing is unknown.
+
+OBJECTIVES: This study sought to compare acute procedural success and in-hospital adverse events of RF versus Cryo for slow pathway (SP) modification in pediatric AVNRT.
+
+METHODS: In this retrospective cohort study, we analyzed the National Cardiovascular Data Registry IMPACT (Improving Pediatric and Adult Congenital Treatment) Registry from April 2016 to March 2019. Patients 1 to 21 years of age undergoing elective first-time SP modification for AVNRT were included; those younger than 1 year, with congenital heart disease, or with more than 1 ablation target were excluded. Procedures were classified by ablation energy as RF only, Cryo only, RF switching to Cryo (RF->Cryo), or Cryo switching to RF (Cryo->RF). The primary outcome was acute ablation failure; secondary outcomes were in-hospital adverse events.
+
+RESULTS: Among 2,448 patients (mean age 13.6 +/- 3.4 years; 60% female)—the largest pediatric AVNRT ablation cohort reported to date—RF only was used in 43% (n = 1,046), Cryo only in 49% (n = 1,201), RF->Cryo in 6% (n = 135), and Cryo->RF in 3% (n = 66). Acute ablation failure occurred in 1.3% (n = 33) overall, with no difference by energy source (RF only 1%, Cryo only 1.5%, RF->Cryo 1.5%, Cryo->RF 3%; P = 0.5). No patient in any group developed AV block requiring permanent pacemaker implantation. Transient AV block occurred in 0.4% of the cohort, with no difference between groups.
+
+CONCLUSIONS: In this large pediatric registry, RF and Cryo achieved comparable and high acute success for AVNRT SP modification, and AV block was rare and never required temporary or permanent pacing. Longitudinal follow-up data are needed to compare recurrence risk and late complications between energy modalities.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

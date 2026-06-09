@@ -1,0 +1,17 @@
+{
+  "x_scores": {
+    "journal_fit": 5,
+    "informativeness": 3,
+    "clarity": 5,
+    "appeal": 3
+  },
+  "y_scores": {
+    "journal_fit": 2,
+    "informativeness": 4,
+    "clarity": 3,
+    "appeal": 4
+  },
+  "winner": "X",
+  "rationale": "Title X matches PACE's conventional structure and length with clean 'A Case Report' labeling, while Y's verbose subtitle with 'Dynamically Individualized Antithrombotic Management' is awkwardly phrased and atypically long for the journal.",
+  "loser_weakness": "Title Y sacrifices journal fit and clarity for informativeness, using an unwieldy non-standard subtitle that departs from PACE's preferred concise case report format."
+}

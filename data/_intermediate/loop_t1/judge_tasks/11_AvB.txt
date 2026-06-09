@@ -1,0 +1,9 @@
+You are an expert PACE editor blindly comparing two candidate manuscript titles for the SAME study, both intended for PACE. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Safety and Outcomes of Subcutaneous Implantable Cardioverter-Defibrillator Implantation in Patients With Prior Sternotomy: A Multicenter Retrospective Cohort Study
+
+=== Title Y ===
+Safety and Implant Outcomes of the Subcutaneous Implantable Cardioverter-Defibrillator in Patients With Prior Sternotomy: A Multicenter Cohort Study
+
+Return the structured object.

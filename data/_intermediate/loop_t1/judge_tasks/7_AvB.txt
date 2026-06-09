@@ -1,0 +1,9 @@
+You are an expert JACC editor blindly comparing two candidate manuscript titles for the SAME study, both intended for JACC. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Clinical and Lead-Related Outcomes of Orthotopic Transcatheter Tricuspid Valve Replacement in Patients With Jailed Transvalvular CIED Leads: Insights From the Multinational TRIPLACE Registry
+
+=== Title Y ===
+Transcatheter Tricuspid Valve Replacement With a Jailed Transvalvular Lead: Outcomes From the TRIPLACE Registry
+
+Return the structured object.

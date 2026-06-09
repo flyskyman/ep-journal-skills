@@ -1,0 +1,21 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'PACE'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+BACKGROUND: Cardiac resynchronization therapy (CRT) is an established treatment for heart failure (HF) patients with left bundle branch block (LBBB), yet approximately 30% of recipients fail to respond. Which patients will not respond remains difficult to predict from baseline characteristics, and a simple, widely available predictor is lacking. We assessed whether baseline q waves in leads I, V5, or V6 predict non-response to CRT in HF patients with LBBB.
+
+METHODS: In a single-center retrospective cohort, consecutive HF patients with LVEF <=35% and LBBB undergoing CRT implantation were enrolled. Patients were stratified by the presence of any baseline q wave in leads I, V5, or V6 into a qLBBB(+) group and a qLBBB(-) group. Non-response was defined as LVEF improvement <5% at 6-month follow-up. Multivariable logistic regression was used to assess the independent association between baseline q waves and non-response.
+
+RESULTS: Of 132 patients (mean age 63.0 +/- 10.4 years; 94 [71.2%] male), 32 had baseline q waves in I, V5, or V6 (qLBBB[+]) and 100 did not (qLBBB[-]). The CRT non-response rate was higher in the qLBBB(+) group than the qLBBB(-) group (68.8% vs 33.3%, p<.001). On multivariable analysis, baseline q waves in I, V5, or V6 were independently associated with non-response (odds ratio 4.8, 95% CI 1.5-15.0, p=.007).
+
+CONCLUSION: The presence of any q wave in leads I, V5, or V6 on the baseline ECG is an independent predictor of CRT non-response in HF patients with LBBB. This simple ECG marker may aid candidate selection and warrants prospective validation.
+
+=== Abstract Y ===
+Background: Approximately 30% of heart failure (HF) patients with left bundle branch block (LBBB) fail to respond to cardiac resynchronization therapy (CRT), underscoring the need for better baseline predictors of non-response. We assessed whether baseline q waves in leads I, V5, or V6 predict CRT response in HF patients with LBBB.
+
+Methods: We retrospectively enrolled a single cohort of 132 HF patients with left ventricular ejection fraction (LVEF) ≤35% and LBBB who underwent CRT implantation (mean age 63.0 ± 10.4 years; 94 [71.2%] male). Patients were stratified by the presence of any baseline q wave in leads I, V5, or V6: the qLBBB(+) group comprised 32 patients with such q waves, and the qLBBB(−) group comprised the remaining 100 patients without. Non-response to CRT was defined as LVEF improvement <5% at 6-month follow-up. Multivariable logistic regression was used to assess the independent association between baseline q waves and non-response.
+
+Results: The CRT non-response rate was significantly higher in the qLBBB(+) group than in the qLBBB(−) group (68.8% vs 33.3%, p<.001). On multivariable logistic regression, the presence of baseline q waves in leads I, V5, or V6 was independently associated with higher CRT non-response (odds ratio 4.8, 95% confidence interval 1.5–15.0, p=.007).
+
+Conclusions: The presence of any q wave in leads I, V5, or V6 is an independent predictor of CRT non-response in HF patients with LBBB. This simple baseline ECG marker may help identify candidates less likely to benefit from CRT and warrants prospective validation.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

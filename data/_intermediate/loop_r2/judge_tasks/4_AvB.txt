@@ -1,0 +1,26 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'Europace'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+Background
+Vascular access-site complications are the leading cause of delayed discharge after pulmonary vein isolation (PVI), and the time required for femoral venous hemostasis remains a key barrier to same-day discharge at a time when healthcare facility overcrowding is an increasing concern. We evaluated whether a suture-mediated vascular closure device could enable a safe ambulatory PVI workflow.
+
+Methods
+PRO-PVI was a prospective single-arm observational study enrolling 50 patients scheduled for PVI. Femoral venous access was closed with the Perclose Proglide suture-mediated closure device within a same-day-discharge workflow. A 1:1 propensity-matched control cohort treated with the usual workflow served as the comparator for discharge timing. Endpoints comprised feasibility (proportion discharged on the day of the procedure), efficacy (acute closure rate, time to hemostasis, time to ambulation, and time to discharge), and safety (vascular complications at 30 days), together with patient satisfaction and a direct- and indirect-cost analysis.
+
+Results
+Same-day discharge was achieved in 96% of patients, and device deployment was successful in 100%. Immediate hemostasis (<1 min) was obtained in 30 of 50 patients (62.5%). Mean time to discharge was 5:48 +/- 1:03 h with the closure device versus 10:16 +/- 1:21 h in the matched cohort (P < 0.0001). No major vascular complication occurred through 30 days. Patient satisfaction with the postoperative recovery period was high, and the cost analysis demonstrated a neutral impact relative to the standard of care.
+
+Conclusions
+Suture-mediated femoral venous closure after PVI enables safe same-day discharge within approximately 6 h in 96% of patients, halving postoperative recovery and discharge time with no major vascular complications, improved patient satisfaction, and a cost-neutral impact. This ambulatory approach could help reduce healthcare facility overcrowding.
+
+=== Abstract Y ===
+AIMS
+Vascular access-site complications are the leading cause of delayed discharge after pulmonary vein isolation (PVI), and prolonged femoral venous hemostasis time is a principal barrier to same-day discharge at a time when healthcare facility overcrowding is an increasing concern. However, a femoral venous closure strategy that reliably enables an ambulatory PVI workflow has not been established. We aimed to evaluate the feasibility, efficacy, and safety of suture-mediated femoral venous closure to support same-day discharge after PVI.
+
+METHODS AND RESULTS
+In this prospective single-arm observational study (PRO-PVI), 50 patients scheduled for PVI underwent femoral venous access-site closure with the Perclose ProGlide suture-mediated closure device within an ambulatory same-day-discharge workflow. A 1:1 propensity-matched cohort managed with the usual workflow served as a control for time-to-discharge comparison. Endpoints were feasibility (proportion discharged on the day of the procedure), efficacy (acute closure rate, time to hemostasis, time to ambulation, time to discharge), and safety (vascular complications at 30 days), together with patient satisfaction and direct plus indirect cost. Same-day discharge was achieved in 96% of patients, and device deployment was successful in 100%. Immediate hemostasis (<1 min) was obtained in 30/50 patients (62.5%). Mean time to discharge was markedly shorter than in the matched control cohort (5:48 +/- 1:03 h vs 10:16 +/- 1:21 h, P < 0.0001), approximately halving post-procedural recovery time. No major vascular complication occurred through 30 days. Patient satisfaction with the post-operative course was high, and cost analysis showed a neutral impact relative to the standard of care.
+
+CONCLUSION
+Suture-mediated femoral venous closure after PVI enabled safe same-day discharge within approximately 6 h in 96% of patients, halving post-procedural recovery and discharge time without major vascular complications, while improving patient satisfaction at cost-neutral impact. These findings, from a single-arm study with a propensity-matched comparator, support suture-mediated venous closure as a strategy for ambulatory PVI that may help reduce healthcare facility overcrowding and warrant confirmation in randomized trials.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

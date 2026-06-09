@@ -1,0 +1,1082 @@
+[
+ {
+  "id": 1,
+  "journal": "HR",
+  "title": "Upper common pathway analysis using late atrial premature depolarization in atrioventricular nodal reentry tachycardia.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 2,
+  "journal": "HR",
+  "title": "In silico pace mapping identifies pacing sites more accurately than inverse body surface potential mapping.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 3,
+  "journal": "HR",
+  "title": "Response to the letter to the editor entitled \"Lumenless defibrillation lead for LBBAP: promise for the future?\".",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 4,
+  "journal": "HR",
+  "title": "Early mortality after inpatient versus outpatient catheter ablation in patients with atrial fibrillation.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": true,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 5,
+  "journal": "HR",
+  "title": "Atrial fibrillation ablation in patients with pulmonary hypertension: Multicenter experience.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 6,
+  "journal": "HR",
+  "title": "Class IC Antiarrhythmic Therapy in Myocarditis With Non-Severe LV Dysfunction.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 7,
+  "journal": "HR",
+  "title": "Epicardial substrate ablation in patients with symptomatic Brugada syndrome: An updated systematic review and single-arm meta-analysis.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": true,
+   "is_case": false
+  }
+ },
+ {
+  "id": 8,
+  "journal": "HR",
+  "title": "Potential impact of long-term ambulatory electrocardiographic monitoring on estimated sudden cardiac death risk in childhood hypertrophic cardiomyopathy.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 9,
+  "journal": "HR",
+  "title": "Combined catheter ablation of atrial fibrillation and premature ventricular complexes.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 10,
+  "journal": "HR",
+  "title": "Underlying mechanism of atrial fibrillation-associated Nppa-I137T mutation and cardiac effect of potential drug therapy.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 11,
+  "journal": "HR",
+  "title": "Long-term clinical outcomes and cost-effectiveness of catheter vs thoracoscopic surgical ablation in long-standing persistent atrial fibrillation using continuous cardiac monitoring: CASA-AF randomized controlled trial.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": true,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 12,
+  "journal": "HR",
+  "title": "To the Editor - High stakes and high voltage: The real costs of pulsed field ablation.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 13,
+  "journal": "HR",
+  "title": "Right atrial reverse remodeling after pulmonary vein isolation: Analyzing changes in volume and function using cardiac magnetic resonance imaging.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 14,
+  "journal": "HR",
+  "title": "Quantifying pulmonary vein antrum contact area with novel dual-sized cryoballoon to optimize pulmonary vein isolation.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 15,
+  "journal": "HR",
+  "title": "Translational peak frequency mapping of human sinoatrial node-Bachmann bundle axis: Integrating human in vivo electroanatomic mapping with preclinical microstructural validation.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 16,
+  "journal": "CircAE",
+  "title": "Ablation of Ventricular Preexcitation to Cure Preexcitation-Induced Dilated Cardiomyopathy in Infants: Diagnosis and Outcome.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 17,
+  "journal": "CircAE",
+  "title": "Ebstein Anomaly and Atrial Conduction: Big Does Not Mean Bad.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 18,
+  "journal": "CircAE",
+  "title": "Performance of Atrial Fibrillation Burden Trends for Stroke Risk Stratification.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 19,
+  "journal": "CircAE",
+  "title": "Unraveling the Rhythm: Sex-Based Molecular Signatures of Sinus Node Function and Arrhythmia Susceptibility.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 20,
+  "journal": "CircAE",
+  "title": "Prediction of Atrial Fibrillation From the ECG in the Community Using Deep Learning: A Multinational Study.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 21,
+  "journal": "CircAE",
+  "title": "Inappropriate Shock Rates and Long-Term Complications due to Subcutaneous Implantable Cardioverter Defibrillators in Patients With and Without Heart Failure: Results From a Multicenter, International Registry.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 22,
+  "journal": "CircAE",
+  "title": "His-Ventricular Interval and Incident Pacemaker Implant in Over 3000 Ambulatory Patients Undergoing Invasive Electrophysiologic Procedures.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 23,
+  "journal": "CircAE",
+  "title": "Incidence and Predictors of Acute Urinary Retention After Atrial Fibrillation Pulsed Field Ablation: A Word of Caution on Routine Atropine Administration.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 24,
+  "journal": "CircAE",
+  "title": "Electrophysiology, Pathology, and Imaging of Pulsed Field Ablation of Scarred and Healthy Ventricles in Swine.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 25,
+  "journal": "CircAE",
+  "title": "Postprocedural Anticoagulation After LAAO: Comparing DOACs, Warfarin, and Individual DOAC Agents.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 26,
+  "journal": "CircAE",
+  "title": "Fetal Bradycardia Prompting the Diagnosis and Management of Parental Long QT Syndrome.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 27,
+  "journal": "CircAE",
+  "title": "Implantable Cardioverter-defibrillator Deactivation at Distance for the Dignity of Dying (the 4D Project).",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 28,
+  "journal": "CircAE",
+  "title": "Coronary Vasospasm During Isthmus Pulsed Field Ablation With Wide Area Focal Catheter.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 29,
+  "journal": "CircAE",
+  "title": "Predictors of Response to Cardiac Resynchronization Therapy in Pediatric Patients and Patients With Congenital Heart Disease.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 30,
+  "journal": "CircAE",
+  "title": "Metformin Protects Against Persistent Atrial Fibrillation in an Equine Model.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 31,
+  "journal": "Europace",
+  "title": "Nationwide trends in pediatric pacemaker implantation in France, 2014-2024.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 32,
+  "journal": "Europace",
+  "title": "Incidence and Type of Recurrent Ventricular Arrhythmia in Patients with Arrhythmic Mitral Valve Prolapse and Implantable Cardioverter Defibrillator for Secondary Prevention.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 33,
+  "journal": "Europace",
+  "title": "Pulmonary vein reconnection rates after pulse field ablation: time for a reality check?",
+  "regex": {
+   "has_colon": true,
+   "is_question": true,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 34,
+  "journal": "Europace",
+  "title": "Use of single-chamber atrial pacemakers post-DANPACE: an analysis using national data.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 35,
+  "journal": "Europace",
+  "title": "Conduction system pacing after atrioventricular junction ablation.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 36,
+  "journal": "Europace",
+  "title": "Correction to: Drug therapy and catheter ablation for management of arrhythmias in continuous flow left ventricular assist device's patients: a Clinical Consensus Statement of the European Heart Rhythm Association and the Heart Failure Association of the ESC.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 37,
+  "journal": "Europace",
+  "title": "Periprocedural acute haemodynamic decompensation during substrate-based ablation of scar-related ventricular tachycardia: a rare and unpredictable event.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 38,
+  "journal": "Europace",
+  "title": "Arrhythmias and the extracardiac conduit Fontan: promise unfulfilled?",
+  "regex": {
+   "has_colon": true,
+   "is_question": true,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 39,
+  "journal": "Europace",
+  "title": "Left atrial intramyocardial fat at pulmonary vein reconnection sites during atrial fibrillation redo ablation.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 40,
+  "journal": "Europace",
+  "title": "Ambulatory pulmonary vein isolation workflow using the Perclose ProglideTM suture-mediated vascular closure device: the PRO-PVI study.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 41,
+  "journal": "Europace",
+  "title": "Correction to: Acute and mid-term outcomes of ablation for atrial fibrillation with VISITAG SURPOINT: the Japan MIYABI registry.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 42,
+  "journal": "Europace",
+  "title": "HIgh Power short duration radiofrequency ablation or cryoballoon ablation for paroxysmal Atrial Fibrillation (HIPAF trial).",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 43,
+  "journal": "Europace",
+  "title": "The evolving epidemiological landscape of atrial fibrillation: trends, challenges, and opportunities for improved patient care.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 44,
+  "journal": "Europace",
+  "title": "Comparison of strategies for catheter ablation of left posterior fascicular ventricular tachycardia.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 45,
+  "journal": "Europace",
+  "title": "Cardioneuroablation for vasovagal syncope: insights on patients' selection, centre settings, procedural workflow and endpoints-results from an European Heart Rhythm Association survey.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 46,
+  "journal": "JACC",
+  "title": "Trigger- vs Substrate-Based Purkinje De-Networking for Ventricular Fibrillation: Insights From a Multicenter Study.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": true,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 47,
+  "journal": "JACC",
+  "title": "Smoking Cessation and Incident Atrial Fibrillation in a Longitudinal Cohort.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 48,
+  "journal": "JACC",
+  "title": "Is Investigator Sex Associated With Female Underenrollment in Arrhythmia Trials?: A Retrospective Observational Study.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 49,
+  "journal": "JACC",
+  "title": "Mechanism of Stroke Related to a Small Peridevice Leak Coupled with \"Reverse\" Device-Related Thrombus.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 50,
+  "journal": "JACC",
+  "title": "Sizing Up Success: Intentional Over-Compression in Left Atrial Appendage Closure.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 51,
+  "journal": "JACC",
+  "title": "Subcutaneous Implantable Defibrillator Therapy in Patients With Brugada Syndrome: Data From a Large Multicenter Registry.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 52,
+  "journal": "JACC",
+  "title": "Trans-Right Pulmonary Artery Approach for Radiofrequency Ablation of Focal Atrial Tachycardia Arising From a Left Atrial Diverticulum.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 53,
+  "journal": "JACC",
+  "title": "Coronary Sinus Isolation for High-Burden Atrial Fibrillation: A Randomized Clinical Trial.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 54,
+  "journal": "JACC",
+  "title": "Whole-Heart Histological and CMR Validation of Electroanatomic Mapping by Multielectrode Catheters in an Ovine Model.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 55,
+  "journal": "JACC",
+  "title": "Paradigm Shift for Catheter Ablation of Atypical Atrioventricular Nodal Re-Entrant Tachycardia: 3-Dimensional Mapping-Based Ablation.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 56,
+  "journal": "JACC",
+  "title": "Long-Term Outcomes of Permanent Pacemaker Implantation in Bicaval Heart Transplant Recipients.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 57,
+  "journal": "JACC",
+  "title": "The Liraglutide Effects in Atrial Fibrillation (LEAF) Study.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 58,
+  "journal": "JACC",
+  "title": "Hyperventilation Before Apneic Oxygenation During Pulmonary Vein Isolation May Be Unnecessary and Potentially Harmful.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 59,
+  "journal": "JACC",
+  "title": "Multipolar Ablation Using Mapping Electrodes: A Novel Approach to Intramural Arrhythmia Substrates.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 60,
+  "journal": "JACC",
+  "title": "Emergence of SCAI in Patients With Tetralogy of Fallot: Early Ablation Target or Moving Target.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 61,
+  "journal": "PACE",
+  "title": "Hemodynamics During Pulsed-Field Ablation: A Deep Dive Into Its Temporal Aspect in Various Sedation Strategies.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 62,
+  "journal": "PACE",
+  "title": "Outcomes of Patients With Arrhythmia During Single-Ventricle Palliation.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 63,
+  "journal": "PACE",
+  "title": "Techniques for Transvenous Lead Extraction of Cardiac Implantable Electronic Devices: A Network Meta-Analysis.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": true,
+   "is_case": false
+  }
+ },
+ {
+  "id": 64,
+  "journal": "PACE",
+  "title": "The individual relationship between atrial fibrillation sources from CARTOFINDER mapping and atrial cardiomyopathy: The catch me if you can trial.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 65,
+  "journal": "PACE",
+  "title": "Horizontal Axis Affects Paced QRS Duration More Than Vertical Axis at Leadless Pacemaker Implantation Site.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 66,
+  "journal": "PACE",
+  "title": "Atrioventricular Block in the Setting of Immune Myocarditis: A Pragmatic Approach to Diagnosis and Treatment.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 67,
+  "journal": "PACE",
+  "title": "Efficiency and safety of high-power ablation guided by Lesion size index: An ex vivo porcine heart study.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 68,
+  "journal": "PACE",
+  "title": "Pulse-Field Ablation of Atrial Fibrillation Using the Pentaspline Catheter in Adults With Congenital Heart Disease.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 69,
+  "journal": "PACE",
+  "title": "Impact of High-Density Mapping on Pulmonary Vein Isolation Durability: A Randomized, Single-Center Study.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 70,
+  "journal": "PACE",
+  "title": "Computed tomography predictors of increased transvenous lead extraction difficulty.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 71,
+  "journal": "PACE",
+  "title": "Upper turnaround point in a reentry circuit of the idiopathic left posterior fascicular ventricular tachycardia.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 72,
+  "journal": "PACE",
+  "title": "Functional Substrate Mapping Using Atrial Decrement Evoked Potentials to Predict Critical Isthmus of Atrial Tachycardia.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 73,
+  "journal": "PACE",
+  "title": "Impact of Pulmonary Vein Anatomy on Outcomes in Patients Undergoing Cryoballoon Ablation for Atrial Fibrillation.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 74,
+  "journal": "PACE",
+  "title": "Electrocardiographic Imaging: A New Tool to Ensure Cardiac Resynchronization During Left Bundle Branch Pacing Implant.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 75,
+  "journal": "PACE",
+  "title": "When Substrate Meets Device: ICD Implantation and Therapy across the Spectrum of Cardiomyopathies.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 76,
+  "journal": "JICE",
+  "title": "Success and complication rates of conduction system pacing: a meta-analytical observational comparison of left bundle branch area pacing and His bundle pacing.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 77,
+  "journal": "JICE",
+  "title": "Left atrial volume affects the correlation of voltage map with magnetic resonance imaging.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 78,
+  "journal": "JICE",
+  "title": "Outcomes after ventricular tachycardia ablation in patients with left ventricular assist device: a retrospective multicenter cohort study.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 79,
+  "journal": "JICE",
+  "title": "A novel artificial intelligence based algorithm to reduce wearable cardioverter-defibrillator alarms.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 80,
+  "journal": "JICE",
+  "title": "Correction: Electrophysiological findings during re-do procedures after single-shot pulmonary vein isolation for atrial fibrillation with pulsed field ablation.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 81,
+  "journal": "JICE",
+  "title": "Optimal anesthesia approach during catheter ablation of premature ventricular complexes: you snooze, you lose!",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 82,
+  "journal": "JICE",
+  "title": "Epicardial muscle bundles in persistent atrial fibrillation: from overlooked bystanders to arrhythmogenic modulators.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 83,
+  "journal": "JICE",
+  "title": "Inter-American Society of Cardiology (CIFACAH-ELECTROSIAC) and Latin-American Heart Rhythm Society (LAHRS): multidisciplinary review on the appropriate use of implantable cardiodefibrillator in heart failure with reduced ejection fraction.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 84,
+  "journal": "JICE",
+  "title": "Association of mechanical circulatory support use with inpatient outcomes in patients undergoing ventricular tachycardia ablation.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 85,
+  "journal": "JICE",
+  "title": "The role of cardiac sympathetic denervation for ventricular arrhythmias: an updated systematic review and meta-analysis.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": true,
+   "is_case": false
+  }
+ },
+ {
+  "id": 86,
+  "journal": "JICE",
+  "title": "Image quality assessment and automation in late gadolinium-enhanced MRI of the left atrium in atrial fibrillation patients.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 87,
+  "journal": "JICE",
+  "title": "Clockwise \"Mitral Isthmus Block\" complicating ablation of left free wall accessory pathways - two cases and review of the literature.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 88,
+  "journal": "JICE",
+  "title": "Successful left bundle branch area pacing in a patient with three TriClip devices.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ },
+ {
+  "id": 89,
+  "journal": "JICE",
+  "title": "Risk factors for the development of premature ventricular complex-induced cardiomyopathy: a systematic review and meta-analysis.",
+  "regex": {
+   "has_colon": true,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": true,
+   "is_case": false
+  }
+ },
+ {
+  "id": 90,
+  "journal": "JICE",
+  "title": "Atrial fibrillation cycle-length (AF-CL) inside the pulmonary veins predicts paroxysmal AF ablation success- the INDUCE-AF study.",
+  "regex": {
+   "has_colon": false,
+   "is_question": false,
+   "is_versus": false,
+   "is_review_meta": false,
+   "is_case": false
+  }
+ }
+]

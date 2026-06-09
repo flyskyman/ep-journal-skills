@@ -1,0 +1,25 @@
+You are an expert EP journal editor blindly comparing two abstracts written for the journal 'JACC'. Score EACH abstract 1-5 on: gap_specificity (is the knowledge gap specific & falsifiable, not 'few studies'), results_rigor (primary result with effect size + comparator + CI/p, not vague), certainty_calibration (does the conclusion's strength fit the design), journal_fit (fits the target journal's typical scope/format), clarity. Then pick the better overall abstract. Judge QUALITY ONLY — do NOT try to guess which is 'the real published one'.
+
+=== Abstract X ===
+BACKGROUND: Conventional heart rate variability (HRV) metrics correlate only modestly with sudden cardiac death (SCD), leaving a need for stronger risk stratification. Detrended fluctuation analysis (DFA), which quantifies the short-term scaling behavior of heart rate fluctuations, may capture autonomic risk that conventional HRV misses. However, whether ultra-short-term DFA-derived measures improve prediction of incident SCD remains undetermined.
+
+OBJECTIVES: This study sought to test the predictive value of ultra-short-term heart rate fluctuations, assessed by DFA, for incident SCD.
+
+METHODS: In the prospective Finnish Cardiovascular Study (FINCAVAS), 2,794 participants undergoing clinical exercise testing were enrolled. Ultra-short-term heart rate fluctuations were derived from 1-minute ECG samples at rest and during stages of physical exertion. The principal exposure was the short-scale scaling exponent computed with second-order detrending (DFA2 alpha1). SCD was adjudicated by AHA/ESC criteria from death certificates with written event accounts. Associations with SCD were assessed before and after adjustment for major risk factors (age, cardiovascular morbidities, cardiorespiratory fitness, heart rate reduction, and left ventricular ejection fraction).
+
+RESULTS: During a median follow-up of 8.3 years (Q1-Q3: 6.4-10.5 years), 83 SCDs occurred. DFA2 alpha1 measured at rest was strongly associated with SCD: each 1-SD lower value conferred a 2.4-fold higher risk (Q1-Q3: 2.0-3.0; P < 0.001). The association persisted after adjustment for major SCD risk factors. In contrast, DFA2 alpha1 measured during exercise was not associated with SCD, and conventional HRV parameters at rest or during any exercise stage showed substantially weaker associations that were nonsignificant after adjustment.
+
+CONCLUSIONS: Ultra-short-term DFA2 alpha1 measured at rest is a powerful, independent predictor of SCD, outperforming conventional HRV metrics. The DFA2 alpha1-SCD association is modified by physical exertion, with the resting measurement carrying the predictive value.
+
+=== Abstract Y ===
+BACKGROUND: Conventional heart rate variability (HRV) metrics correlate only modestly with the risk of sudden cardiac death (SCD), and improved noninvasive risk stratification is needed. Detrended fluctuation analysis (DFA) of short-term heart rate scaling behavior may capture autonomic dynamics more effectively than conventional HRV.
+
+OBJECTIVES: This study sought to test the predictive value of ultra-short-term heart rate fluctuations, quantified by DFA, for incident SCD.
+
+METHODS: In the prospective Finnish Cardiovascular Study (FINCAVAS), 2,794 participants undergoing clinical exercise testing were studied. Ultra-short-term heart rate fluctuations were derived from 1-minute ECG samples analyzed by DFA at rest and during graded physical exertion. The principal exposure was the short-scale scaling exponent computed with second-order detrending (DFA2 alpha1). SCD was adjudicated by AHA/ESC criteria using death certificates with written event accounts.
+
+RESULTS: During a median follow-up of 8.3 years (Q1-Q3: 6.4-10.5 years), 83 SCDs occurred. DFA2 alpha1 measured at rest was strongly associated with SCD: each 1-SD lower value conferred a 2.4-fold increase in risk (Q1-Q3: 2.0-3.0; P < 0.001). This association persisted after adjustment for major SCD risk factors, including age, cardiovascular morbidities, cardiorespiratory fitness, exercise heart rate reduction, and left ventricular ejection fraction. In contrast, DFA2 alpha1 measured during exercise was not associated with SCD. Conventional HRV parameters, whether measured at rest or during any stage of exercise, showed substantially weaker associations and were nonsignificant after adjustment for other risk factors.
+
+CONCLUSIONS: Ultra-short-term DFA2 alpha1 measured at rest is a powerful and independent predictor of SCD, outperforming conventional HRV metrics. The association between DFA2 alpha1 and SCD is modified by physical exertion, with the resting measurement carrying the predictive information, supporting its potential role in noninvasive SCD risk stratification.
+
+Return the structured object (x_scores, y_scores, winner X/Y/tie, rationale, loser_weakness=what the weaker abstract most lacked).

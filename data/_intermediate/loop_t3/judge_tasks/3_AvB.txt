@@ -1,0 +1,9 @@
+You are an expert HR editor blindly comparing two candidate manuscript titles for the SAME study, both for HR. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Intracardiac Echocardiography-Guided Left Atrial Appendage Closure With the LAmbre Device in Patients With Appendage Thrombus: A Feasibility Series of 12 Patients
+
+=== Title Y ===
+Intracardiac Echocardiography-Guided Left Atrial Appendage Closure with the LAmbre Device in Patients with Left Atrial Appendage Thrombus: A Feasibility Study
+
+Return the structured object.

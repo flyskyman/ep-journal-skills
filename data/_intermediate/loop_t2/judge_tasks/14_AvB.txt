@@ -1,0 +1,9 @@
+You are an expert JICE editor blindly comparing two candidate manuscript titles for the SAME study, both for JICE. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Variant Pulmonary Vein Anatomy and Enlarged Cross-Sectional Area Predict Long-Term AF Recurrence After Cryoballoon Pulmonary Vein Isolation for Paroxysmal AF: An MRI-Based Cohort of 353 Patients
+
+=== Title Y ===
+Variant pulmonary vein anatomy and enlarged pulmonary vein cross-sectional area predict long-term atrial fibrillation recurrence after cryoballoon pulmonary vein isolation for paroxysmal atrial fibrillation: a single-center cohort study
+
+Return the structured object.

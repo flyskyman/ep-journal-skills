@@ -1,0 +1,9 @@
+You are an expert Europace editor blindly comparing two candidate manuscript titles for the SAME study, both intended for Europace. Score EACH title 1-5 on: journal_fit (length/structure/style match for the target journal — see how that journal titles papers), informativeness (conveys the key topic+finding), clarity (clean, readable, unambiguous), appeal (precise and compelling). Pick the better title overall. Judge QUALITY ONLY — do NOT guess which is the real published one.
+
+=== Title X ===
+Diagnostic and therapeutic pathways for the malignant left atrial appendage: European Heart Rhythm Association physician survey.
+
+=== Title Y ===
+Diagnostic and therapeutic management of malignant left atrial appendage in atrial fibrillation: a European EHRA physician survey
+
+Return the structured object.

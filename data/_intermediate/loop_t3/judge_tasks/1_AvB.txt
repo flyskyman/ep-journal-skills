@@ -1,0 +1,9 @@
+You are an expert HR editor blindly comparing two candidate manuscript titles for the SAME study, both for HR. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Thromboinflammatory Effects and Universal Hemolysis After Pulsed Field versus Radiofrequency Ablation for Paroxysmal Atrial Fibrillation: A Prospective Comparative Study
+
+=== Title Y ===
+Universal Hemolysis and Its Thromboinflammatory and Renal Consequences After Pulsed Field versus Radiofrequency Ablation: A Prospective Comparative Study in Paroxysmal Atrial Fibrillation
+
+Return the structured object.

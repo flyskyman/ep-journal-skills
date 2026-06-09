@@ -1,0 +1,9 @@
+BACKGROUND: In high-risk patients, ventricular tachycardia (VT) frequently persists despite maximally tolerated antiarrhythmic drugs and extensive catheter ablation. Cardiac stereotactic body radiotherapy (SBRT) is an emerging noninvasive treatment for refractory VT, but safety and effectiveness data, particularly at 1 year, remain limited.
+
+OBJECTIVE: To evaluate the safety and effectiveness of cardiac SBRT through 12 months in patients with VT refractory to standard therapy.
+
+METHODS: In a prospective single-arm registry, patients were enrolled after failure of maximal medical therapy and catheter ablation. Each patient served as his or her own control, with outcomes compared to the 6 months preceding treatment. The planning target volume was defined by integrating available electrophysiologic mapping and imaging data, and a single 25-Gy fraction was delivered with respiratory motion mitigation. VT burden (implantable cardioverter-defibrillator [ICD] shocks plus antitachycardia pacing [ATP] sequences) and clinical and safety outcomes were assessed at 6 weeks, 6 months, and 12 months.
+
+RESULTS: Fifteen patients were enrolled and underwent planning; 14 (93%) received treatment. Twelve (80%) survived to 6 weeks and 10 (67%) to 12 months; 4 deaths occurred after treatment. Treated VT was reduced by 98% from 6 weeks to 6 months and by 99% at 12 months versus the 6 months before treatment. Recurrent VT (appropriate ATP or ICD shock) occurred in 33% (4 of 12) between 6 weeks and 12 months. A nonsignificant trend toward lower amiodarone dose was observed at 12 months, with no change in ventricular function.
+
+CONCLUSION: In selected high-risk patients with VT refractory to standard therapy, cardiac SBRT was associated with marked reduction in VT and appropriate ICD therapies over 1 year.

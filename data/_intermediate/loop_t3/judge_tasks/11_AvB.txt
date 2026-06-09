@@ -1,0 +1,9 @@
+You are an expert PACE editor blindly comparing two candidate manuscript titles for the SAME study, both for PACE. Score EACH title 1-5 on: journal_fit, informativeness (conveys key topic+finding+specifics), clarity, appeal. Pick the better title overall. Judge QUALITY ONLY.
+
+=== Title X ===
+Safety and Outcomes of Subcutaneous Implantable Cardioverter-Defibrillator Implantation in Patients With Prior Sternotomy: A Multicenter Retrospective Cohort Study
+
+=== Title Y ===
+Safety and Implant Outcomes of the Subcutaneous ICD in Patients With Versus Without Prior Sternotomy: A Multicenter Cohort Study of 212 Patients
+
+Return the structured object.

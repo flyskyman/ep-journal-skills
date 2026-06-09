@@ -1,0 +1,423 @@
+{
+  "n": 1677,
+  "by_journal": {
+    "HR": {
+      "n": 253,
+      "study_type": {
+        "original_clinical": 71,
+        "original_preclinical_basic": 13,
+        "meta_analysis_review": 13,
+        "ai_ml": 2,
+        "other": 1,
+        "case_report_series": 0
+      },
+      "gap_type": {
+        "mechanistic_deficit": 19,
+        "comparative_unknown": 19,
+        "prevalence_or_characterization": 17,
+        "capability_gap": 16,
+        "feasibility_in_niche": 10,
+        "optimization_unknown": 9,
+        "literature_void_weak": 4,
+        "guideline_inadequacy": 4,
+        "no_clear_gap": 0
+      },
+      "contribution_frame": {
+        "feasibility_safety_demo": 18,
+        "mechanism_insight": 16,
+        "procedural_refinement": 15,
+        "realworld_scale_evidence": 13,
+        "prognostic_predictor": 13,
+        "evidence_synthesis_meta": 10,
+        "comparative_effectiveness": 10,
+        "clinical_decision_change": 3,
+        "validated_ai_capability": 2
+      },
+      "results_logic": {
+        "descriptive_only": 33,
+        "effectsize_comparator_ci": 31,
+        "p_value_only": 19,
+        "discriminator_threshold_roc": 11,
+        "meta_pooled_effect": 6,
+        "noninferiority": 1
+      },
+      "benchmarking": {
+        "none": 41,
+        "vs_alternative_technique": 30,
+        "vs_baseline_prepost": 16,
+        "vs_guideline_standard": 8,
+        "vs_existing_model": 4,
+        "external": 0
+      },
+      "conclusion_stance": {
+        "decisive_clinical": 35,
+        "practical_modest": 30,
+        "translational_honest": 16,
+        "exploratory_hypothesis_generating": 9,
+        "mechanistic_elevation": 8,
+        "null_finding_neutral": 2
+      },
+      "certainty_calibration": {
+        "matches_design": 97,
+        "overclaims": 3
+      },
+      "voice": {
+        "impersonal": 80,
+        "first_person_we": 20
+      },
+      "external_validation": {
+        "not_applicable": 67,
+        "internal_only": 30,
+        "external": 3
+      }
+    },
+    "CircAE": {
+      "n": 237,
+      "study_type": {
+        "original_clinical": 59,
+        "original_preclinical_basic": 29,
+        "meta_analysis_review": 5,
+        "ai_ml": 5,
+        "case_report_series": 2,
+        "other": 0
+      },
+      "gap_type": {
+        "mechanistic_deficit": 24,
+        "capability_gap": 19,
+        "comparative_unknown": 16,
+        "feasibility_in_niche": 14,
+        "prevalence_or_characterization": 12,
+        "optimization_unknown": 8,
+        "guideline_inadequacy": 3,
+        "literature_void_weak": 2
+      },
+      "contribution_frame": {
+        "mechanism_insight": 21,
+        "feasibility_safety_demo": 20,
+        "procedural_refinement": 18,
+        "comparative_effectiveness": 11,
+        "prognostic_predictor": 11,
+        "realworld_scale_evidence": 7,
+        "validated_ai_capability": 5,
+        "evidence_synthesis_meta": 4,
+        "clinical_decision_change": 3
+      },
+      "results_logic": {
+        "descriptive_only": 35,
+        "effectsize_comparator_ci": 33,
+        "p_value_only": 18,
+        "discriminator_threshold_roc": 11,
+        "meta_pooled_effect": 2,
+        "noninferiority": 1
+      },
+      "benchmarking": {
+        "none": 37,
+        "vs_alternative_technique": 29,
+        "vs_baseline_prepost": 16,
+        "vs_existing_model": 10,
+        "vs_guideline_standard": 8
+      },
+      "conclusion_stance": {
+        "practical_modest": 32,
+        "decisive_clinical": 25,
+        "translational_honest": 19,
+        "mechanistic_elevation": 13,
+        "exploratory_hypothesis_generating": 8,
+        "null_finding_neutral": 3
+      },
+      "certainty_calibration": {
+        "matches_design": 97,
+        "overclaims": 2,
+        "underclaims": 0
+      },
+      "voice": {
+        "impersonal": 62,
+        "first_person_we": 38
+      },
+      "external_validation": {
+        "not_applicable": 76,
+        "internal_only": 19,
+        "external": 6
+      }
+    },
+    "Europace": {
+      "n": 308,
+      "study_type": {
+        "original_clinical": 66,
+        "meta_analysis_review": 16,
+        "original_preclinical_basic": 10,
+        "other": 6,
+        "ai_ml": 2,
+        "case_report_series": 1
+      },
+      "gap_type": {
+        "comparative_unknown": 23,
+        "prevalence_or_characterization": 20,
+        "feasibility_in_niche": 12,
+        "mechanistic_deficit": 11,
+        "capability_gap": 11,
+        "optimization_unknown": 9,
+        "guideline_inadequacy": 8,
+        "literature_void_weak": 4,
+        "no_clear_gap": 1,
+        "prognostic_predictor": 0
+      },
+      "contribution_frame": {
+        "feasibility_safety_demo": 15,
+        "realworld_scale_evidence": 15,
+        "comparative_effectiveness": 15,
+        "evidence_synthesis_meta": 14,
+        "procedural_refinement": 14,
+        "mechanism_insight": 10,
+        "prognostic_predictor": 10,
+        "clinical_decision_change": 5,
+        "validated_ai_capability": 2
+      },
+      "results_logic": {
+        "descriptive_only": 42,
+        "effectsize_comparator_ci": 28,
+        "p_value_only": 15,
+        "discriminator_threshold_roc": 9,
+        "meta_pooled_effect": 6,
+        "noninferiority": 1
+      },
+      "benchmarking": {
+        "none": 42,
+        "vs_alternative_technique": 33,
+        "vs_guideline_standard": 11,
+        "vs_baseline_prepost": 9,
+        "vs_existing_model": 4
+      },
+      "conclusion_stance": {
+        "practical_modest": 36,
+        "decisive_clinical": 31,
+        "translational_honest": 12,
+        "mechanistic_elevation": 9,
+        "exploratory_hypothesis_generating": 8,
+        "null_finding_neutral": 5
+      },
+      "certainty_calibration": {
+        "matches_design": 99,
+        "overclaims": 1,
+        "underclaims": 0
+      },
+      "voice": {
+        "impersonal": 76,
+        "first_person_we": 24
+      },
+      "external_validation": {
+        "not_applicable": 85,
+        "internal_only": 12,
+        "external": 3
+      }
+    },
+    "JACC": {
+      "n": 200,
+      "study_type": {
+        "original_clinical": 75,
+        "original_preclinical_basic": 12,
+        "meta_analysis_review": 10,
+        "ai_ml": 2,
+        "case_report_series": 1,
+        "other": 0
+      },
+      "gap_type": {
+        "prevalence_or_characterization": 22,
+        "comparative_unknown": 21,
+        "mechanistic_deficit": 21,
+        "feasibility_in_niche": 10,
+        "capability_gap": 9,
+        "optimization_unknown": 8,
+        "guideline_inadequacy": 4,
+        "literature_void_weak": 4
+      },
+      "contribution_frame": {
+        "mechanism_insight": 18,
+        "comparative_effectiveness": 16,
+        "feasibility_safety_demo": 15,
+        "procedural_refinement": 14,
+        "prognostic_predictor": 14,
+        "realworld_scale_evidence": 10,
+        "evidence_synthesis_meta": 7,
+        "clinical_decision_change": 3,
+        "validated_ai_capability": 2
+      },
+      "results_logic": {
+        "effectsize_comparator_ci": 38,
+        "descriptive_only": 32,
+        "p_value_only": 20,
+        "discriminator_threshold_roc": 9,
+        "meta_pooled_effect": 1,
+        "noninferiority": 0
+      },
+      "benchmarking": {
+        "none": 41,
+        "vs_alternative_technique": 34,
+        "vs_baseline_prepost": 14,
+        "vs_guideline_standard": 6,
+        "vs_existing_model": 4
+      },
+      "conclusion_stance": {
+        "decisive_clinical": 33,
+        "practical_modest": 28,
+        "translational_honest": 14,
+        "mechanistic_elevation": 14,
+        "exploratory_hypothesis_generating": 8,
+        "null_finding_neutral": 4
+      },
+      "certainty_calibration": {
+        "matches_design": 99,
+        "overclaims": 1
+      },
+      "voice": {
+        "impersonal": 90,
+        "first_person_we": 10
+      },
+      "external_validation": {
+        "not_applicable": 54,
+        "internal_only": 44,
+        "external": 2
+      }
+    },
+    "PACE": {
+      "n": 405,
+      "study_type": {
+        "original_clinical": 53,
+        "case_report_series": 30,
+        "meta_analysis_review": 13,
+        "original_preclinical_basic": 3,
+        "other": 0,
+        "ai_ml": 0
+      },
+      "gap_type": {
+        "feasibility_in_niche": 26,
+        "comparative_unknown": 18,
+        "prevalence_or_characterization": 15,
+        "capability_gap": 13,
+        "mechanistic_deficit": 12,
+        "optimization_unknown": 7,
+        "literature_void_weak": 5,
+        "guideline_inadequacy": 5,
+        "no_clear_gap": 0
+      },
+      "contribution_frame": {
+        "feasibility_safety_demo": 32,
+        "procedural_refinement": 19,
+        "prognostic_predictor": 11,
+        "evidence_synthesis_meta": 10,
+        "comparative_effectiveness": 10,
+        "mechanism_insight": 10,
+        "realworld_scale_evidence": 7,
+        "clinical_decision_change": 2,
+        "validated_ai_capability": 1,
+        "prevalence_or_characterization": 0
+      },
+      "results_logic": {
+        "descriptive_only": 53,
+        "effectsize_comparator_ci": 19,
+        "p_value_only": 16,
+        "discriminator_threshold_roc": 6,
+        "meta_pooled_effect": 6,
+        "noninferiority": 0
+      },
+      "benchmarking": {
+        "none": 57,
+        "vs_alternative_technique": 27,
+        "vs_baseline_prepost": 6,
+        "vs_guideline_standard": 6,
+        "vs_existing_model": 3
+      },
+      "conclusion_stance": {
+        "practical_modest": 43,
+        "decisive_clinical": 27,
+        "exploratory_hypothesis_generating": 13,
+        "translational_honest": 11,
+        "mechanistic_elevation": 5,
+        "null_finding_neutral": 2,
+        "clinical_decision_change": 0
+      },
+      "certainty_calibration": {
+        "matches_design": 96,
+        "overclaims": 3,
+        "underclaims": 0
+      },
+      "voice": {
+        "impersonal": 71,
+        "first_person_we": 29
+      },
+      "external_validation": {
+        "not_applicable": 67,
+        "internal_only": 31,
+        "external": 2
+      }
+    },
+    "JICE": {
+      "n": 274,
+      "study_type": {
+        "original_clinical": 74,
+        "meta_analysis_review": 12,
+        "original_preclinical_basic": 5,
+        "case_report_series": 5,
+        "ai_ml": 2,
+        "other": 1
+      },
+      "gap_type": {
+        "comparative_unknown": 26,
+        "feasibility_in_niche": 17,
+        "prevalence_or_characterization": 17,
+        "capability_gap": 15,
+        "mechanistic_deficit": 9,
+        "optimization_unknown": 9,
+        "literature_void_weak": 4,
+        "guideline_inadequacy": 3
+      },
+      "contribution_frame": {
+        "feasibility_safety_demo": 26,
+        "procedural_refinement": 21,
+        "comparative_effectiveness": 12,
+        "evidence_synthesis_meta": 11,
+        "realworld_scale_evidence": 10,
+        "prognostic_predictor": 10,
+        "mechanism_insight": 5,
+        "validated_ai_capability": 3,
+        "clinical_decision_change": 1
+      },
+      "results_logic": {
+        "descriptive_only": 39,
+        "p_value_only": 26,
+        "effectsize_comparator_ci": 22,
+        "discriminator_threshold_roc": 8,
+        "meta_pooled_effect": 6,
+        "noninferiority": 0
+      },
+      "benchmarking": {
+        "vs_alternative_technique": 42,
+        "none": 38,
+        "vs_baseline_prepost": 11,
+        "vs_guideline_standard": 5,
+        "vs_existing_model": 4
+      },
+      "conclusion_stance": {
+        "practical_modest": 39,
+        "decisive_clinical": 28,
+        "translational_honest": 15,
+        "exploratory_hypothesis_generating": 9,
+        "null_finding_neutral": 5,
+        "mechanistic_elevation": 4
+      },
+      "certainty_calibration": {
+        "matches_design": 98,
+        "overclaims": 2
+      },
+      "voice": {
+        "impersonal": 69,
+        "first_person_we": 31
+      },
+      "external_validation": {
+        "not_applicable": 53,
+        "internal_only": 45,
+        "external": 2
+      }
+    }
+  }
+}

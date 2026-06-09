@@ -1,0 +1,20 @@
+[
+ {
+  "id": "B1_PACE",
+  "target": "PACE",
+  "rationale": "exercises scope-fit: niche feasibility/safety, light stats",
+  "brief": "Study type: retrospective single-center feasibility/safety. Topic: leadless pacemaker implantation in patients on chronic hemodialysis (n=24). Gap: feasibility and lead/device performance of leadless pacing in dialysis patients is not well described. Methods: consecutive dialysis patients receiving a leadless pacemaker 2020-2024; implant success, complications, pacing thresholds at implant and 6 months. Results: implant success 23/24 (96%); 1 pericardial effusion managed conservatively; mean threshold 0.6 V at implant, stable at 6 months (0.7 V); no device-related infections over median 14 months. Takeaway: leadless pacing appears feasible and safe in dialysis patients."
+ },
+ {
+  "id": "B2_CircAE",
+  "target": "Circ AE",
+  "rationale": "exercises scope-fit: mechanism/preclinical, hypothesis-driven",
+  "brief": "Study type: preclinical mechanistic. Topic: role of atrial stretch in pulmonary vein reconnection after pulsed-field ablation (PFA). Hypothesis: acute atrial stretch promotes electrical reconnection of PFA lesions via reversible electroporation recovery. Methods: isolated perfused porcine atria (n=12); PFA lesions created; controlled stretch applied; high-density mapping of conduction recovery; histology of lesion depth. Results: stretched preparations showed reconnection in 8/12 vs 1/12 unstretched (p<0.01); recovery localized to lesion edges with viable myocardium on histology; lesion core unaffected. Takeaway: mechanical stretch promotes reversible PFA lesion recovery at lesion edges."
+ },
+ {
+  "id": "B3_JICE",
+  "target": "JICE",
+  "rationale": "exercises scope-fit: technique head-to-head comparison, procedural",
+  "brief": "Study type: multicenter retrospective comparison. Topic: large-curve vs small-curve delivery sheath for left bundle branch area pacing (LBBAP). Gap: optimal sheath-curve selection for LBBAP across varying anatomy is unresolved. Methods: 210 patients across 3 centers, large-curve (n=104) vs small-curve (n=106); compared implant success, fluoroscopy time, capture type, and procedural complications; LA diameter recorded. Results: success 95% vs 91% (p=0.27); large-curve shorter fluoroscopy in dilated atria (LA>42mm; 8.1 vs 12.4 min, p=0.003); similar complication rates. Takeaway: curve selection guided by LA size may improve LBBAP efficiency."
+ }
+]
